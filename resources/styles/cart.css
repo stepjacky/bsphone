@@ -1,0 +1,611 @@
+@charset "utf-8";
+
+@import url(common.css);
+
+.cartdiv {
+    margin-left: 2px;
+    width: 978px;
+    float: left;
+}
+
+.cartdiv .location {
+    height: 28px;
+    overflow: hidden;
+}
+
+.flow {
+    width: 972px;
+    float: left;
+    padding: 15px 0;
+    margin-left: 3px;
+    display: inline;
+    background: url(/resources/images/index/bor_bg1.gif) repeat-x 0 1px;
+}
+
+.flow p {
+    width: 100%;
+    height: 60px;
+    float: left;
+    background: url(/resources/images/index/flow.gif);
+}
+
+.flow p.flow_1 {
+    background-position: 0 0;
+}
+
+.flow p.flow_2 {
+    background-position: 0 -60px;
+}
+
+.flow p.flow_3 {
+    background-position: 0 -120px;
+}
+
+.flow p.flow_4 {
+    background-position: 0 -180px;
+}
+
+.flow p.flow_5 {
+    background-position: 0 -240px;
+}
+
+.cart_content {
+    width: 922px;
+    padding: 15px 25px;
+    background: #fff;
+    float: left;
+}
+
+h2 {
+    width: 100%;
+    float: left;
+    padding-top: 8px;
+}
+
+.cart_bable, .done {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    font-size: 14px;
+    float: left;
+}
+
+.cart_bable, .cart_bable tr, .cart_bable th, .cart_bable td {
+    border: 1px solid #c7c2ba;
+    padding: 8px 0;
+    text-align: left;
+}
+
+.cart_bable tr.all td {
+    border: none;
+}
+
+.cart_bable td.addbg {
+    background: url(/resources/images/index/cart_add.gif) repeat-x top;
+}
+
+.cart_bable th {
+    background: #f0efed;
+}
+
+.cart_bable th small {
+    padding-left: 62px;
+    float: left;
+    background-position: -440px -252px;
+}
+
+.cart_bable th label {
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.cart_bable th label em {
+    color: #72aa22;
+    font-weight: bold;
+}
+
+.cart_bable th label img {
+    vertical-align: middle;
+}
+
+.cart_bable td p {
+    float: left;
+    padding-left: 36px;
+    width: 880px;
+}
+
+.cart_bable td label {
+    color: #0ba7e4;
+    font-weight: bold;
+}
+
+.cart_bable td span {
+    float: left;
+    font-weight: bold;
+    width: 24.9%
+}
+
+.cart_bable td p span {
+    padding: 0 10px;
+    font-weight: normal;
+    width: auto;
+    padding-top: 30px;
+}
+
+.cart_bable td em, .done td em {
+    color: #72aa22;
+    font-weight: bold;
+}
+
+.cart_bable td strong {
+    color: #ff7800;
+    font-size: 14px;
+    float: right;
+    padding-right: 15px;
+}
+
+.cart_txt1 {
+    width: 44px;
+    height: 15px;
+    padding: 2px;
+    border: 1px solid #bbb;
+    text-align: right;
+    font-weight: bold;
+    color: #72aa22;
+    font-size: 14px;
+}
+
+.cart_bnt1, .cart_bnt2, .cart_bnt3, .cart_bnt4, .cart_bnt5, .cart_bnt6, .cart_bnt7, .cart_bnt8, .cart_bnt9, .cart_bnt10 {
+    border: none;
+    cursor: pointer;
+}
+
+.cart_bnt1 {
+    width: 80px;
+    height: 29px;
+    background-position: -335px -261px;
+
+    margin-top: 10px;
+    font: bold 12px/28px "宋体";
+    color: #436106;
+}
+
+.cart_bnt {
+    width: 76px;
+    height: 29px;
+    background: url(/resources/images/index/cart_bnt.gif);
+    margin-top: 8px;
+    font: bold 12px/28px "宋体";
+    color: #436106;
+    border: none;
+    cursor: pointer;
+}
+
+.cart_bnt2 {
+    width: 94px;
+    height: 44px;
+    background-position: -305px -305px;
+}
+
+.cart_bnt3 {
+    width: 94px;
+    height: 44px;
+    background-position: -305px -359px;
+}
+
+.cart_bnt4 {
+    width: 84px;
+    height: 44px;
+    background-position: 0 -380px;
+}
+
+.cart_bnt5 {
+    width: 114px;
+    height: 44px;
+    background-position: -99px -380px;
+}
+
+.cart_bnt6 {
+    width: 94px;
+    height: 44px;
+    background-position: 0 -432px;
+}
+
+.cart_bnt9 {
+    width: 84px;
+    height: 44px;
+    background-position: -285px -578px;
+}
+
+.cart_bnt10 {
+    width: 84px;
+    height: 44px;
+    background-position: -372px -578px;
+}
+
+.cart_bable td li {
+    width: 200px;
+    height: 120px;
+    padding: 10px 15px 0;
+    overflow: hidden;
+    float: left;
+    text-align: center;
+    position: relative;
+}
+
+.cart_bable td li p {
+    padding: 3px 0;
+    width: 100%;
+    float: left;
+}
+
+.cart_bable td li p.name {
+    height: 20px;
+    padding: 2px 0 0;
+    line-height: 20px;
+    overflow: hidden;
+}
+
+.cart_bable td li p label {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+
+.cart_bable td p span.define {
+    padding-top: 0;
+    width: 85px;
+    height: 110px;
+    line-height: 20px;
+    overflow: hidden;
+}
+
+.define img {
+    margin-bottom: 5px;
+}
+
+.cart_bable td li img, .define img {
+    width: 65px;
+    height: 65px;
+    border: 1px solid #ccc;
+    vertical-align: middle;
+}
+
+.bank {
+    PADDING-RIGHT: 90px;
+    PADDING-LEFT: 90px;
+    PADDING-BOTTOM: 0px;
+    OVERFLOW: hidden;
+    PADDING-TOP: 0px
+}
+
+.bankSort {
+    FLOAT: left;
+    MARGIN: 10px 20px;
+    WIDTH: 230px
+}
+
+.bankSort P {
+    PADDING-LEFT: 20px;
+    LINE-HEIGHT: 23px
+}
+
+.bankSort IMG {
+    CURSOR: pointer
+}
+
+.cart_login_l, .cart_login_r {
+    width: 450px;
+    float: left;
+}
+
+.cart_login {
+    width: 448px;
+    float: left;
+    border: solid #c7c2ba;
+    border-width: 1px 1px 2px 1px;
+    background: #fcfcfb;
+    padding: 20px 0;
+}
+
+.cart_login p {
+    width: 100%;
+    float: left;
+    padding: 12px 0;
+    line-height: 32px;
+}
+
+.cart_login p span {
+    width: 90px;
+    float: left;
+    text-align: right;
+    font-size: 14px;
+}
+
+.cart_login p small {
+    width: 316px;
+    float: left;
+    position: relative;
+}
+
+.cart_login p small i {
+    width: 166px;
+    float: right;
+}
+
+.cart_login p small a {
+    color: #045e8d;
+    text-decoration: underline;
+}
+
+.cart_login p em {
+    position: absolute;
+    height: 18px;
+    left: 0;
+    bottom: -18px;
+    line-height: 18px;
+    color: #76ae1c;
+}
+
+.cart_txt2, .cart_txt3 {
+    height: 14px;
+    padding: 8px 2px;
+    border: 1px solid #bbb;
+}
+
+.cart_txt2 {
+    width: 244px;
+}
+
+.cart_txt3 {
+    width: 114px;
+}
+
+.cart_login_r {
+    float: right;
+}
+
+.cart_bor {
+    width: 920px;
+    border: 1px solid #c7c2ba;
+    float: left;
+}
+
+.receipt {
+    width: 874px;
+    padding: 5px 10px 0;
+    float: left;
+    border: 1px solid #e0ebf1;
+    background: #f8fbfc;
+    margin: 8px 12px;
+    display: inline;
+}
+
+.receipt_list {
+    width: 100%;
+    float: left;
+    border-bottom: 1px dashed #c2bfb8;
+    padding: 6px;
+}
+
+.receipt_list dt {
+    width: 100%;
+    float: left;
+    font: bold 14px/24px "宋体";
+}
+
+.receipt_list dd {
+    width: 100%;
+    float: left;
+    padding: 5px 0;
+}
+
+.receipt_list dd a {
+    float: right;
+}
+
+.receipt_list dd b {
+    padding: 0 5px 0 10px;
+}
+
+.receipt_list dd label input {
+    margin-right: 0;
+}
+
+.receipt p {
+    width: 100%;
+    float: left;
+    padding: 10px 0;
+    line-height: 20px;
+}
+
+.receipt p a {
+    font-size: 14px;
+    color: #ff7800;
+}
+
+.receipt p span {
+    width: 80px;
+    float: left;
+    text-align: right;
+}
+
+.receipt p small {
+    width: 790px;
+    float: right;
+}
+
+.receipt p small i {
+    width: 100%;
+    float: left;
+    padding: 2px 0;
+}
+
+.receipt p small em {
+    font-weight: bold;
+    color: #ff7800;
+    padding: 0 5px;
+}
+
+.receipt p small select {
+    border: 1px solid #bbb; /*width:78px;*/
+    float: left;
+    margin-right: 22px;
+}
+
+.receipt p small textarea {
+    width: 496px;
+    height: 106px;
+    padding: 2px;
+    border: 1px solid #bbb;
+}
+
+.cart_txt4, .cart_txt5 {
+    height: 15px;
+    padding: 2px;
+    border: 1px solid #bbb;
+}
+
+.cart_txt4 {
+    width: 164px;
+}
+
+.cart_txt5 {
+    width: /*272px;*/ 370px;
+}
+
+.receipt_bnt {
+    width: 100%;
+    float: left;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.save {
+    width: 874px;
+    padding: 5px 10px 10px;
+    float: left;
+    background-image: none;
+}
+
+.receipt_save {
+    width: 100%;
+    float: left;
+    padding: 10px 0;
+}
+
+.receipt_save p {
+    width: 100%;
+    float: left;
+    padding: 5px 0;
+}
+
+.receipt_save p strong {
+    width: 140px;
+    float: left;
+    text-align: right;
+    font: bold 14px/24px "宋体";
+    color: #03aff8;
+}
+
+.receipt_save p small {
+    width: 776px;
+    float: right;
+    font: 14px/24px "宋体";
+}
+
+.pay {
+    width: 100%;
+    float: left;
+    overflow: hidden;
+}
+
+.pay dl {
+    padding: 10px 20px;
+    border-top: 1px dashed #c7c2ba;
+    width: 880px;
+    float: left;
+    margin-top: -1px;
+}
+
+.pay dl dt {
+    width: 100%;
+    float: left;
+    color: #ff7800;
+}
+
+.pay dl dt label {
+    font-size: 14px;
+    font-weight: bold;
+    width: 125px;
+    float: left;
+    color: #0ba7e4;
+}
+
+.pay dl dd {
+    width: 840px;
+    float: left;
+    padding: 5px 20px;
+    text-indent: 24px;
+    line-height: 20px;
+}
+
+.total {
+    width: 100%;
+    border-bottom: 1px solid #c7c2ba;
+    float: left;
+}
+
+.done, .done tr, .done td {
+    border: 1px solid #c7c2ba;
+    padding: 8px 0;
+    text-align: left;
+}
+
+.done td {
+    border-width: 1px 0;
+}
+
+.done td.done_bnt {
+    text-align: center;
+}
+
+.done td font {
+    color: #ff7800;
+}
+
+.done td strong {
+    width: 115px;
+    float: left;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.cart_bnt7 {
+    width: 307px;
+    height: 62px;
+    background-position: -127px -433px;
+}
+
+.cart_bnt8 {
+    width: 307px;
+    height: 62px;
+    background-position: 0 -505px;
+}
+
+.empty {
+    padding: 30px 0 20px 310px;
+}
+
+.empty p {
+    height: 112px;
+    padding-left: 110px;
+    background: url(/resources/images/index/car_empty.gif) no-repeat left center;
+    font: bold 14px/112px "宋体";
+    color: #82b80a;
+}
+
+
+.alignLeft{
+    text-align: left;
+}

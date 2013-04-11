@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /admin*
+Disallow: /resources/
+Disallow: */lists*
+Disallow: */selector*

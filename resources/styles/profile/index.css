@@ -1,0 +1,20 @@
+.addr-table{
+    width: 100%;
+
+}
+
+.addr-table thead tr{
+    background-color: #919191;
+    color:#ffffff;
+    font-size: 15px;
+    font-weight: bolder;
+
+}
+
+.addr-table tbody tr:hover{
+    background-color: #04acf4;
+}
+
+.addr-table th,.addr-table td{
+    border: #919191 1px solid;
+}

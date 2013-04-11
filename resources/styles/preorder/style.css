@@ -1,0 +1,51 @@
+.pagination {
+    float: left;
+    height: 50px;
+    width: 100%;
+    font-family: Verdana
+}
+.pagination ul{
+    float: left;
+    width: 100%;
+    list-style-type:none;
+}
+.pagination ul li {
+    float: left;
+    line-height:30px;
+    min-width: 26px;
+    width: auto;
+}
+.pagination ul li a,.pagination ul li a.active {
+    float: left;
+    margin: 10px 1px 0 1px;
+    min-width: 26px;
+    width: auto;
+    height: 20px;
+    line-height: 20px;
+    color: #91ad00;
+    font: 12px;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid #91ad00
+}
+
+.pagination ul li a:hover {
+    position: relative;
+    margin: 0 -10px 0 -10px;
+    padding: 0 9px;
+    width: auto;
+
+    line-height: 40px;
+    height: 40px;
+    color: #FF3333;
+    border: 1px solid #91ad00;
+    background: no-repeat left -10px;
+    font-size: 18px;
+    font-weight: bold
+}
+.active {
+    background: none repeat scroll 0 0 #FFFFFF;
+    float: left;
+    padding: 0;
+    width: 100%;
+}

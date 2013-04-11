@@ -1,0 +1,1 @@
+这是   sharedinfo 默认主页

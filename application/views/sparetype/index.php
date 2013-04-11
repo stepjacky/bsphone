@@ -1,0 +1,1 @@
+这是   sparetype 默认主页

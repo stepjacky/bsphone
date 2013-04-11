@@ -1,0 +1,386 @@
+.parts_nav {
+    margin-top: 15px;
+    background: url("/resources/images/index/parts_nav.gif") repeat-x scroll 0 0 transparent;
+    border: 1px solid #DBDBDB;
+    float: left;
+    height: 45px;
+    width: 976px;
+}
+.parts_nav ul {
+    background: url("/resources/images/index/parts_navli.gif") no-repeat scroll left center transparent;
+    float: left;
+    height: 45px;
+    padding-left: 20px;
+}
+.parts_nav li {
+    background: url("/resources/images/index/parts_navli.gif") no-repeat scroll right center transparent;
+    float: left;
+    list-style: none;
+    font: bold 14px/45px "宋体";
+    height: 45px;
+    position: relative;
+    width: 154px;
+    z-index: 1;
+    margin-left: 0px;
+}
+.parts_nav li a {
+    display: block;
+    text-decoration: none;
+    color:#000;
+    width: 154px;
+
+}
+.parts_nav li a:visited{
+    color:#000;
+}
+.parts_nav li:hover {
+    background: url("/resources/images/index/parts_navlibg2.gif") repeat scroll 0 0 transparent;
+    color: #FFFFFF;
+}
+.parts_nav li img {
+    float: left;
+    padding: 0 8px;
+}
+.parts_nav li div {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: url("/resources/images/index/parts_navdiv.gif") repeat-x scroll center top #645C5C;
+    border-color: #645C5C #292828 #292828;
+    border-image: none;
+    border-right: 1px solid #292828;
+    border-style: solid;
+    border-width: 1px;
+    display: none;
+    float: left;
+    font: bold 12px/40px "宋体";
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    top: 45px;
+    width: 152px;
+}
+.parts_nav li.crumb div {
+    display: block;
+}
+.parts_nav li div p {
+    border-top: 1px dashed #272626;
+    margin-top: -1px;
+    padding-left: 14px;
+    width: 148px;
+    word-wrap: break-word;
+    margin-bottom: 0px;
+}
+.parts_nav li div p a, .parts_nav li.crumb div p a {
+    background: url("/resources/images/index/parts_navabg1.gif") no-repeat scroll left center transparent;
+    color: #FFFFFF;
+    display: block;
+    padding-left: 10px;
+}
+.parts_nav li div p a:hover, .parts_nav li.crumb div p a:hover {
+    background: url("/resources/images/index/parts_navabg2.gif") no-repeat scroll left center transparent;
+    color: #B5D71E;
+}
+
+
+
+/**滑动图片样式表***/
+
+.parts_flash {
+    float: left;
+    height: 455px;
+    padding-top: 10px;
+    position: relative;
+    width: 976px;
+}
+.parts_flash dd {
+    display: none;
+    height: 350px;
+    width: 100%;
+}
+.parts_flash dd.block {
+    display: block;
+}
+.parts_flash dd img {
+    border: 1px solid #D6D6D6;
+    height: 348px;
+    width: 976px;
+}
+.parts_flash dt {
+    bottom: 0;
+    height: 103px;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    width: 991px;
+}
+.parts_flash dt span {
+    background: url("/resources/images/index/parts_flash_spanbg1.gif") repeat scroll 0 0 transparent;
+    float: left;
+    height: 83px;
+    margin-right: 11px;
+    padding: 7px 2px 13px;
+    width: 232px;
+}
+.parts_flash dt span.crumb {
+    background: url("/resources/images/index/parts_flash_spanbg2.gif") repeat scroll 0 0 transparent;
+}
+.parts_flash dt img {
+    height: 83px;
+    width: 232px;
+}
+
+/****/
+
+.parts_list{
+    width: 970px;
+}
+
+.parts_list ul {
+    float: left;
+    padding: 10px 0 10px 14px;
+    width: 960px;
+}
+
+.parts_list ul li {
+    border: 1px solid #ECECEC;
+    display: inline;
+    float: left;
+    height: 204px;
+    line-height: 16px;
+    margin: 10px 5px 0;
+    padding: 9px;
+    text-align: center;
+    width: 160px;
+}
+.parts_list ul li:hover {
+    border-color: #82B80A;
+}
+.parts_list ul li p img {
+    height: 160px;
+    padding-bottom: 8px;
+    width: 160px;
+}
+.parts_list ul li p.name {
+    height: 30px;
+    overflow: hidden;
+}
+
+.bot3, .bot3_l, .bot3_r {
+    background: url("/resources/images/index/bot_bg3.gif") repeat scroll 0 0 transparent;
+}
+.bot3 {
+    background-position: 0 -16px;
+    float: left;
+    height: 16px;
+    position: relative;
+    width: 100%;
+}
+.bot3_l, .bot3_r {
+    height: 16px;
+    position: absolute;
+    top: 0;
+    width: 8px;
+}
+.bot3_l {
+    background-position: 0 0;
+    left: 0;
+}
+.bot3_r {
+    background-position: -8px 0;
+    right: 0;
+}
+
+.parts_ad_l, .parts_ad_r {
+    background: url("/resources/images/index/bor_bg2.gif") repeat-x scroll center bottom transparent;
+    padding-bottom: 8px;
+}
+.parts_ad_l {
+    float: left;
+}
+.parts_ad_r {
+    float: right;
+}
+
+
+
+.concern ul li {
+    padding-top: 24px;
+    position: relative;
+}
+.concern ul li span {
+    float: left;
+    height: 22px;
+    left: 0;
+    line-height: 22px;
+    position: absolute;
+    text-align: right;
+    top: 0;
+    width: 170px;
+}
+.concern ul li span i {
+    background: url("/resources/images/index/parts_listbg.gif") repeat scroll 0 0 transparent;
+    color: #FFFFFF;
+    float: left;
+    font: bold 12px/18px Arial;
+    height: 22px;
+    overflow: hidden;
+    text-align: center;
+    width: 22px;
+}
+.concern ul li span em {
+    color: #82B80A;
+    font-weight: bold;
+}
+
+
+.parts_h2 {
+    background: url("/resources/images/index/parts_h2.gif") repeat scroll 0 0 transparent;
+    float: left;
+    height: 36px;
+    overflow: hidden;
+    width: 978px;
+}
+.parts_h2 strong {
+    float: left;
+    font: bold 14px/36px "宋体";
+    height: 36px;
+    margin-left: 3px;
+    padding-left: 40px;
+}
+.parts_title1 {
+    background: url("/resources/images/index/parts_h2_1.gif") no-repeat scroll left center transparent;
+}
+.parts_title2 {
+    background: url("/resources/images/index/parts_h2_2.gif") no-repeat scroll left center transparent;
+}
+.parts_title3 {
+    background: url("/resources/images/index/parts_h2_3.gif") no-repeat scroll left center transparent;
+}
+.parts_title4 {
+    background: url("/resources/images/index/parts_h2_4.gif") no-repeat scroll left center transparent;
+}
+.parts_title5 {
+    background: url("/resources/images/index/parts_h2_5.gif") no-repeat scroll left center transparent;
+}
+.parts_title6 {
+    background: url("/resources/images/index/parts_h2_6.gif") no-repeat scroll left center transparent;
+}
+.parts_title7 {
+    background: url("/resources/images/index/parts_h2_7.gif") no-repeat scroll left center transparent;
+}
+.parts_h2 small {
+    float: right;
+    padding: 8px 8px 0 0;
+}
+.parts_pl {
+    padding: 10px 34px;
+    width: 910px;
+}
+.parts_pl h2 {
+    background: url("/resources/images/index/dtbg.gif") repeat-x scroll center bottom transparent;
+    float: left;
+    font: bold 14px/20px "宋体";
+    padding-bottom: 10px;
+    width: 100%;
+}
+.parts_img_l {
+    background: url("/resources/images/index/partsbg1.gif") no-repeat scroll right center transparent;
+    float: left;
+    height: 288px;
+    padding: 70px 10px 0;
+    text-align: center;
+    width: 440px;
+}
+.parts_img_l img {
+    height: 220px;
+    width: 220px;
+}
+.parts_img_r {
+    float: right;
+    padding: 10px 33px 10px 0;
+    width: 460px;
+}
+.parts_img h2 {
+    float: left;
+    height: 24px;
+    line-height: 24px;
+    padding: 0;
+    text-indent: 20px;
+    width: 100%;
+}
+.parts_img_r ul {
+    background: url("/resources/images/index/dtbg.gif") repeat-x scroll center bottom transparent;
+    height: 99px;
+    overflow: hidden;
+    padding: 30px 0 4px;
+    width: 100%;
+}
+.parts_img_r ul li {
+    float: left;
+    height: 99px;
+    text-align: center;
+    width: 89px;
+}
+.parts_img_r ul li img {
+    border: 1px solid #CCCCCC;
+    height: 60px;
+    margin-bottom: 8px;
+    width: 65px;
+}
+
+.bor2, .bor3 {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: url("/resources/images/index/bor_bg2.gif") repeat-x scroll center top transparent;
+    border-color: #C7C2BA;
+    border-image: none;
+    border-style: solid;
+    border-width: 0 1px;
+    float: left;
+    width: 748px;
+}
+.bor3 {
+    width: 976px;
+}
+.nobg {
+    background: none repeat scroll 0 0 transparent;
+}
+h6, .h6_l, .h6_r {
+    background: url("/resources/images/index/h6bg.gif") repeat scroll 0 0 transparent;
+}
+h5, h6 {
+    background-position: 0 -26px;
+    color: #FFFFFF;
+    float: left;
+    font-family: "宋体";
+    font-size: 14px;
+    height: 26px;
+    line-height: 24px;
+    overflow: hidden;
+    position: relative;
+    text-indent: 30px;
+    width: 978px;
+}
+
+
+
+.h5_l, .h6_l {
+    background-position: 0 0;
+    height: 26px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 30px;
+}
+.h5_r, .h6_r {
+    background-position: -33px 0;
+    height: 26px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width:5px;
+}

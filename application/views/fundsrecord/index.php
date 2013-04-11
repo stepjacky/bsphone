@@ -1,0 +1,1 @@
+这是   fundsrecord 默认主页
