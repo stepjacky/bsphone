@@ -1,4 +1,5 @@
 
+<script type="text/javascript" src="/resources/tongue/jquery.tongue.js"></script>
 <?php foreach($beans as $pic):?>
 <? extract($pic); ?>
 <script type="text/javascript">
@@ -11,40 +12,49 @@
             <i class="icon-remove-circle"></i>
 
         </a>
-        <img alt="<?=val($name)?>"  style="width: 180px; height: 100px;" src="<?=$path?>" >
-        <div class="caption">
-            <p>
-                <label class="radio inline">
-                    <input type="radio" id="ptype-mini-<?=$pic['id']?>" name="ptype-<?=$pic['id']?>" value="minipic"
-                            <?php
-                              if($ptype=="minipic")
-                                  echo "checked='checked'";
-                              ?>
-                            onclick="updatePtype('<?=$pic['id']?>',this.value)"
-                            />小
-                </label>
-                <label class="radio inline">
-                    <input type="radio" id="ptype-large-<?=$pic['id']?>" name="ptype-<?=$pic['id']?>" value="largepic"
-                        <?php
-                    if($ptype=="largepic")
-                        echo "checked='checked'";
-                    ?>
-                           onclick="updatePtype('<?=$pic['id']?>',this.value)"
 
-                            >大
-                </label>
-                <label class="radio inline">
-                    <input type="radio" id="ptype-plist-<?=$pic['id']?>" name="ptype-<?=$pic['id']?>" value="plist"
-                        <?php
-                    if($ptype=="plist")
-                        echo "checked='checked'";
-                    ?>
-                           onclick="updatePtype('<?=$pic['id']?>',this.value)"
-                            >表
-                </label><br/>
+        <div class="tongued">
+            <img alt="<?=val($name)?>"  style="width: 180px; height: 100px;" src="<?=$path?>" > <!-- Main element, can be image or anything. -->
+            <div class="tongue-content">
+                <div class="caption">
+                    <p>
+                        <label class="radio inline">
+                            <input type="radio" id="ptype-mini-<?=$pic['id']?>" name="ptype-<?=$pic['id']?>" value="minipic"
+                                <?php
+                                if($ptype=="minipic")
+                                    echo "checked='checked'";
+                                ?>
+                                   onclick="updatePtype('<?=$pic['id']?>',this.value)"
+                                />小
+                        </label>
+                        <label class="radio inline">
+                            <input type="radio" id="ptype-large-<?=$pic['id']?>" name="ptype-<?=$pic['id']?>" value="largepic"
+                                <?php
+                                if($ptype=="largepic")
+                                    echo "checked='checked'";
+                                ?>
+                                   onclick="updatePtype('<?=$pic['id']?>',this.value)"
 
-            </p>
+                                >大
+                        </label>
+                        <label class="radio inline">
+                            <input type="radio" id="ptype-plist-<?=$pic['id']?>" name="ptype-<?=$pic['id']?>" value="plist"
+                                <?php
+                                if($ptype=="plist")
+                                    echo "checked='checked'";
+                                ?>
+                                   onclick="updatePtype('<?=$pic['id']?>',this.value)"
+                                >表
+                        </label>
+                    </p>
+                </div>
+
+
+            </div> <!-- Content to be shown as tongue.  -->
         </div>
+
+
+
     </div>
 </li>
 
@@ -75,7 +85,9 @@
         $("div.pagination ul li a").bind("click",function(){
             var page = $(this).attr("link").substring(1);
             $("#mythumb").load("/picture/thumbnails/"+topType+"/"+page);
-        })
+        });
+
+        $('.tongued').tongue();
 
     })
 </script>

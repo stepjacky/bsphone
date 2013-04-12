@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c66e97a5-ee7b-49e6-abff-297e3a88525f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/joinus.php" afterPath="$PROJECT_DIR$/application/controllers/joinus.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/picture/thumbnails.php" afterPath="$PROJECT_DIR$/application/views/picture/thumbnails.php" />
     </list>
     <ignored path="bsphone.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -20,7 +19,7 @@
     <file path="/porder_model.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1365742682370" ignored="false" />
     <file path="/index.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1365743082920" ignored="false" />
     <file path="/style.css" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1365743267106" ignored="false" />
-    <file path="/thumbnails.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1365743331747" ignored="false" />
+    <file path="/thumbnails.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1365776103918" ignored="false" />
     <file path="/phone_model.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1365743587155" ignored="false" />
     <file path="/shopcart.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1365743745582" ignored="false" />
     <file path="/one.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1365745901414" ignored="false" />
@@ -44,11 +43,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="joinus.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="joinus.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/controllers/joinus.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="53" selection-start="614" selection-end="614" vertical-scroll-proportion="0.4919473">
+            <state line="20" column="53" selection-start="614" selection-end="614" vertical-scroll-proportion="-10.181818">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/picture/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="25" selection-start="244" selection-end="244" vertical-scroll-proportion="-6.5454545">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="thumbnails.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/views/picture/thumbnails.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="47" column="32" selection-start="2238" selection-end="2238" vertical-scroll-proportion="0.39402986">
+              <folding>
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#li#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -82,18 +101,18 @@
         <option value="$PROJECT_DIR$/application/views/admin/header.php" />
         <option value="$PROJECT_DIR$/application/views/picture/index.php" />
         <option value="$PROJECT_DIR$/resources/styles/picture/style.css" />
-        <option value="$PROJECT_DIR$/application/views/picture/thumbnails.php" />
         <option value="$PROJECT_DIR$/application/models/phone_model.php" />
         <option value="$PROJECT_DIR$/application/controllers/shopcart.php" />
         <option value="$PROJECT_DIR$/application/views/phone/one.php" />
         <option value="$PROJECT_DIR$/application/controllers/joinus.php" />
+        <option value="$PROJECT_DIR$/application/views/picture/thumbnails.php" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="391" />
-    <option name="y" value="93" />
+    <option name="x" value="133" />
+    <option name="y" value="134" />
     <option name="width" value="1669" />
     <option name="height" value="910" />
   </component>
@@ -206,25 +225,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="phone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bsphone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bsphone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
+              <option name="myItemId" value="picture" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -265,7 +266,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="391" y="93" width="1669" height="910" extended-state="0" />
+    <frame x="133" y="134" width="1669" height="910" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -388,19 +389,9 @@
         <state line="32" column="24" selection-start="1352" selection-end="1352" vertical-scroll-proportion="0.76268655" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/picture/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="25" selection-start="244" selection-end="244" vertical-scroll-proportion="-6.5454545" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/styles/picture/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="32" selection-start="126" selection-end="126" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/picture/thumbnails.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="24" selection-start="925" selection-end="925" vertical-scroll-proportion="-17.454546" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/models/phone_model.php">
@@ -425,8 +416,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/joinus.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="53" selection-start="614" selection-end="614" vertical-scroll-proportion="0.4919473">
+        <state line="20" column="53" selection-start="614" selection-end="614" vertical-scroll-proportion="-10.181818">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/picture/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="25" selection-start="244" selection-end="244" vertical-scroll-proportion="-6.5454545">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/picture/thumbnails.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="32" selection-start="2238" selection-end="2238" vertical-scroll-proportion="0.39402986">
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#li#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
