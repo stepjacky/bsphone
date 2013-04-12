@@ -18,7 +18,7 @@ class Joinus extends Media_Controller {
             'flag'=>'joinus',
             'beans'=>$beans,
             'trends'=>$trends,
-            'bean'=>$trends[0]
+            'bean'=>empty($trends)?array():$trends[0]
 
 
         );
