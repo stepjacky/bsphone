@@ -74,7 +74,7 @@ class Phone_model extends Media_Model {
 
         array_push($whs,'pstatus=0');
         $qstr =  implode(" and ",$whs);
-       // $this->firelog($qstr);
+        $this->firelog($qstr);
         return $this->find_where($qstr);
 
     }
@@ -196,7 +196,7 @@ class Phone_model extends Media_Model {
         $this->db->where('phone_id',$phone['id']);
         $query = $this->db->get("picture");
         $pic = $query->first_row('array');
-        $phone['largepic'] = $pic['path'];
+        $phone['largepic'] = !empty($pic)?$pic['path']:'';
 
 
         $this->db->select("path");
@@ -204,7 +204,7 @@ class Phone_model extends Media_Model {
         $this->db->where('phone_id',$phone['id']);
         $query = $this->db->get("picture");
         $pic = $query->first_row('array');
-        $phone['minipic'] = $pic['path'];
+        $phone['minipic'] =  !empty($pic)?$pic['path']:'';
 
         ///$this->firelog($phone);
         return $phone;

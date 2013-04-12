@@ -2,12 +2,12 @@
 <h3>手机图片管理器</h3>
 <hr/>
 
-<div class="row">
+<div class="row local-row">
 <div class="span12">
     <input type="file" name="file_upload" id="file_upload" />
 </div>
 </div>
-<div class="row">
+<div class="row local-row">
 <div class="span12">
    <div class="span3 pic-border">
     <ul class="ztree" id="phonetree"></ul>

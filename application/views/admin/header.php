@@ -28,6 +28,10 @@
         body{
             padding-top: 50px;
         }
+        #main-panel{
+            min-height: 500px;
+            height: auto;
+        }
     </style>
 </head>
 <body>
@@ -50,6 +54,18 @@
                     <li class="active"><a href="/" target="_blank">回到首页</a></li>
                 </ul>
             </div><!--/.nav-collapse -->
+            <ul class="nav pull-right">
+                <li class="dropdown">
+                    <a data-toggle="dropdown"
+                       class="dropdown-toggle"
+                       href="#"><?=$adminName?><b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/admin/modify">修改密码</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#">注销</a></li>
+                    </ul>
+                </li>
+            </ul>
         </div>
     </div>
 </div>

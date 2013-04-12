@@ -120,7 +120,10 @@ extract($bean);
                <input  name='id'     type='hidden' value='<?=$bean['id']?>'  />
                <input  id='prcid'    name='prcid'  type='hidden' />
             <div class="price">
-                <div id="price_show" class="sell show">
+
+
+
+                <div id="priceshow" class="sell show">
                     <h2><a></a>产品售价</h2>
 
 
@@ -184,6 +187,20 @@ extract($bean);
                             <a> 预约购机</a></span></p>
                 </div>
             </div>
+               <?php if(isset($_GET['info']) && !empty($_GET['info']) ):?>
+
+                   <script type="text/javascript">
+                       var i=5;
+                       (function(){
+                           $("#priceshow")
+                               .fadeOut(100).fadeIn(100);
+                           var t = setTimeout(arguments.callee,200);
+                           if((i--)<=0) clearTimeout(t);
+                       })();
+                   </script>
+
+
+               <?php endif;?>
            </form>
         </div>
     </div>

@@ -143,14 +143,23 @@ class MY_Controller extends CI_Controller
 
 
     public function islogin(){
+
         $user    =  $this->nsession->userdata("user");
-        $this->fireLog($user);
+        //$this->fireLog($user);
         if(!$user){
             redirect('/welcome/openlogin');
             return FALSE;
         }
         $this->login_user = $user;
         return TRUE;
+    }
+
+    public function is_admin_login(){
+
+        $user    =  $this->__sessing("adminuser");
+        //$this->fireLog($user);
+        return $user;
+
     }
 
 
@@ -160,8 +169,26 @@ class MY_Controller extends CI_Controller
         redirect($refer.$lc.'info='.$msg);
     }
 
+    protected  function __sessing($key){
+        return $this->nsession->userdata($key);
+    }
+
+    protected function __sessit($key,$value){
+        $this->nsession->set_userdata($key,$value);
+    }
+
+    protected function __desessing($key){
+        $this->nsession->unset_userdata($key);
+    }
+
+
     protected  function _xsl_post(){
         return $this->input->post(NULL,FALSE);
+    }
+
+
+    protected  function __xsl_post($key=NULL){
+        return $this->input->post($key,TRUE);
     }
 
     protected  function _no_xsl_post(){
@@ -171,6 +198,12 @@ class MY_Controller extends CI_Controller
     protected function _get($name){
         return $this->input->get($name, FALSE);
     }
+
+    protected  function __xsl_get($key=NULL){
+        return $this->input->get($key,TRUE);
+    }
+
+
 
     protected function _post($name){
         return $this->input->post($name, FALSE);

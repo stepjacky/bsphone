@@ -7,6 +7,10 @@
 
 <li class="span2">
     <div class="thumbnail">
+        <a href="javascript:;" onclick="removePic('<?=$pic['id']?>')">
+            <i class="icon-remove-circle"></i>
+
+        </a>
         <img alt="<?=val($name)?>"  style="width: 180px; height: 100px;" src="<?=$path?>" >
         <div class="caption">
             <p>
@@ -17,7 +21,7 @@
                                   echo "checked='checked'";
                               ?>
                             onclick="updatePtype('<?=$pic['id']?>',this.value)"
-                            />小图
+                            />小
                 </label>
                 <label class="radio inline">
                     <input type="radio" id="ptype-large-<?=$pic['id']?>" name="ptype-<?=$pic['id']?>" value="largepic"
@@ -27,7 +31,7 @@
                     ?>
                            onclick="updatePtype('<?=$pic['id']?>',this.value)"
 
-                            >大图
+                            >大
                 </label>
                 <label class="radio inline">
                     <input type="radio" id="ptype-plist-<?=$pic['id']?>" name="ptype-<?=$pic['id']?>" value="plist"
@@ -36,15 +40,8 @@
                         echo "checked='checked'";
                     ?>
                            onclick="updatePtype('<?=$pic['id']?>',this.value)"
-                            >列表
-                </label>
-                <label class="radio inline">
-                    <a href="javascript:;" onclick="removePic('<?=$pic['id']?>')">
-                        <i class="icon-remove-circle"></i>
-
-                    </a>
-
-                </label>
+                            >表
+                </label><br/>
 
             </p>
         </div>

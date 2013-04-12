@@ -92,7 +92,7 @@ class Shopcart extends MY_Controller
         $pid = $this->_post('prcid');
         $image = $this->_post('image');
         if (!$id || !$pid || !$image) {
-            $this->__erroritem();
+            $this->goback('请选择机型');
             return;
         }
         $cart_id = $id . '_' . $pid;

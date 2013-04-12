@@ -33,8 +33,8 @@ class Picture extends MY_Controller {
 
     public function index(){
         $data = array();
-
-        $this->load->view("admin/header");
+        $user = $this->__sessing("adminuser");
+        $this->load->view("admin/header",$user);
         $this->load->view("picture/index",$data);
         $this->load->view("admin/footer");
     }

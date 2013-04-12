@@ -64,6 +64,25 @@ class Porder_model extends Media_Model {
 
     }
 
+    public function remove($id){
+        $this->db->trans_begin();
+
+        $SQL="delete from porderdetail where porder_id=?";
+
+        $this->db->query($SQL,array($id));
+
+        parent::remove($id);
+
+        if ($this->db->trans_status() === FALSE)
+        {
+            $this->db->trans_rollback();
+        }
+        else
+        {
+            $this->db->trans_commit();
+        }
+    }
+
 
 
 

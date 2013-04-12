@@ -27,12 +27,64 @@
 class Admin extends MY_Controller {
      
     public  function __construct(){
-        parent::__construct();
+        parent::__construct("Adminsor_model");
     }
 
     public function index($site='index'){
-        $this->load->view("admin/header");
+
+        if(!$this->is_admin_login()){
+            $this->load->view("admin/res-head");
+            $this->load->view("admin/login");
+            $this->load->view("admin/footer");
+            return;
+        }
+
+        $user = $this->__sessing("adminuser");
+        $this->load->view("admin/header",$user);
         $this->load->view("admin/".$site);
+        $this->load->view("admin/footer");
+    }
+
+    public function gohome(){
+        $uname = $this->__xsl_post("username");
+        $pword = $this->__xsl_post("password");
+
+        echo "name:".$uname;
+        echo "pword: ".$pword;
+        if($this->dao->validate($uname,$pword) ){
+            $data = array(
+                'adminName'=>$uname
+            );
+            $this->__sessit('adminuser',$data);
+            redirect('/admin');
+        } else{
+            $this->load->view("admin/res-head");
+            $this->load->view("admin/login");
+            $this->load->view("admin/footer");
+        }
+    }
+
+
+    public function modify_password(){
+        $uname = $this->__xsl_post("username");
+        $pword = $this->__xsl_post("password");
+
+        $this->fireLog($uname);
+        $this->fireLog($pword);
+        $this->dao->modify($uname,$pword);
+    }
+
+    public function modify(){
+        if(!$this->is_admin_login()){
+            $this->load->view("admin/res-head");
+            $this->load->view("admin/login");
+            $this->load->view("admin/footer");
+            return;
+        }
+
+        $user = $this->__sessing("adminuser");
+        $this->load->view("admin/header",$user);
+        $this->load->view("admin/modify-password");
         $this->load->view("admin/footer");
     }
     
