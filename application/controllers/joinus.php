@@ -32,8 +32,6 @@ class Joinus extends Media_Controller {
 
         $this->load->view('apps/joinus/join-footer');
 
-
-
         $this->load->view("apps/footer");
 
     }

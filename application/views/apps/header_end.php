@@ -111,7 +111,7 @@
                 <li><a href="/phone/query?brand=meizu&qidxa=7"><img alt="魅族"
                                                                        src="http://upload.vgooo.com/images/2013/01/23/mobilebrand//1358934392.jpg"></a>
                 </li>
-                <li><a href="/phone/query?brand=huawei&qidxa=2"><img alt="华为"
+                <li><a href="/phone/query?brand=huawei&qidxa=8"><img alt="华为"
                                                                      src="http://upload.vgooo.com/images/2012/12/26/mobilebrand//1356495868.jpg"></a>
                 </li>
             </ul>

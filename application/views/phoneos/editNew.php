@@ -22,21 +22,9 @@
    <td>名称</td>
    <td>            
         <input name="name" id="name" type="text" value="<?php echo isset($name)?$name:''?>" />
-   </td>     
-   
-<tr>
-  
-  
-     
-  
-     <tr>
-   <td>图片</td>
-   <td>            
-        <input id="picture" type="file" name="picture" />
-   </td>     
-   
-<tr>
-  
+   </td>
+     </tr>
+
   
      
   
@@ -44,11 +32,8 @@
    <td>备注</td>
    <td>            
         <textarea id="remark" name="remark" class=" input-large"><?php echo isset($remark)?$remark:''?></textarea>
-   </td>     
-   
-<tr>
-  
-  
+   </td>
+     </tr>
      
   
 </tbody>

@@ -8,9 +8,9 @@
 </dt>
 <dd>
 <div class="fast"><em>排序</em>
-    <span><a rel="nofollow" href="javascript:;">上市时间</a></span>
-    <span><a rel="nofollow" href="javascript:;">人气</a></span>
-    <span><a rel="nofollow" href="javascript:;">价格</a></span>
+    <span><a rel="nofollow" href="query?sort=firedate&sort_type=<?=$sort_type?><?=$qidx.$types?>">上市时间</a></span>
+    <span><a rel="nofollow" href="query?sort=moods&sort_type=<?=$sort_type?><?=$qidx.$types?>">人气</a></span>
+    <span><a rel="nofollow" href="query?sort=price&sort_type=<?=$sort_type?><?=$qidx.$types?>">价格</a></span>
 </div>
 
 <div class="opt">
@@ -18,16 +18,16 @@
     <p><span><img src="/resources/images/index/opt_1.gif" alt="品牌选择">品牌选择 ：</span>
         <a title="全部" href="query?brand=all<?=$brand;?>&qidxa=0<?=$qidxa;?>" qidxa="0" class="crumb">全部</a>
         <?php
-             $qidx=1;
+             $bidx=1;
              foreach($brands as $brd):
                extract($brd);
 
             ?>
 
-            <a href="query?brand=<?=$id?><?=$brand;?>&qidxa=<?=$qidx?><?=$qidxa;?>" qidxa="<?=$qidx?>" title="<?=$name?>"><?=$name?></a>
+            <a href="query?brand=<?=$id?><?=$brand;?>&qidxa=<?=$bidx?><?=$qidxa;?>" qidxa="<?=$bidx?>" title="<?=$name?>"><?=$name?></a>
 
         <?php
-             $qidx++;
+             $bidx++;
              endforeach;
         ?>
 
@@ -78,14 +78,17 @@
     </p>
     <p><span><img alt="其它功能" src="/resources/images/index/opt_6.gif">产品标签 ：</span>
         <a title="全部" href="query?tag=all<?=$tag?>&qidxf=t<?=$qidxf;?>" qidxf="t" class="crumb">全部</a>
-        <a title="相机" href="query?tag=相机<?=$tag?>&qidxf=u<?=$qidxf;?>" qidxf="u">相机</a>
-        <a title="投影功能" href="query?tag=投影功能<?=$tag?>&qidxf=v<?=$qidxf;?>" qidxf="v">投影功能</a>
-        <a title="平板电脑" href="query?tag=平板电脑<?=$tag?>&qidxf=w<?=$qidxf;?>" qidxf="w">平板电脑</a>
-        <a title="四核处理器" href="query?tag=四核<?=$tag?>&qidxf=x<?=$qidxf;?>" qidxf="x">四核处理器</a>
-        <a title="双核处理器" href="query?tag=双核<?=$tag?>&qidxf=y<?=$qidxf;?>" qidxf="y">双核处理器</a>
-        <a title="三防手机" href="query?tag=三防<?=$tag?>&qidxf=z<?=$qidxf;?>" qidxf="z">三防手机</a>
-        <a title="高清屏幕" href="query?tag=高清<?=$tag?>&qidxf=aa<?=$qidxf;?>" qidxf="aa">高清屏幕</a>
-        <a title="裸眼3D屏幕" href="query?tag=裸眼3D<?=$tag?>&qidxf=bb<?=$qidxf;?>" qidxf="bb">裸眼3D屏幕</a>
+
+        <?php foreach($taglist as $tname=>$idx){?>
+
+          <a title="<?=$tname?>"
+             href="query?tag=<?=$tname?><?=$tag?>&qidxf=<?=$idx?><?=$qidxf;?>"
+             qidxf="<?=$idx?>"
+             class=""><?=$tname?></a>
+
+
+        <?php }?>
+
     </p>
 </div>
 <div class="list3 separate">

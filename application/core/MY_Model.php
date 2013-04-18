@@ -201,6 +201,7 @@ class MY_Model extends CI_Model
 
     public function get($id,$pk='id'){
 
+        $this->firelog($id);
         $id = urldecode($id);
         $query = $this->db->get_where($this->table(), array($pk => $id));
         $bean =  $query->first_row('array');
@@ -300,6 +301,11 @@ class Media_Model extends MY_Model{
 
     public function gets($page = 1, $rows = 10,$sorts=array('firedate'=>'desc')){
         return parent::gets($page,$rows,$sorts);
+    }
+
+    public function increaviews($id,$table=FALSE){
+        $SQL="update ".(!$table?$this->table():$table)." set views=views+1 where id=?";
+        $this->db->query($SQL,array($id));
     }
 
 }

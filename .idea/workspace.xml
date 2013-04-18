@@ -2,11 +2,46 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c66e97a5-ee7b-49e6-abff-297e3a88525f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/picture/thumbnails.php" afterPath="$PROJECT_DIR$/application/views/picture/thumbnails.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/artitle/pre-add-tops.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/images/index/login_title1.gif" afterPath="$PROJECT_DIR$/resources/images/index/login_title1.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/core/Controller.php" afterPath="$PROJECT_DIR$/system/core/Controller.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/core/MY_Model.php" afterPath="$PROJECT_DIR$/application/core/MY_Model.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/system/core/Model.php" afterPath="$PROJECT_DIR$/system/core/Model.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/artitle.php" afterPath="$PROJECT_DIR$/application/controllers/artitle.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/artitle_model.php" afterPath="$PROJECT_DIR$/application/models/artitle_model.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/comment_model.php" afterPath="$PROJECT_DIR$/application/models/comment_model.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/styles/common.css" afterPath="$PROJECT_DIR$/resources/styles/common.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/phone/editNew.php" afterPath="$PROJECT_DIR$/application/views/phone/editNew.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/phoneos/editNew.php" afterPath="$PROJECT_DIR$/application/views/phoneos/editNew.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/FlexSlider/flexslider.css" afterPath="$PROJECT_DIR$/resources/FlexSlider/flexslider.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/settings/founds.php" afterPath="$PROJECT_DIR$/application/views/settings/founds.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/apps/header_end.php" afterPath="$PROJECT_DIR$/application/views/apps/header_end.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/artitle/home-artitle.php" afterPath="$PROJECT_DIR$/application/views/artitle/home-artitle.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/phone/hotphone.php" afterPath="$PROJECT_DIR$/application/views/phone/hotphone.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/scripts/index.js" afterPath="$PROJECT_DIR$/resources/scripts/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/index/index.php" afterPath="$PROJECT_DIR$/application/views/index/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/settings/index.php" afterPath="$PROJECT_DIR$/application/views/settings/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/joinus.php" afterPath="$PROJECT_DIR$/application/controllers/joinus.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/artitle/one.php" afterPath="$PROJECT_DIR$/application/views/artitle/one.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/phone/one.php" afterPath="$PROJECT_DIR$/application/views/phone/one.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/phone.php" afterPath="$PROJECT_DIR$/application/controllers/phone.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/phone_model.php" afterPath="$PROJECT_DIR$/application/models/phone_model.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/phoneos.php" afterPath="$PROJECT_DIR$/application/controllers/phoneos.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/index/product.php" afterPath="$PROJECT_DIR$/application/views/index/product.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/sharedinfo_model.php" afterPath="$PROJECT_DIR$/application/models/sharedinfo_model.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/spare_model.php" afterPath="$PROJECT_DIR$/application/models/spare_model.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/trends.php" afterPath="$PROJECT_DIR$/application/controllers/trends.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/trends_model.php" afterPath="$PROJECT_DIR$/application/models/trends_model.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/video_model.php" afterPath="$PROJECT_DIR$/application/models/video_model.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/index/vip.php" afterPath="$PROJECT_DIR$/application/views/index/vip.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/trends/vip4top.php" afterPath="$PROJECT_DIR$/application/views/trends/vip4top.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/welcome.php" afterPath="$PROJECT_DIR$/application/controllers/welcome.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="bsphone.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1365773085778" ignored="false" />
+    <file path="/Dummy.txt" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366268598471" ignored="false" />
     <file path="/admin.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1365742287170" ignored="false" />
     <file path="/MY_Controller.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1365737962105" ignored="false" />
     <file path="/header.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1365742849372" ignored="false" />
@@ -17,13 +52,32 @@
     <file path="/modify-password.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1365741992866" ignored="false" />
     <file path="/picture.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1365740206978" ignored="false" />
     <file path="/porder_model.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1365742682370" ignored="false" />
-    <file path="/index.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1365743082920" ignored="false" />
+    <file path="/index.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366299103483" ignored="false" />
     <file path="/style.css" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1365743267106" ignored="false" />
     <file path="/thumbnails.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1365776103918" ignored="false" />
-    <file path="/phone_model.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1365743587155" ignored="false" />
+    <file path="/phone_model.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366305724651" ignored="false" />
     <file path="/shopcart.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1365743745582" ignored="false" />
-    <file path="/one.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1365745901414" ignored="false" />
-    <file path="/joinus.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1365773179979" ignored="false" />
+    <file path="/one.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366306509721" ignored="false" />
+    <file path="/joinus.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366043563416" ignored="false" />
+    <file path="/artitle_model.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366307594574" ignored="false" />
+    <file path="/home-artitle.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366275320322" ignored="false" />
+    <file path="/trends_model.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366275653859" ignored="false" />
+    <file path="/artitle.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366293256682" ignored="false" />
+    <file path="/pre-add-tops.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366292997349" ignored="false" />
+    <file path="/founds.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366276238593" ignored="false" />
+    <file path="/vip4top.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366278621002" ignored="false" />
+    <file path="/hotphone.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366294562107" ignored="false" />
+    <file path="/phone.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366306047028" ignored="false" />
+    <file path="/common.css" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366294735935" ignored="false" />
+    <file path="/sharedinfo_model.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366297401820" ignored="false" />
+    <file path="/index.js" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366299660846" ignored="false" />
+    <file path="/editNew.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366301038397" ignored="false" />
+    <file path="/welcome.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366301679378" ignored="false" />
+    <file path="/product.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366306065748" ignored="false" />
+    <file path="/flexslider.css" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366306416040" ignored="false" />
+    <file path="/comment_model.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366306815632" ignored="false" />
+    <file path="/MY_Model.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366307431820" ignored="false" />
+    <file path="/spare_model.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366307747932" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,31 +97,47 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="joinus.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/controllers/joinus.php">
+      <file leaf-file-name="spare_model.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/models/spare_model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="53" selection-start="614" selection-end="614" vertical-scroll-proportion="-10.181818">
+            <state line="237" column="32" selection-start="6534" selection-end="6534" vertical-scroll-proportion="0.6909871">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/picture/index.php">
+      <file leaf-file-name="artitle_model.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/models/artitle_model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="25" selection-start="244" selection-end="244" vertical-scroll-proportion="-6.5454545">
+            <state line="26" column="34" selection-start="1110" selection-end="1110" vertical-scroll-proportion="-9.242424">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="thumbnails.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/application/views/picture/thumbnails.php">
+      <file leaf-file-name="MY_Model.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/core/MY_Model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="32" selection-start="2238" selection-end="2238" vertical-scroll-proportion="0.39402986">
-              <folding>
-                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#li#0;n#!!top" expanded="true" />
-              </folding>
+            <state line="308" column="5" selection-start="8501" selection-end="8501" vertical-scroll-proportion="-17.969696">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="outskirts.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/index/outskirts.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="22" selection-start="471" selection-end="471" vertical-scroll-proportion="42.18182">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="spare.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/controllers/spare.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="65.454544">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -90,31 +160,36 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/application/models/adminor_model.php" />
-        <option value="$PROJECT_DIR$/application/views/admin/login.php" />
-        <option value="$PROJECT_DIR$/application/controllers/picture.php" />
-        <option value="$PROJECT_DIR$/application/models/adminsor_model.php" />
-        <option value="$PROJECT_DIR$/application/controllers/admin.php" />
-        <option value="$PROJECT_DIR$/application/core/MY_Controller.php" />
-        <option value="$PROJECT_DIR$/application/views/admin/modify-password.php" />
-        <option value="$PROJECT_DIR$/application/models/porder_model.php" />
-        <option value="$PROJECT_DIR$/application/views/admin/header.php" />
-        <option value="$PROJECT_DIR$/application/views/picture/index.php" />
-        <option value="$PROJECT_DIR$/resources/styles/picture/style.css" />
-        <option value="$PROJECT_DIR$/application/models/phone_model.php" />
-        <option value="$PROJECT_DIR$/application/controllers/shopcart.php" />
+        <option value="$PROJECT_DIR$/application/models/sharedinfo_model.php" />
+        <option value="$PROJECT_DIR$/resources/scripts/index.js" />
+        <option value="$PROJECT_DIR$/application/views/index/index.php" />
+        <option value="$PROJECT_DIR$/application/views/phone/editNew.php" />
+        <option value="$PROJECT_DIR$/application/controllers/welcome.php" />
+        <option value="$PROJECT_DIR$/application/controllers/phone.php" />
+        <option value="$PROJECT_DIR$/application/views/index/product.php" />
+        <option value="$PROJECT_DIR$/resources/FlexSlider/flexslider.css" />
         <option value="$PROJECT_DIR$/application/views/phone/one.php" />
-        <option value="$PROJECT_DIR$/application/controllers/joinus.php" />
-        <option value="$PROJECT_DIR$/application/views/picture/thumbnails.php" />
+        <option value="$PROJECT_DIR$/application/models/comment_model.php" />
+        <option value="$PROJECT_DIR$/application/views/artitle/one.php" />
+        <option value="$PROJECT_DIR$/application/models/video_model.php" />
+        <option value="$PROJECT_DIR$/application/models/phone_model.php" />
+        <option value="$PROJECT_DIR$/application/models/artitle_model.php" />
+        <option value="$PROJECT_DIR$/application/core/MY_Model.php" />
+        <option value="$PROJECT_DIR$/application/models/spare_model.php" />
       </list>
+    </option>
+  </component>
+  <component name="PhpServers">
+    <option name="servers">
+      <server host="www.bephone.com" name="daemon-server" />
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="133" />
-    <option name="y" value="134" />
+    <option name="x" value="109" />
+    <option name="y" value="44" />
     <option name="width" value="1669" />
-    <option name="height" value="910" />
+    <option name="height" value="926" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -142,7 +217,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -185,6 +259,100 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="superslider" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bsphone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bsphone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="styles" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bsphone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bsphone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bsphone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bsphone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FlexSlider" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bsphone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bsphone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FlexSlider" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bsphone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bsphone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="application" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -225,38 +393,212 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="picture" />
+              <option name="myItemId" value="video" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bsphone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bsphone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="phone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bsphone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bsphone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="index" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bsphone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bsphone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="artitle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bsphone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bsphone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="apps" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bsphone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bsphone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bsphone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bsphone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="140" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="174" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="options.splitter.main.proportions" value="0.28333333" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="152" />
+    <property name="options.lastSelected" value="Configurable.PHP.Servers" />
+    <property name="recentsLimit" value="5" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="177" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="1076" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="1080" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="173" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="170" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="preferences.lookFeel" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="restartRequiresConfirmation" value="true" />
     <property name="FullScreen" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="G:\webroot\bsphone\application\models" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="PHPUnit.bsphone">
+    <configuration default="false" name="bsphone" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner directory="$PROJECT_DIR$" />
+      <method />
+    </configuration>
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" browser="FIREFOX" server_name="daemon-server">
       <method />
     </configuration>
     <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
       <method />
     </configuration>
-    <list size="0" />
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="PHPUnit.bsphone" />
+    </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="PHPUnit.bsphone" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="c66e97a5-ee7b-49e6-abff-297e3a88525f" name="Default" comment="" />
@@ -266,19 +608,19 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="133" y="134" width="1669" height="910" extended-state="0" />
+    <frame x="109" y="44" width="1669" height="926" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2273579" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19113055" sideWeight="0.9986894" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32931727" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -349,91 +691,115 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/views/admin/footer.php">
+    <entry file="file://$PROJECT_DIR$/application/views/index/product.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/admin/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="5" selection-start="854" selection-end="854" vertical-scroll-proportion="0.8243045" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/adminsor_model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="23" selection-start="1543" selection-end="1543" vertical-scroll-proportion="0.89458275" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/admin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="30" selection-start="2247" selection-end="2262" vertical-scroll-proportion="0.103953145" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/admin/modify-password.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="30" selection-start="805" selection-end="805" vertical-scroll-proportion="0.59736454" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/core/MY_Model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="195" column="20" selection-start="5649" selection-end="5649" vertical-scroll-proportion="0.34846267" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/porder_model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="28" selection-start="2276" selection-end="2276" vertical-scroll-proportion="-13.030303" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/admin/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="24" selection-start="1352" selection-end="1352" vertical-scroll-proportion="0.76268655" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/styles/picture/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="32" selection-start="126" selection-end="126" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/phone_model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="379" column="20" selection-start="11356" selection-end="11356" vertical-scroll-proportion="0.33235726" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/shopcart.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="94" column="34" selection-start="2256" selection-end="2256" vertical-scroll-proportion="-7.2727275" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/core/MY_Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="165" column="20" selection-start="4294" selection-end="4294" vertical-scroll-proportion="0.34846267" />
+        <state line="12" column="48" selection-start="545" selection-end="545" vertical-scroll-proportion="-8.727273">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/phone/one.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="190" column="14" selection-start="7015" selection-end="7015" vertical-scroll-proportion="0.5080527" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/joinus.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="53" selection-start="614" selection-end="614" vertical-scroll-proportion="-10.181818">
+        <state line="106" column="42" selection-start="4037" selection-end="4037" vertical-scroll-proportion="0.583691">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/picture/index.php">
+    <entry file="file://$PROJECT_DIR$/system/core/Input.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="25" selection-start="244" selection-end="244" vertical-scroll-proportion="-6.5454545">
+        <state line="143" column="13" selection-start="3042" selection-end="3042" vertical-scroll-proportion="0.24344024">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/picture/thumbnails.php">
+    <entry file="file://$PROJECT_DIR$/application/controllers/phone.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="32" selection-start="2238" selection-end="2238" vertical-scroll-proportion="0.39402986">
-          <folding>
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#li#0;n#!!top" expanded="true" />
-          </folding>
+        <state line="164" column="18" selection-start="5223" selection-end="5223" vertical-scroll-proportion="-18.69697">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/comment.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="73" column="52" selection-start="2343" selection-end="2343" vertical-scroll-proportion="0.44635195">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/artitle/one.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="105" column="44" selection-start="3906" selection-end="3906" vertical-scroll-proportion="0.52478135">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/video/one.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/comment_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="118" column="79" selection-start="3689" selection-end="3689" vertical-scroll-proportion="2.1515152">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/artitle.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="72" column="36" selection-start="2496" selection-end="2496" vertical-scroll-proportion="61.78788">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/video_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="96" column="59" selection-start="3326" selection-end="3326" vertical-scroll-proportion="-8.727273">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/phone_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="144" column="16" selection-start="4335" selection-end="4335" vertical-scroll-proportion="0.58512163">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/index/outskirts.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="22" selection-start="471" selection-end="471" vertical-scroll-proportion="42.18182">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/spare.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="65.454544">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/core/MY_Model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="308" column="5" selection-start="8501" selection-end="8501" vertical-scroll-proportion="-17.969696">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/artitle_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="34" selection-start="1110" selection-end="1110" vertical-scroll-proportion="-9.242424">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/spare_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="237" column="32" selection-start="6534" selection-end="6534" vertical-scroll-proportion="0.6909871">
+          <folding />
         </state>
       </provider>
     </entry>

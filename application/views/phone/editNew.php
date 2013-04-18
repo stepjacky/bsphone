@@ -21,7 +21,7 @@
        </td>
 
    </tr>
-<tr>
+
 
       <tr>
           <td>品牌</td>
@@ -29,7 +29,7 @@
               <?= form_dropdown2("brand",isset($brands)?$brands:array(),isset($brand)?$brand:"")?>
           </td>
 
-      <tr>
+      </tr>
 
 
 
@@ -40,16 +40,16 @@
               <?= form_dropdown2("os",isset($oses)?$oses:array(),isset($os)?$os:"")?>
           </td>
 
-      <tr>
+      </tr>
      
   
      <tr>
    <td>热度</td>
    <td>            
         <input name="moods" id="moods" type="text" value="<?php echo isset($moods)?$moods:''?>" />
-   </td>     
-   
-<tr>
+   </td>
+
+     </tr>
   
   
      
@@ -58,9 +58,9 @@
    <td>屏幕尺寸</td>
    <td>            
         <input name="screen" id="screen" type="text" value="<?php echo isset($screen)?$screen:''?>" class=" input-xlarge" />
-   </td>     
-   
-<tr>
+   </td>
+
+     </tr>
   
   
      
@@ -69,9 +69,9 @@
    <td>屏幕宽</td>
    <td>            
         <input name="screenx" id="screenx" type="text" value="<?php echo isset($screenx)?$screenx:''?>" />
-   </td>     
-   
-<tr>
+   </td>
+
+     </tr>
   
   
      
@@ -80,9 +80,9 @@
    <td>屏幕高</td>
    <td>            
         <input name="screeny" id="screeny" type="text" value="<?php echo isset($screeny)?$screeny:''?>" />
-   </td>     
-   
-<tr>
+   </td>
+
+     </tr>
   
   
      
@@ -91,9 +91,9 @@
    <td>像素[万]</td>
    <td>            
         <input name="carame" id="carame" type="text" value="<?php echo isset($carame)?$carame:''?>" />
-   </td>     
-   
-<tr>
+   </td>
+
+     </tr>
   
   
      
@@ -102,9 +102,9 @@
    <td>电池容量[毫安]</td>
    <td>            
         <input name="cellcap" id="cellcap" type="text" value="<?php echo isset($cellcap)?$cellcap:''?>" />
-   </td>     
-   
-<tr>
+   </td>
+
+     </tr>
   
   
      
@@ -113,9 +113,9 @@
    <td>标配</td>
    <td>            
         <textarea id="feature" name="feature" class=" input-xlarge"><?php echo isset($feature)?$feature:''?></textarea>
-   </td>     
-   
-<tr>
+   </td>
+
+     </tr>
      
   
 
@@ -138,8 +138,8 @@
             ?>
                value="0" />否
    </td>
-   
-<tr>
+
+     </tr>
   
   
      
@@ -148,25 +148,9 @@
    <td>颜色</td>
    <td>            
         <input name="color" id="color" type="text" value="<?php echo isset($color)?$color:''?>" />
-   </td>     
-   
-<tr>
-  
-  
-     
-  
+   </td>
 
-  
-  
-     
-  
-     <tr>
-   <td>细节</td>
-   <td>            
-        <?php echo $my_editor;?>
-   </td>     
-   
-<tr>
+     </tr>
 
       <tr>
           <td>备注</td>
@@ -174,7 +158,33 @@
               <textarea id="remark" name="remark" class=" input-xlarge"><?php echo isset($remark)?$remark:''?></textarea>
           </td>
 
+      </tr>
+
       <tr>
+          <td>标签</td>
+          <td>
+
+              <textarea id="dag" name="tag" class=" input-xlarge"><?php echo isset($tag)?$tag:''?></textarea>
+              <br/>
+              <label class="label label-info">
+              不同标签用半角逗号分割开
+              </label>
+
+          </td>
+
+      </tr>
+
+
+
+     <tr>
+   <td>细节</td>
+   <td>            
+        <?php echo $my_editor;?>
+   </td>
+
+     </tr>
+
+
      
   
 </tbody>

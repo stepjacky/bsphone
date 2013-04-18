@@ -20,8 +20,7 @@
      }
 
     function openTrendsDialog(){
-        var trends = window.showModalDialog('/trends/selector');
-        $.post('/trends/save4vip','trends='+trends);
+        window.showModalDialog('/artitle/pre_add_tops/1',window,'dialogWidth=800;dialogHeight=500');
 
     }
 

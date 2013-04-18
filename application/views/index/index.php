@@ -3,7 +3,7 @@
     <h5><img src="/resources/images/index/title1.png"><span class="h5_l"></span><span class="h5_r"></span></h5>
 
     <div class="bor1">
-        <div class="working">工作时间:上午<strong>10:00</strong>-晚上<strong>23:50</strong></div>
+        <div class="working">工作时间:上午<strong>9:30</strong>-晚上<strong>18:30</strong></div>
         <div class="tel">
             <img src="/resources/images/index/index_phone_4.gif">
         </div>
@@ -24,32 +24,14 @@
         <?php foreach($pptartitles as $ppt):?>
         <dd>
             <a rel="nofollow"
-               href="/artitle/one/<?=val($ppt['id'])?>" target="_blank">
-                <img src="<?=val($ppt['largepic'])?>" alt="<?=val($ppt['name'])?>"></a></dd>
+               href="<?=val($ppt['href'])?>" target="_blank">
+                <img src="<?=val($ppt['image'])?>" /></a></dd>
         <?php endforeach;?>
     </dl>
 
 
 
 
-    <!--
-    <ul id="pub_slideplay">
-
-        <?php foreach($pptartitles as $ppt):
-
-          extract($ppt);
-
-        ?>
-        <li>
-            <a target="_blank" href="/artitle/one/<?=$id?>">
-                <img alt="" src="<?=$largepic?>"/>
-
-                <p><?=$name?></p>
-            </a>
-        </li>
-        <?php endforeach;?>
-    </ul>
-    -->
 </div>
 <div class="grid_3 leftdiv index-top omega ">
 
@@ -114,30 +96,33 @@
             <dl class="share" style="height:304px;">
                 <dt>有<em>9176</em>个人分享了手机使用心得</dt>
                 <dd>
-                   <div  class="picScroll-top">
-                       <div class="bd">
                     <ul id="sharelist">
-                      <?php foreach($shareinfos as $shr):?>
+                      <?php
+                        $i=0;
+                        foreach($shareinfos as $shr):?>
 
                         <?php
+                            $i++;
                            extract($shr);
                         ?>
-                        <li att="114" style="display:block;height:auto;">
+                        <li att="60" style="display:block;height:auto;">
 
                             <img alt="pc7up"
                                  src="<?=$avatar?>">
 
                             <div class="share_r">
-                                <p class="pp"><i>购买：</i><em><a
-                                       <a href="/phone/one/<?=val($pname)?>"><?=val($pname)?></a></em></p>
+                                <p class="pp"><i>
+
+                                        购买：</i><em><a
+                                       <a href="/phone/one/<?=val($pid)?>"><?=val($pname)?></a></em></p>
 
                                 <p><font color="#1d7f3b">优点：</font><a style="color:#5D5152;text-decoration: none;"
-                                                                      href="/phone/one/<?=val($pname)?>"
+                                                                      href="/phone/one/<?=val($pid)?>"
                                                                       target="_blank"><?=val($virtue)?></a>
                                 </p>
 
                                 <p><font color="#1d7f3b">缺点：</font><a style="color:#5D5152;text-decoration: none;"
-                                                                      href="/phone/one/<?=val($pname)?>"
+                                                                      href="/phone/one/<?=val($pid)?>"
                                                                       target="_blank"><?=val($defect)?></a></p>
                             </div>
 
@@ -146,11 +131,10 @@
                     <?php endforeach;?>
 
                     </ul>
-                           </div>
-                   </div>
                     <div class="share_mask"><img src="/resources/images/index/share_mask.png"></div>
                 </dd>
             </dl>
+
         </div>
         <div class="bot1"><span class="bot1_l"></span><span class="bot1_r"></span></div>
 
@@ -159,7 +143,7 @@
 <div class="grid_9 index-middle  omega">
 <div class="hot-phone">
 
-<h6><a href="/welcome/product"></a><img src="/resources/images/index/title5.png"><span class="h6_l"></span><span
+<h6><a href="/phone/query"></a><img src="/resources/images/index/title5.png"><span class="h6_l"></span><span
         class="h6_r"></span></h6>
 
 <div class="bor2">

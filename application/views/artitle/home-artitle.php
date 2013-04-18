@@ -1,8 +1,9 @@
 <table class="table  table-bordered table-hover">
     <thead>
      <tr>
-        <th>名称</th>
-        <th>发布日期</th>
+        <th>编号</th>
+        <th>图片</th>
+        <th>链接</th>
         <th>管理</th>
      </tr>
     </thead>
@@ -15,11 +16,15 @@
         <tr>
 
              <td>
-                <?=val($name)?>
+                <?=val($id)?>
 
              </td>
              <td>
-                 <?=val($firedate)?>
+               <img src="<?=val($image)?>" width="100" height="100"/>
+
+             </td>
+             <td>
+                 <?=val($href)?>
 
              </td>
              <td>

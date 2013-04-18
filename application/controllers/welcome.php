@@ -30,6 +30,7 @@ class Welcome extends MY_Controller
 
 
         $data['recphone'] = $this->pDao->find_new_recommend();
+
         $data['cmiphone'] = $this->pDao->find_coming();
         $data['recspare'] = $this->arDao->recommends();
         $data['comartitles'] = $this->trdDao->find_homed_by_tags('网站公告',8);;
@@ -262,7 +263,7 @@ class Welcome extends MY_Controller
             'beans'=>$beans,
             'trends'=>$trends
         );
-        $this->fireLog($data);
+        ///$this->fireLog($data);
 
         $this->__user_header($data);
 

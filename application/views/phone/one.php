@@ -104,7 +104,7 @@ extract($bean);
                             <?php foreach ($piclist as $pic) : ?>
                             <li>
 
-                                <a href="javascript:;" >
+                                <a href="#" >
                                     <img src="<?=$pic['path']?>" alt="<?=$name?>" style="width: 60px; height: 40px"/>
                                 </a>
                             </li>
@@ -410,7 +410,9 @@ extract($bean);
 <dd style="display: none;" id="share">
     <dl class="mobile_dl sharelist">
         <dt class="add_sharebnt">
-        <div class="back_bnt"><a rel="nofollow" href="/sharedinfo/input/<?=val($id)?>/<?=val($name)?>"><img
+        <div class="back_bnt"><a rel="nofollow"
+
+           href="/sharedinfo/input/<?=val($bean['id'])?>/<?=val($bean['name'])?>"><img
                 src="/resources/images/index/back_bnt.gif"></a></div>
         <a href="/shareinfo/more/<?=$name?>" target="_blank">分享记录 (<em><?=$shareslen?></em>)</a>
         </dt>

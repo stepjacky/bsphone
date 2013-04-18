@@ -73,8 +73,13 @@ class Phone extends Media_Controller
     public function hotphone()
     {
         $data = array();
+
+        $beans = $this->dao->find_by_status(1);
+
+        $data['beans'] = $beans;
         $this->__user_header($data);
         $this->load->view("phone/hotphone", $data);
+        $this->load->view("index/common/phonefooter");
         $this->load->view("apps/footer");
     }
 
@@ -84,11 +89,18 @@ class Phone extends Media_Controller
 
         $brands = $this->brandDao->find_all();
         $oss    = $this->osDao->find_all();
+        $taglist  = $this->dao->fetch_tags();
         $data = array(
             "flag" => "product",
             "brands"=>$brands,
-            'oss'=>$oss
+            'oss'=>$oss,
+            'taglist'=>$taglist
         );
+
+
+
+        $parys = $this->__qstr(array("brand","price", "os", "screen", "carame", "tag"));
+        $data['types'] = $this->_urlstr($parys);
 
         $parys = $this->__qstr(array("price", "os", "screen", "carame", "tag"));
         $data['brand'] = $this->_urlstr($parys);
@@ -108,6 +120,9 @@ class Phone extends Media_Controller
         $parys = $this->__qstr(array("brand", "screen", "carame", "tag", "os"));
         $data['price'] = $this->_urlstr($parys);
 
+
+        $parys = $this->__qstr(array("qidxa","qidxb", "qidxc", "qidxd", "qidxe", "qidxf"));
+        $data['qidx'] = $this->_urlstr($parys);
 
         $parys = $this->__qstr(array("qidxb", "qidxc", "qidxd", "qidxe", "qidxf"));
         $data['qidxa'] = $this->_urlstr($parys);
@@ -133,7 +148,28 @@ class Phone extends Media_Controller
 
         $cnds = $this->__qstr(array("brand", "screen", "carame", "tag", "os", "price"));
 
-        $pdts = $this->dao->find($cnds);
+
+        $sort_type = $this->_get('sort_type');
+
+        $sort_type = $sort_type?$sort_type:1;
+
+
+        $sort_type = $sort_type*(-1);
+
+        $data['sort_type'] = $sort_type;
+
+        $sort = $this->_get("sort");
+
+        $sort_str = FALSE;
+
+        if($sort){
+            $this->fireLog($sort);
+           $sort_str = sprintf(" order by %s.%s %s " ,$sort=='price'?'pp':'p', $sort,$sort_type>0?"asc":"desc");
+        }
+
+
+        $pdts = $this->dao->find($cnds,$sort_str);
+
         $data['beans'] = $pdts;
 
 

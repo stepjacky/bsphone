@@ -32,10 +32,10 @@ class Sharedinfo_model extends MY_Model {
 
 
     public function find_for_index(){
-        $SQL="select s.virtue virtue,s.defect defect,s.username username,
+        $SQL="select s.id id, s.virtue virtue,s.defect defect,s.username username,
                      my.avatar avatar,p.name pname ,p.id pid
               from sharedinfo s
-              join myuser my on my.id=s.username
+              join myuser my on my.name=s.username
               join phone p on p.id = s.phone_id
               limit 10
               ";

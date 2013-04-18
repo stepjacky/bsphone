@@ -34,7 +34,7 @@ class Artitle_model extends Media_Model {
         if(!$this->__valid($id)) return $this->emptyObject();
         $bean = parent::get($id);
         $this->increaviews($id);
-        $SQL="select c.id id ,c.guest username, c.firedate firedate,c.content content
+        $SQL="select c.id id ,c.guest username,mu.name nick, c.firedate firedate,c.content content
               ,mu.avatar userimg
               from comment c
               join myuser mu on mu.id=c.guest
@@ -97,10 +97,7 @@ class Artitle_model extends Media_Model {
 
     }
 
-    public function increaviews($id){
-        $SQL="update artitle set views=views+1 where id=?";
-        $this->db->query($SQL,array($id));
-    }
+
 
 
     public function save_recommend($beans){
@@ -119,15 +116,15 @@ class Artitle_model extends Media_Model {
 
 
     public function save_home_artitle($beans){
+
+
         $data = array();
-        $i=0;
-        foreach($beans as $bean){
-            $data[$i++]=array(
-                'artitle_id'=>$bean
-            );
+        foreach($beans as &$bean){
+            if(empty($bean)) continue;
+            $bean['id']=getGUID();
+            array_push($data,$bean);
         }
-        $this->db->empty_table('homeartitle');
-        //$this->firelog($data);
+        if(!empty($data))
         $this->db->insert_batch('homeartitle',$data);
     }
 
@@ -144,19 +141,15 @@ class Artitle_model extends Media_Model {
     }
 
     public function find_home_artitle(){
-        $SQL="select a.id id ,a.name, name ,a.firedate firedate,a.largepic largepic
-              from homeartitle ra
-              join artitle a on a.id=ra.artitle_id
-              order by a.firedate desc,a.views desc
-              limit 5
-              ";
-
-        $beans = $this->query($SQL);
+        $this->db->where('position',0);
+        $this->db->limit(5,0);
+        $query =  $this->db->get("homeartitle");
+        $beans = $query->result_array();
         return $beans;
     }
 
     public function remove_home_artitle($id){
-        $this->db->delete('homeartitle',array('artitle_id'=>$id));
+        $this->db->delete('homeartitle',array('id'=>$id));
     }
 
     public function find_index_by_tag($tag='',$rows=5){

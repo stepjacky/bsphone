@@ -30,7 +30,7 @@ class Phone_model extends Media_Model {
         parent::__construct("Phone_model");
     }  
 
-    public function find($cnds = array()){
+    public function find($cnds = array(),$sort=array()){
         $whs = array();
         if(!is_array($cnds))return $whs;
         //$this->firelog($cnds);
@@ -74,8 +74,8 @@ class Phone_model extends Media_Model {
 
         array_push($whs,'pstatus=0');
         $qstr =  implode(" and ",$whs);
-        $this->firelog($qstr);
-        return $this->find_where($qstr);
+
+        return $this->find_where($qstr,$sort);
 
     }
 
@@ -134,6 +134,7 @@ class Phone_model extends Media_Model {
               c.id cid
               ,c.firedate firedate
               ,c.guest cuser
+              ,mu.name nick
               ,c.content ccnt
               ,mu.avatar uatar
               from comment c
@@ -212,7 +213,10 @@ class Phone_model extends Media_Model {
 
 
     /**
-     * @param int $s 1即将上市 0        在售   -1       退市
+     * @param int $s
+     * 1        即将上市
+     * 0        在售
+     * -1       退市
      *
      * */
     public function find_by_status($s=1){
@@ -377,14 +381,14 @@ class Phone_model extends Media_Model {
         return $query->first_row('array');
     }
 
-    public function find_where($where=""){
+    public function find_where($where="",$sort=FALSE){
         $sql="select p.id id,p.name name,min(pp.price) price,pc.path minipic
               from ".$this->table()." p
               join phoneprice pp on pp.phone_id=p.id
               join picture pc on pc.phone_id=p.id and pc.ptype='minipic'
               ".(strlen($where)==0?"":" where ".$where)
-              ."   GROUP BY pp.phone_id";
-        //$this->firelog($sql);
+              ."   GROUP BY pp.phone_id ".($sort?$sort:"");
+        $this->firelog($sql);
         $query =  $this->db->query($sql);
         $result = $query->result_array();
         return $result;
@@ -414,5 +418,22 @@ class Phone_model extends Media_Model {
         foreach($tables as $table)
         $this->db->delete($table, array('phone_id' => $id));
         parent::remove($id);
+    }
+
+    public function fetch_tags(){
+        $this->db->select("tag");
+        $query = $this->db->get($this->table());
+        $tags = $query->result_array();
+        $taglist = array();
+        $tindex = 0;
+        $this->firelog($tags);
+        foreach($tags as $tag){
+           $ctags = explode(",",$tag['tag']);
+           foreach($ctags as $ctag){
+               if(!isset($taglist[$ctag]))
+                   $taglist[$ctag] = "tg".($tindex++);
+           }
+        }
+        return $taglist;
     }
 }

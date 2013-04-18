@@ -38,28 +38,15 @@ class Trends_model extends Media_Model {
         return $query->result_array();
     }
     public function save4trends($trends){
-
-        $this->db->truncate('viptrends');
-        $data = array();
-        $i = 0;
-
-        foreach($trends as $trs){
-           $data[$i++] = array(
-               'trend_id'=>$trs
-
-           );
-        }
-        $this->db->insert_batch('viptrends',$data);
+        $this->db->insert_batch('homeartitle',$trends);
     }
 
     public function load_vip_trends(){
-        $SQL="select t.id id ,t.name name ,t.firedate firedate,t.largepic largepic
-              from viptrends vt
-              join trends t on t.id = vt.trend_id
-              order by t.firedate desc
-        ";
-
-        return $this->query($SQL);
+        $this->db->where('position',1);
+        $this->db->limit(5,0);
+        $query =  $this->db->get("homeartitle");
+        $beans = $query->result_array();
+        return $beans;
     }
 
 

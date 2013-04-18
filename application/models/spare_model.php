@@ -232,5 +232,12 @@ class Spare_model extends Media_Model {
 
 
     }
+
+    public function get($id,$pk='id'){
+        $bean = parent::get($id,$pk);
+        $this->increaviews($id);
+
+        return $bean;
+    }
     
 }   

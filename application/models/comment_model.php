@@ -83,11 +83,11 @@ class Comment_model extends Media_Model {
     }
 
     public function most_for_artitle(){
-        $SQL="select c.id id,c.firedate firedate ,c.guest username,c.content content
+        $SQL="select c.id id,c.firedate firedate ,c.guest username,mu.name nick,c.content content
               ,c.artitle_id artid,a.name artname
               ,mu.avatar userimg
               from comment c
-              join myuser mu on mu.name=c.guest
+              join myuser mu on mu.id=c.guest
               join artitle a on a.id=c.artitle_id
               where c.artitle_id is not null
               order by c.firedate desc
@@ -100,11 +100,11 @@ class Comment_model extends Media_Model {
     }
 
     public function most_for_video(){
-        $SQL="select c.id id,c.firedate firedate ,c.guest username,c.content content
+        $SQL="select c.id id,c.firedate firedate ,c.guest username,mu.name nick,c.content content
               ,c.video_id vdoid, a.name vdoname
               ,mu.avatar userimg
               from comment c
-              join myuser mu on mu.name=c.guest
+              join myuser mu on mu.id=c.guest
               join video a on a.id=c.video_id
               where c.video_id is not null
               order by c.firedate desc
@@ -116,7 +116,7 @@ class Comment_model extends Media_Model {
 
 
     public function most_for_vip(){
-        $SQL="select c.id id,c.firedate firedate ,c.guest username,c.content content
+        $SQL="select c.id id,c.firedate firedate ,c.guest username,mu.name nick,c.content content
               ,mu.avatar userimg
               from comment c
               join myuser mu on mu.id=c.guest

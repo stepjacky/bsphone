@@ -29,8 +29,8 @@
             <?php foreach($toptrends as $tts):?>
                  <dd>
                      <a rel="nofollow"
-                        href="/trends/one/<?=val($tts['id'])?>" target="_blank">
-                         <img src="<?=val($tts['largepic'])?>" alt="<?=val($tts['name'])?>"></a></dd>
+                        href="<?=val($tts['href'])?>" target="_blank">
+                         <img src="<?=val($tts['image'])?>"  /></a></dd>
             <?php endforeach;?>
         </dl>
     </div>

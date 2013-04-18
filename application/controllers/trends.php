@@ -77,7 +77,7 @@ class Trends extends Media_Controller {
     public function load_vip_trends(){
         $data = array();
         $beans = $this->dao->load_vip_trends();
-        $data['list'] = $beans;
+        $data['beans'] = $beans;
         $this->load->view('trends/vip4top',$data);
     }
 

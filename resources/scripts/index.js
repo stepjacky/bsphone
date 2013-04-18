@@ -15,9 +15,19 @@ $(function () {
     $("dl.tool_dd dt").bind("click",showSmartTool);
     $(document).bind('click',clickDoc);
     $(".picScroll-top").slide({mainCell:".bd ul",autoPage:true,effect:"top",autoPlay:true,vis:2,easing:"swing"});
-
+    setInterval('shareScrollDown();' , 10000);
 
 });
+
+
+function shareScrollDown() {
+    var fc = $('#sharelist').children(':first-child');
+    fc.fadeOut("slow");
+    var fcht = $("<p></p>").append(fc).html();
+    $("#sharelist").append(fcht);
+
+
+}
 function showSmartBrands() {
     $("div.all").show();
 }
@@ -53,4 +63,20 @@ function showSmartTool(event){
 
 function clickDoc(event){
     if(smartTool)smartTool.fadeOut('slow');
+}
+
+function shareScrollDown2() {
+    var ffli = $('#sharelist').children(':first-child');
+    var dheight = ffli.attr('att');
+    var lastli = $('#sharelist').children(':last-child');
+    $('#sharelist').prepend( '<li att="'+lastli.attr('att')+'" style="display:none;height:0px;" >'
+        +lastli.html()+'</li>' );
+    ffli.animate({
+
+    }, 1500 , function(){
+        ffli.children().each(function(i){
+            $(this).fadeIn(500);
+        });
+        $('#sharelist').children(':last-child').remove();
+    });
 }

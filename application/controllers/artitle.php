@@ -149,29 +149,38 @@ class Artitle extends Media_Controller {
         $this->dao->save_recommend($beans);
     }
 
+    public function pre_add_tops($pos){
+        $data['pos'] = $pos;
+        $this->load->view('admin/res-head');
+        $this->load->view('artitle/pre-add-tops',$data);
+        $this->load->view('admin/footer');
+    }
+
     public function save_home_artitle(){
-        $beans = $this->_post('beans');
-        $beans = urldecode($beans);
-        if(!$this->__invalidparam($beans))return;
-        if(strpos($beans,','))
-            $beans = explode(',',$beans);
-        else
-            $beans = array($beans);
-        //$this->fireLog($beans);
+        $hrefs     = $this->_post('href');
+        $images    = $this->_post('image');
+        $positions = $this->_post('position');
+        $beans = array();
+        for($i=0;$i<count($hrefs);$i++){
+            $beans[$i] = array(
+                'href'=>$hrefs[$i],
+                'image'=>$images[$i],
+                'position'=>$positions[$i],
+            );
+        }
+        $this->fireLog($beans);
         $this->dao->save_home_artitle($beans);
     }
 
     public function home_artitle(){
         $beans = $this->dao->find_home_artitle();
-        $data= array(
-            'beans'=>$beans
-        );
+        $data= array('beans'=>$beans);
 
         $this->load->view('artitle/home-artitle',$data);
     }
 
     public function remove_home_artitle($id){
-
+        $this->dao->remove_home_artitle($id);
     }
 
     public function recommend_artitle(){

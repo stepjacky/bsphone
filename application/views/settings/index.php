@@ -91,12 +91,7 @@
 
 
     function openNewsSelector(){
-        var beans =   window.showModalDialog('/artitle/selector');
-
-        if(beans!=''){
-            $.post('/artitle/save_home_artitle',"beans="+beans);
-
-        }
+        window.showModalDialog('/artitle/pre_add_tops/0',window,'dialogWidth=700;dialogHeight=400');
     }
 
     function loadNews(){

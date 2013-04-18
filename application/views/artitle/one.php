@@ -103,7 +103,7 @@
             </div>
            </dt>
             <dd>
-                <p><strong><?=val($cmt['username'])?></strong></p>
+                <p><strong><?=val($cmt['nick'])?></strong></p>
                 <p><?=val($cmt['content'])?></p>
             </dd>
             <dd class="zc">来自<a target="_blank" href="/" class="from_client">网页</a>&nbsp;<?=val($cmt['firedate'])?>发表 </dd>

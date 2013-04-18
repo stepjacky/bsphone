@@ -94,7 +94,7 @@ class Video_model extends Media_Model {
         if(!$this->__valid($id)) return $this->emptyObject();
         $bean = parent::get($id);
 
-        $SQL="select c.id id ,c.guest username, c.firedate firedate,c.content content
+        $SQL="select c.id id ,c.guest username,mu.name nick, c.firedate firedate,c.content content
               ,mu.avatar userimg
               from comment c
               join myuser mu on mu.id=c.guest
