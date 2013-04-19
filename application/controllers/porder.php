@@ -172,7 +172,7 @@ class Porder extends MY_Controller
 
         }
 
-        $this->load->view("admin/header");
+        $this->load->view("admin/res-head");
         $this->load->view($this->dao->table() . "/editNew", $data);
         $this->load->view("admin/footer");
     }

@@ -258,7 +258,7 @@ extract($bean);
                             <img src="<?=$cmt['uatar']?>">
                         </div>
                         <div class="info_list_r">
-                            <p><em><?=$cmt['cuser']?></em></p>
+                            <p><em><?=$cmt['nick']?></em></p>
 
                             <p><?=$cmt['ccnt']?></p>
                         </div>
@@ -281,7 +281,7 @@ extract($bean);
                         <img src="<?=$cmt['uatar']?>">
                     </div>
                     <div class="most_r">
-                        <p><em><?=$cmt['cuser']?></em></p>
+                        <p><em><?=$cmt['nick']?></em></p>
 
                         <p><?=$cmt['ccnt']?></p>
 

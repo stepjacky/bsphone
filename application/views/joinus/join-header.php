@@ -17,9 +17,11 @@
 
             <div class="join_nav">
                 <ul id="nav">
-                    <li class="join_cur"><a title="加盟首页" href="/welcome/joinus">加盟首页</a></li>
-                    <li class="join_line">|</li>
-                    <li class=""><a title="加盟介绍" href="/joinus/index/brand">加盟介绍</a> <span
+                    <li class="join_cur" att='joinus'><a title="加盟首页" href="/welcome/joinus">加盟首页</a></li>
+                    <li class="join_line" >|</li>
+                    <li class=""
+                        att='brand'
+                        ><a title="加盟介绍" href="/joinus/index/brand">加盟介绍</a> <span
                             style="display: none; background: none repeat scroll 0% 0% rgb(255, 255, 255); border: 1px solid rgb(215, 215, 215);">
                         <a
                             title="加盟介绍" href="/joinus/index/brand">加盟介绍</a>
@@ -32,15 +34,21 @@
                     </span>
                     </li>
                     <li class="join_line">|</li>
-                    <li><a title="加盟须知" href="/joinus/index/project">加盟须知</a> <span><a title="加盟条件"
+                    <li att='project'><a title="加盟须知" href="/joinus/index/project">加盟须知</a> <span><a title="加盟条件"
                                                                                          href="/joinus/index/project">加盟条件</a><a
                             title="加盟流程" href="/joinus/index/process">加盟流程</a></span></li>
                     <li class="join_line">|</li>
-                    <li class="join_line"><a title="加盟费用" href="/joinus/index/cost">加盟费用</a></li>
+                    <li class="join_line"
+                        att='cost'
+                        ><a title="加盟费用" href="/joinus/index/cost">加盟费用</a></li>
                     <li class="join_line">|</li>
-                    <li class=""><a title="品牌形象" href="/joinus/index/brandshow">品牌形象</a></li>
+                    <li class=""
+                        att='brandshow'
+                        ><a title="品牌形象" href="/joinus/index/brandshow">品牌形象</a></li>
                     <li class="join_line">|</li>
-                    <li><a title="最新分店" href="/joinus/index/new">最新分店</a><span><a title="加盟动态"
+                    <li
+                        att='new'
+                        ><a title="最新分店" href="/joinus/index/new">最新分店</a><span><a title="加盟动态"
                                                                                     href="/joinus/index/active">加盟动态</a></span>
                     </li>
                     <!--
@@ -48,9 +56,13 @@
                     <li class=""><a title="加盟申请" href="/joinus/index/league">加盟申请</a></li>
                     -->
                     <li class="join_line">|</li>
-                    <li class=""><a title="常见问题" href="/joinus/index/question">常见问题</a></li>
+                    <li class=""
+                        att='question'
+                        ><a title="常见问题" href="/joinus/index/question">常见问题</a></li>
                     <li class="join_line">|</li>
-                    <li class=""><a title="联系我们" href="/joinus/index/contact">联系我们</a></li>
+                    <li class=""
+                        att='contact'
+                        ><a title="联系我们" href="/joinus/index/contact">联系我们</a></li>
                 </ul>
             </div>
 
@@ -64,5 +76,21 @@
                         $(this).find("span").hide(200); //Hide the subnav
 
                     });
+
+                    setCrumb();
+
                 });
+
+
+                function setCrumb(){
+                    var flag = '<?=$jflag?>';
+                    var lis = $("ul#nav").children('li');
+                    $.each(lis,function(idx,item){
+                        if($(item).hasClass('join_line'))return;
+                        $(item).removeClass('join_cur');
+                    });
+
+                    $("ul#nav li[att="+flag+"]").addClass('join_cur');
+                }
+
             </script>

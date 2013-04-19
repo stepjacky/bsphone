@@ -259,7 +259,8 @@ class Welcome extends MY_Controller
         $trends = $this->artDao->find_by_tag('加盟动态',7);
         $beans = $this->shoDao->gets(1,10);
         $data= array(
-            'flag'=>'joinus',
+            'flag'=>'index',
+            'jflag'=>'joinus',
             'beans'=>$beans,
             'trends'=>$trends
         );
@@ -267,11 +268,11 @@ class Welcome extends MY_Controller
 
         $this->__user_header($data);
 
-        $this->load->view('apps/joinus/join-header');
+        $this->load->view('joinus/join-header');
 
-        $this->load->view("apps/joinus/index", $data);
+        $this->load->view("joinus/index", $data);
 
-        $this->load->view('apps/joinus/join-footer');
+        $this->load->view('joinus/join-footer');
 
 
 

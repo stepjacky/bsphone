@@ -64,19 +64,3 @@ function showSmartTool(event){
 function clickDoc(event){
     if(smartTool)smartTool.fadeOut('slow');
 }
-
-function shareScrollDown2() {
-    var ffli = $('#sharelist').children(':first-child');
-    var dheight = ffli.attr('att');
-    var lastli = $('#sharelist').children(':last-child');
-    $('#sharelist').prepend( '<li att="'+lastli.attr('att')+'" style="display:none;height:0px;" >'
-        +lastli.html()+'</li>' );
-    ffli.animate({
-
-    }, 1500 , function(){
-        ffli.children().each(function(i){
-            $(this).fadeIn(500);
-        });
-        $('#sharelist').children(':last-child').remove();
-    });
-}

@@ -100,9 +100,9 @@ class MY_Model extends CI_Model
     }
 
 
-    public function page_link($page=1){
+    public function page_link($page=1,$row=10){
 
-        return $this->page_nav("/".$this->table()."/lists/",$this->db->count_all($this->table()),$page,10);
+        return $this->page_nav("/".$this->table()."/lists/",$this->db->count_all($this->table()),$page,$row);
     }
 
     public function page_nav($baseurl='',$count=0,$page=1,$rows=10){
@@ -121,6 +121,20 @@ class MY_Model extends CI_Model
        }else{
            $this->update($data,$pk);
        }
+    }
+
+    public function persiste($data,$pk='id'){
+        $pk = urldecode($pk);
+
+        if(!isset($data[$pk]) || empty($data[$pk])){
+            $this->save($data,$pk);
+        }else{
+           if(!$this->get($data[$pk])){
+               $this->save($data,$pk);
+           }else{
+            $this->update($data,$pk);
+           }
+        }
     }
 
     /**
@@ -201,7 +215,7 @@ class MY_Model extends CI_Model
 
     public function get($id,$pk='id'){
 
-        $this->firelog($id);
+        //$this->firelog($id);
         $id = urldecode($id);
         $query = $this->db->get_where($this->table(), array($pk => $id));
         $bean =  $query->first_row('array');

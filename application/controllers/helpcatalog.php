@@ -52,7 +52,7 @@ class Helpcatalog extends MY_Controller {
            $data = $this->dao->emptyObject();
         
         }
-        
+
         $this->load->view("admin/res-head");
         $this->load->view($this->dao->table()."/editNew",$data);
         $this->load->view("admin/footer");

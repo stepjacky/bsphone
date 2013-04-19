@@ -15,45 +15,19 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  * 
- * FileName application/controllers/message.php
+ * FileName application/models/joinus.php
  * Created by CIscaffolding.
  * User: qujiakang
  * QQ:myqq_postor@qq.com
  * Email: qujiakang@gmail.com  
- * Date: Wed Nov 28 23:40:02 CST 2012
+ * Date: Sat Apr 20 01:34:04 CST 2013
  *    
  */
 
-class Message extends MY_Controller {
+class Joinus_model extends MY_Model {
      
     public  function __construct(){
-        parent::__construct("Message_model");
+        parent::__construct("Joinus_model");
     }
-
-    public function index(){
-        $data = array();
-        
-        $this->load->view("apps/header");
-        $this->load->view("message/index",$data);
-        $this->load->view("apps/footer");
-    }
-    
-     /**
-      * 新增编辑
-      */
-    public function editNew($id=-1){
-        
-       $data = array(); 
-      
-        if($id!=-1){
-           $data = $this->dao->get($id);
-          
-        }
-
-        $this->load->view("admin/res-head");
-        $this->load->view($this->dao->table()."/editNew",$data);
-        $this->load->view("admin/footer");
-    }
-    
     
 }   

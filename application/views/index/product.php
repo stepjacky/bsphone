@@ -105,6 +105,11 @@
         <em id="price_1226">¥<?=$price?></em>
 
     </div>
+    <p><input type="button"
+              onclick="location.href='/phone/one/<?=$id?>';"
+              value="购买" name="">
+    <!--<input type="button"  value="" name="">-->
+    </p>
 </li>
 
     <?php endforeach; ?>

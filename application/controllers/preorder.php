@@ -85,7 +85,7 @@ class Preorder extends MY_Controller {
             $data['phone_name'] = $phone;
             $data['address'] = $addrs;
             $data['firedate'] = $date;
-            $data['username'] = $user['id'];
+            $data['username'] = $user['name'];
             $data['mobile'] = $mobile;
             $data['amount'] = $amount;
 

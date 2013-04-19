@@ -17,15 +17,37 @@
         <input name="name" id="name" type="text" value="<?php echo isset($name)?$name:''?>" class=" input-xlarge" />
    </td>     
    
-<tr>
+</tr>
+
+
+
   <tr>
-          <td>上级</td>
+          <td>图标</td>
           <td>
-             <?=form_dropdown2('parent',$parents,'<?=val($parent)?>')  ?>
+              <input name="icon" type="text" readonly="true" onclick="setPicture(this)"/>
+              <img width="100" height="100" />
+
+
           </td>
 
       </tr>
-  
+
+    <tr>
+          <td>上级</td>
+          <td>
+             <?=form_dropdown2('parent',$parents,'<?=val($parent)?>')  ?>
+
+          </td>
+
+      </tr>
+  <tr>
+          <td>顶级分类</td>
+          <td>
+              <input type="checkbox" id="isRoot" onclick="setRooted(this,'parent')" />
+          </td>
+
+      </tr>
+
      
   
 </tbody>

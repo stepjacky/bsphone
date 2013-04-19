@@ -61,6 +61,8 @@ class MY_Controller extends CI_Controller
 
     }
 
+
+
     public function find_all($type='raw'){
         if($this->__invalidparam($type) &&  strtolower($type)=='json'){
             echo json_encode($this->dao->find_all());

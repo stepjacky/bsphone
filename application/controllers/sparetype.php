@@ -38,24 +38,33 @@ class Sparetype extends MY_Controller {
         $this->load->view("apps/footer");
     }
     
-     /**
-      * 新增编辑
-      */
+        /**
+     * 新增编辑
+     */
     public function editNew($id=-1){
-        
-       $data = array(); 
-      
+
+        $data = array();
+
         if($id!=-1){
-           $data = $this->dao->get($id);
-          
+            $data = $this->dao->get($id);
+
         }
         $parents = $this->dao->find_by_root();
         $data['parents'] = $parents;
-        $this->load->view("admin/header");
+        $this->load->view("admin/res-head");
         $this->load->view($this->dao->table()."/editNew",$data);
         $this->load->view("admin/footer");
     }
+    public function list_root(){
+        $data = array();
 
+        $data['datasource'] = $this->dao->find_by_root();
+        $data['pagelink'] = "";
+        //$this->fireLog($data);
+       // $this->load->view("admin/header");
+        $this->load->view("sparetype/list",$data);
+        //$this->load->view("admin/footer");
+    }
 
     
 }   

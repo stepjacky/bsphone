@@ -1,3 +1,18 @@
+$(function(){
+    $("#list").tableDnD({
+        serializeParamName:'sort',
+        onDrop:function(table,row){
+            // data = $('#list').tableDnDSerialize();
+            var data  =  $.tableDnD.serialize();
+            //console.log(data);
+            $.post('/sparetype/sorted',data,function(html){
+                //console.log(html);
+            })
+
+        }
+    });
+})
+
 function newOne(){
   	var url="/sparetype/editNew";
   	window.showModalDialog(url,window);   
@@ -13,4 +28,9 @@ function removeOne(id){
     $.post(url,function(){
         $(that).parent().parent().remove();
     });
+}
+
+function startSort(){
+    var url='/sparetype/list_root'
+    $("#main-panel").load(url);
 }

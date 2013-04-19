@@ -50,8 +50,8 @@ class Picture extends MY_Controller {
            $data = $this->dao->get($id);
           
         }
-        
-        $this->load->view("admin/header");
+
+        $this->load->view("admin/res-head");
         $this->load->view($this->dao->table()."/editNew",$data);
         $this->load->view("admin/footer");
     }

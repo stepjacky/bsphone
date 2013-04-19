@@ -2,9 +2,9 @@ $(function(){
    $("#list").tableDnD({
        serializeParamName:'sort',
        onDrop:function(table,row){
-           var data = $('#list').tableDnDSerialize();
-           data  =  $.tableDnD.serialize();
-           console.log(data);
+           // data = $('#list').tableDnDSerialize();
+           var data  =  $.tableDnD.serialize();
+           //console.log(data);
            $.post('/brand/sorted',data,function(html){
                 console.log(html);
            })
