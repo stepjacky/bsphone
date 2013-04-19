@@ -112,12 +112,12 @@
                             <div>
                                 <p class="new_comment">
                                     <img  src="<?=val($userimg)?>">
-                            <span><em><?=val($username)?></em>
+                            <span><em><?=val($nick)?></em>
                                 <?=val($content)?>
                             </span>
                                 </p>
-                                <p class="style2">发表于：<strong><a href="/artitle/one/<?=val($artid)?>" target="_blank">
-                                    <?=val($artname)?></a></strong></p>
+                                <p class="style2">发表于：<strong><a href="/artitle/one/<?=val($vodid)?>" target="_blank">
+                                    <?=val($vodname)?></a></strong></p>
                             </div>
                         </li>
                         <?php endforeach;?>
