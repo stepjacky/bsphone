@@ -116,8 +116,8 @@
                                 <?=val($content)?>
                             </span>
                                 </p>
-                                <p class="style2">发表于：<strong><a href="/artitle/one/<?=val($vodid)?>" target="_blank">
-                                    <?=val($vodname)?></a></strong></p>
+                                <p class="style2">发表于：<strong><a href="/artitle/one/<?=val($vdoid)?>" target="_blank">
+                                    <?=val($vdoname)?></a></strong></p>
                             </div>
                         </li>
                         <?php endforeach;?>

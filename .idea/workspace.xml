@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c66e97a5-ee7b-49e6-abff-297e3a88525f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/index/artitle.php" afterPath="$PROJECT_DIR$/application/views/index/artitle.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/index/movies.php" afterPath="$PROJECT_DIR$/application/views/index/movies.php" />
     </list>
     <ignored path="bsphone.iws" />
@@ -44,7 +43,7 @@
     <file path="/comment_model.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366306815632" ignored="false" />
     <file path="/MY_Model.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366307431820" ignored="false" />
     <file path="/spare_model.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366307747932" ignored="false" />
-    <file path="/movies.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366350835155" ignored="false" />
+    <file path="/movies.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366350997653" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +75,7 @@
       <file leaf-file-name="movies.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/views/index/movies.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="119" column="71" selection-start="5076" selection-end="5076" vertical-scroll-proportion="0.416309">
+            <state line="119" column="47" selection-start="5052" selection-end="5052" vertical-scroll-proportion="0.416309">
               <folding />
             </state>
           </provider>
@@ -94,7 +93,7 @@
       <file leaf-file-name="comment_model.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/models/comment_model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="103" column="26" selection-start="3200" selection-end="3203" vertical-scroll-proportion="-9.818182">
+            <state line="111" column="0" selection-start="3485" selection-end="3485" vertical-scroll-proportion="-15.636364">
               <folding />
             </state>
           </provider>
@@ -522,7 +521,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="109" y="44" width="1669" height="926" extended-state="1" />
+    <frame x="109" y="44" width="1669" height="926" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -691,14 +690,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/models/comment_model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="103" column="26" selection-start="3200" selection-end="3203" vertical-scroll-proportion="-9.818182">
+        <state line="111" column="0" selection-start="3485" selection-end="3485" vertical-scroll-proportion="-15.636364">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/index/movies.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="119" column="71" selection-start="5076" selection-end="5076" vertical-scroll-proportion="0.416309">
+        <state line="119" column="47" selection-start="5052" selection-end="5052" vertical-scroll-proportion="0.416309">
           <folding />
         </state>
       </provider>
