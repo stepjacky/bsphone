@@ -9,11 +9,8 @@
         <li><a href="#" data-toggle="tab" url="/settings/one/founds" class=" tab-menuitem">VIP页设置</a></li>
         <li><a href="#" data-toggle="tab" url="/fundsrecord/lists" class=" tab-menuitem">基金兑换管理</a></li>
         <li><a href="#" data-toggle="tab" url="/coagent/lists" class=" tab-menuitem">合作社区管理</a></li>
-
-        <!--
-        <li><a href="#" data-toggle="tab" url="/settings/message" class=" tab-menuitem">用户消息管理</a></li>
-
-        -->
+        <li><a href="#" data-toggle="tab" url="/coagent/lists" class=" tab-menuitem">合作社区管理</a></li>
+        <li><a href="#" data-toggle="tab" url="/joinus/editNew" class=" tab-menuitem">加盟合作</a></li>
 
     </ul>
     <div class="tab-content">

@@ -117,7 +117,7 @@ class Phone_model extends Media_Model {
         $SQL="select
               c.id cid
               ,c.firedate firedate
-              ,mu name nick
+              ,mu.name nick
               ,c.guest cuser
               ,c.content ccnt
               ,mu.avatar uatar
