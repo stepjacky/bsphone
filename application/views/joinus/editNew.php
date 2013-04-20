@@ -4,9 +4,10 @@
    <div class="span3">
        <ul id="jtree" class="ztree"></ul>
    </div>
-   <div>
+   <div class="span7" id="mainArea">
 
    </div>
 </div>
-<script type="text/javascript" src="/resources/bootstrap/js/locales/bootstrap-datepicker.zh-CN.js" charset="UTF-8"></script>
+<link rel="stylesheet" href="/resources/zTree/css/zTreeStyle/zTreeStyle.css" type="text/css" />
+<script type="text/javascript" src="/resources/zTree/js/jquery.ztree.core-3.5.js"></script>
 <script type="text/javascript" src="/resources/scripts/joinus/edit.js"></script>

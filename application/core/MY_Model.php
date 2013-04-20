@@ -123,14 +123,14 @@ class MY_Model extends CI_Model
        }
     }
 
-    public function persiste($data,$pk='id'){
+    public function persiste($data,$gen=TRUE,$pk='id'){
         $pk = urldecode($pk);
 
         if(!isset($data[$pk]) || empty($data[$pk])){
             $this->save($data,$pk);
         }else{
            if(!$this->get($data[$pk])){
-               $this->save($data,$pk);
+               $this->save2($data,$gen,$pk);
            }else{
             $this->update($data,$pk);
            }
@@ -146,6 +146,19 @@ class MY_Model extends CI_Model
 
         if($pk=='id')
            $data[$pk]=getGUID();
+
+        $str = $this->db->insert_string($this->table(), $data);
+        $this->firelog($str);
+        $this->db->insert($this->table, $data);
+
+    }
+
+    public function save2($data,$gen=TRUE,$pk='id')
+    {
+
+
+        if($gen)
+            $data[$pk]=getGUID();
 
         $str = $this->db->insert_string($this->table(), $data);
         $this->firelog($str);
