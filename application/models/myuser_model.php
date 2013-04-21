@@ -138,7 +138,8 @@ class Myuser_model extends Media_Model {
         $this->db->select('id');
         $this->db->where('acted',false);
         $this->db->where('activecode',$code);
-        $user =  $this->db->get($this->table());
+        $query = $this->db->get($this->table());
+        $user =  $query->first_row('array');
         if(count($user)!=0){
             $data = array(
                 "id"=>$user['id'],

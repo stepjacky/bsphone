@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c66e97a5-ee7b-49e6-abff-297e3a88525f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/myuser.php" afterPath="$PROJECT_DIR$/application/controllers/myuser.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/welcome.php" afterPath="$PROJECT_DIR$/application/controllers/welcome.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/myuser_model.php" afterPath="$PROJECT_DIR$/application/models/myuser_model.php" />
     </list>
     <ignored path="bsphone.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -56,7 +55,7 @@
     <file path="/show.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366472342275" ignored="false" />
     <file path="/email.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366549185058" ignored="false" />
     <file path="/myuser.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366549441978" ignored="false" />
-    <file path="/myuser_model.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366550549110" ignored="false" />
+    <file path="/myuser_model.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366551597104" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,19 +75,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="myuser.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="myuser.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/controllers/myuser.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="147" column="31" selection-start="4615" selection-end="4615" vertical-scroll-proportion="0.75965667">
+            <state line="147" column="31" selection-start="4615" selection-end="4615" vertical-scroll-proportion="-16.09091">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="myuser_model.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="myuser_model.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/models/myuser_model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="5" selection-start="1919" selection-end="1919" vertical-scroll-proportion="-13.181818">
+            <state line="142" column="28" selection-start="4394" selection-end="4394" vertical-scroll-proportion="0.5193133">
               <folding />
             </state>
           </provider>
@@ -143,9 +142,9 @@
         <option value="$PROJECT_DIR$/application/controllers/joinus.php" />
         <option value="$PROJECT_DIR$/application/config/email.php" />
         <option value="$PROJECT_DIR$/application/core/MY_Model.php" />
-        <option value="$PROJECT_DIR$/application/models/myuser_model.php" />
         <option value="$PROJECT_DIR$/application/controllers/welcome.php" />
         <option value="$PROJECT_DIR$/application/controllers/myuser.php" />
+        <option value="$PROJECT_DIR$/application/models/myuser_model.php" />
       </list>
     </option>
   </component>
@@ -358,7 +357,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="98" y="44" width="1675" height="926" extended-state="0" />
+    <frame x="98" y="44" width="1675" height="926" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -512,13 +511,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/myuser_model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="5" selection-start="1919" selection-end="1919" vertical-scroll-proportion="-13.181818">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/welcome.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="300" column="55" selection-start="7967" selection-end="8340" vertical-scroll-proportion="-15.272727">
@@ -528,7 +520,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/myuser.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="147" column="31" selection-start="4615" selection-end="4615" vertical-scroll-proportion="0.75965667">
+        <state line="147" column="31" selection-start="4615" selection-end="4615" vertical-scroll-proportion="-16.09091">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/myuser_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="142" column="28" selection-start="4394" selection-end="4394" vertical-scroll-proportion="0.5193133">
           <folding />
         </state>
       </provider>
