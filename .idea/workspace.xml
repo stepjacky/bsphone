@@ -2,19 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c66e97a5-ee7b-49e6-abff-297e3a88525f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/joinus/one.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/joinus/show.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/core/MY_Model.php" afterPath="$PROJECT_DIR$/application/core/MY_Model.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/artitle.php" afterPath="$PROJECT_DIR$/application/controllers/artitle.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/scripts/joinus/edit.js" afterPath="$PROJECT_DIR$/resources/scripts/joinus/edit.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/joinus/editNew.php" afterPath="$PROJECT_DIR$/application/views/joinus/editNew.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/admin/index.php" afterPath="$PROJECT_DIR$/application/views/admin/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/joinus.php" afterPath="$PROJECT_DIR$/application/controllers/joinus.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/config/email.php" afterPath="$PROJECT_DIR$/application/config/email.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/myuser.php" afterPath="$PROJECT_DIR$/application/controllers/myuser.php" />
     </list>
     <ignored path="bsphone.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366461358111" ignored="false" />
+    <file path="/Dummy.txt" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366547928272" ignored="false" />
     <file path="/admin.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1365742287170" ignored="false" />
     <file path="/MY_Controller.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366378781825" ignored="false" />
     <file path="/header.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1365742849372" ignored="false" />
@@ -61,6 +54,8 @@
     <file path="/joinus_model.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366393692645" ignored="false" />
     <file path="/advantage.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366394681596" ignored="false" />
     <file path="/show.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366472342275" ignored="false" />
+    <file path="/email.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366549185058" ignored="false" />
+    <file path="/myuser.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366549441978" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +74,17 @@
     <favorites_list name="bsphone" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="myuser.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/controllers/myuser.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="181" column="9" selection-start="5656" selection-end="5656" vertical-scroll-proportion="0.6523605">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -97,8 +102,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/application/views/joinus/cost.php" />
-        <option value="$PROJECT_DIR$/application/views/joinus/desc.php" />
         <option value="$PROJECT_DIR$/application/views/joinus/new.php" />
         <option value="$PROJECT_DIR$/application/views/joinus/process.php" />
         <option value="$PROJECT_DIR$/application/views/joinus/project.php" />
@@ -113,6 +116,8 @@
         <option value="$PROJECT_DIR$/application/views/joinus/one.php" />
         <option value="$PROJECT_DIR$/application/core/MY_Model.php" />
         <option value="$PROJECT_DIR$/application/controllers/joinus.php" />
+        <option value="$PROJECT_DIR$/application/config/email.php" />
+        <option value="$PROJECT_DIR$/application/controllers/myuser.php" />
       </list>
     </option>
   </component>
@@ -154,7 +159,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -233,30 +237,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bsphone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bsphone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
+              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -273,20 +260,21 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="177" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="1080" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="1076" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="1080" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="173" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="170" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="FullScreen" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\webroot\bsphone\application\config" />
       <recent name="G:\webroot\bsphone\application\views" />
       <recent name="G:\webroot\bsphone\application\models" />
     </key>
@@ -343,13 +331,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="98" y="44" width="1675" height="926" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24984385" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1910392" sideWeight="0.9986894" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19352831" sideWeight="0.9986894" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32979387" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -425,16 +413,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/views/joinus/project.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="38" selection-start="437" selection-end="437" vertical-scroll-proportion="-7.2727275" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/joinus/question.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="38" selection-start="437" selection-end="437" vertical-scroll-proportion="-7.2727275" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/joinus/winning.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="4" selection-start="248" selection-end="248" vertical-scroll-proportion="0.24034335" />
@@ -442,23 +420,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/settings/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="351" selection-end="351" vertical-scroll-proportion="0.37768242">
-          <folding />
-        </state>
+        <state line="11" column="0" selection-start="351" selection-end="351" vertical-scroll-proportion="0.37768242" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/models/phone_model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="39" selection-start="1115" selection-end="1115" vertical-scroll-proportion="-0.9170243">
-          <folding />
-        </state>
+        <state line="26" column="39" selection-start="1115" selection-end="1115" vertical-scroll-proportion="-0.9170243" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/artitle.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="75" selection-start="2054" selection-end="2121" vertical-scroll-proportion="0.6523605">
-          <folding />
-        </state>
+        <state line="61" column="75" selection-start="2054" selection-end="2121" vertical-scroll-proportion="0.6523605" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/core/MY_Controller.php">
@@ -470,68 +442,59 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/admin/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="14" selection-start="1156" selection-end="1156" vertical-scroll-proportion="0.583691">
-          <folding />
-        </state>
+        <state line="17" column="14" selection-start="1156" selection-end="1156" vertical-scroll-proportion="0.583691" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/libraries/Create_ckeditor.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="58" selection-start="1085" selection-end="1091" vertical-scroll-proportion="-11.636364">
-          <folding />
-        </state>
+        <state line="25" column="58" selection-start="1085" selection-end="1091" vertical-scroll-proportion="-11.636364" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/scripts/joinus/edit.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="24" selection-start="1867" selection-end="1867" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1366472211690" expanded="false" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
+        <state line="68" column="24" selection-start="1867" selection-end="1867" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/joinus/show.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="6" selection-start="89" selection-end="89" vertical-scroll-proportion="-1.4545455">
-          <folding />
-        </state>
+        <state line="2" column="6" selection-start="89" selection-end="89" vertical-scroll-proportion="-1.4545455" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/joinus/editNew.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="20" selection-start="213" selection-end="213" vertical-scroll-proportion="-4.3636365">
-          <folding />
-        </state>
+        <state line="6" column="20" selection-start="213" selection-end="213" vertical-scroll-proportion="-4.3636365" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/joinus/one.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="22" selection-start="281" selection-end="281" vertical-scroll-proportion="-9.454545">
-          <folding>
-            <marker date="1366472418649" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1366472418649" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
-        </state>
+        <state line="13" column="22" selection-start="281" selection-end="281" vertical-scroll-proportion="-9.454545" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/models/joinus_model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="31" selection-start="1106" selection-end="1106" vertical-scroll-proportion="-11.666667">
-          <folding />
-        </state>
+        <state line="26" column="31" selection-start="1106" selection-end="1106" vertical-scroll-proportion="-11.666667" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/core/MY_Model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="132" column="39" selection-start="4072" selection-end="4072" vertical-scroll-proportion="-10.545455">
-          <folding />
-        </state>
+        <state line="132" column="39" selection-start="4072" selection-end="4072" vertical-scroll-proportion="-10.545455" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/joinus.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="92" column="41" selection-start="2106" selection-end="2106" vertical-scroll-proportion="0.51502144">
+        <state line="92" column="41" selection-start="2106" selection-end="2106" vertical-scroll-proportion="0.51502144" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/config/email.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="30" selection-start="468" selection-end="468" vertical-scroll-proportion="0.5493562">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/myuser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="181" column="9" selection-start="5656" selection-end="5656" vertical-scroll-proportion="0.6523605">
           <folding />
         </state>
       </provider>

@@ -172,7 +172,7 @@ class Myuser extends MY_Controller {
     }
 
     public function active($code){
-        $rst  =  $this->dao->actvie($code);
+        $rst  =  $this->dao->active($code);
         $data = array('flag'=>'index');
         $this->__user_header($data);
         if(!$rst){
