@@ -163,15 +163,17 @@ class Myuser extends MY_Controller {
                 $this->load->view('myuser/bademail');
             }else{
                 $rpasscode = getGUID();
+                $tomorrow  = date("Y-m-d", mktime(0, 0, 0, date("m")  , date("d")+3, date("Y")));
                 $data = array(
                     'id'=>$email,
-                    'resetpasscode'=>$rpasscode
+                    'resetpasscode'=>$rpasscode,
+                    'codeenpire'=>$tomorrow
                 );
                 $this->dao->update($data);
                 $this->email->from('xxxxfox@163.com', 'BE数码通讯');
                 $this->email->to($email);
                 $this->email->subject('BE数码通讯用户密码重置邮件，请勿回复');
-                $message = $this->load->view('index/common/regetpassword',array('code'=>$rpasscode),true);
+                $message = $this->load->view('index/common/regetpassword',array('code'=>$rpasscode,'id'=>$email),true);
                 $this->email->message($message);
                 $this->email->send();
                 $cdata =  $this->_before_open_login('重置密码邮件已发送到'.$email.',请点击链接修改');
@@ -187,6 +189,10 @@ class Myuser extends MY_Controller {
         }
 
 
+    }
+
+    public function resetpass($code,$id){
+        //reset pass
     }
 
     public function active($code){

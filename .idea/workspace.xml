@@ -2,18 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c66e97a5-ee7b-49e6-abff-297e3a88525f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/application/views/index/common/regetpassword.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/myuser/list.php" afterPath="$PROJECT_DIR$/application/views/myuser/list.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/myuser.php" afterPath="$PROJECT_DIR$/application/controllers/myuser.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/myuser_model.php" afterPath="$PROJECT_DIR$/application/models/myuser_model.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/index/openlogin.php" afterPath="$PROJECT_DIR$/application/views/index/openlogin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/porder_model.php" afterPath="$PROJECT_DIR$/application/models/porder_model.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/profile.php" afterPath="$PROJECT_DIR$/application/controllers/profile.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/index/common/regetpassword.php" afterPath="$PROJECT_DIR$/application/views/index/common/regetpassword.php" />
     </list>
     <ignored path="bsphone.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366547928272" ignored="false" />
+    <file path="/Dummy.txt" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366559207633" ignored="false" />
     <file path="/admin.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1365742287170" ignored="false" />
     <file path="/MY_Controller.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366552063376" ignored="false" />
     <file path="/header.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1365742849372" ignored="false" />
@@ -61,11 +55,11 @@
     <file path="/advantage.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366394681596" ignored="false" />
     <file path="/show.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366472342275" ignored="false" />
     <file path="/email.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366549185058" ignored="false" />
-    <file path="/myuser.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366558828899" ignored="false" />
+    <file path="/myuser.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366559549068" ignored="false" />
     <file path="/myuser_model.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366551597104" ignored="false" />
     <file path="/profile.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366556160974" ignored="false" />
     <file path="/openlogin.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366557084221" ignored="false" />
-    <file path="/regetpassword.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366558910808" ignored="false" />
+    <file path="/regetpassword.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366559508716" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +82,7 @@
       <file leaf-file-name="myuser.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/controllers/myuser.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="169" column="42" selection-start="5247" selection-end="5247" vertical-scroll-proportion="0.34763947">
+            <state line="194" column="20" selection-start="6208" selection-end="6208" vertical-scroll-proportion="0.7253219">
               <folding />
             </state>
           </provider>
@@ -97,7 +91,7 @@
       <file leaf-file-name="regetpassword.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/index/common/regetpassword.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="44" selection-start="621" selection-end="621" vertical-scroll-proportion="-10.181818">
+            <state line="15" column="121" selection-start="743" selection-end="743" vertical-scroll-proportion="-10.909091">
               <folding />
             </state>
           </provider>
@@ -106,7 +100,7 @@
       <file leaf-file-name="active-message.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/index/common/active-message.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="6" selection-start="0" selection-end="786" vertical-scroll-proportion="-2.909091">
+            <state line="4" column="6" selection-start="0" selection-end="786" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -115,7 +109,7 @@
       <file leaf-file-name="MY_Controller.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/core/MY_Controller.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="20" selection-start="293" selection-end="293" vertical-scroll-proportion="-9.454545">
+            <state line="13" column="20" selection-start="293" selection-end="293" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -124,7 +118,7 @@
       <file leaf-file-name="myuser_model.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/models/myuser_model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="137" column="32" selection-start="4181" selection-end="4181" vertical-scroll-proportion="-56.81818">
+            <state line="137" column="32" selection-start="4181" selection-end="4181" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -162,8 +156,8 @@
         <option value="$PROJECT_DIR$/application/controllers/profile.php" />
         <option value="$PROJECT_DIR$/application/views/index/openlogin.php" />
         <option value="$PROJECT_DIR$/application/models/myuser_model.php" />
-        <option value="$PROJECT_DIR$/application/controllers/myuser.php" />
         <option value="$PROJECT_DIR$/application/views/index/common/regetpassword.php" />
+        <option value="$PROJECT_DIR$/application/controllers/myuser.php" />
       </list>
     </option>
   </component>
@@ -205,6 +199,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -333,7 +328,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -350,17 +344,17 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="177" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="1076" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="1080" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="1076" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="173" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="170" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="FullScreen" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -427,7 +421,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24984385" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1931677" sideWeight="0.9986894" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17329192" sideWeight="0.9986894" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32979387" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -515,51 +509,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/config/email.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="30" selection-start="468" selection-end="468" vertical-scroll-proportion="0.5493562">
-          <folding />
-        </state>
+        <state line="16" column="30" selection-start="468" selection-end="468" vertical-scroll-proportion="0.5493562" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/welcome.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="285" column="0" selection-start="7944" selection-end="7944" vertical-scroll-proportion="0.3090129">
-          <folding />
-        </state>
+        <state line="285" column="0" selection-start="7944" selection-end="7944" vertical-scroll-proportion="0.3090129" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/core/MY_Model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="24" selection-start="1868" selection-end="1868" vertical-scroll-proportion="1.0357654">
-          <folding />
-        </state>
+        <state line="64" column="24" selection-start="1868" selection-end="1868" vertical-scroll-proportion="1.0357654" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/models/porder_model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="27" selection-start="1965" selection-end="1965" vertical-scroll-proportion="0.51502144">
-          <folding />
-        </state>
+        <state line="60" column="27" selection-start="1965" selection-end="1965" vertical-scroll-proportion="0.51502144" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/myuser/list.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="0" selection-start="604" selection-end="604" vertical-scroll-proportion="0.583691">
-          <folding />
-        </state>
+        <state line="17" column="0" selection-start="604" selection-end="604" vertical-scroll-proportion="0.583691" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/profile.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="27" selection-start="1809" selection-end="1809" vertical-scroll-proportion="1.3776824">
-          <folding />
-        </state>
+        <state line="62" column="27" selection-start="1809" selection-end="1809" vertical-scroll-proportion="1.3776824" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/index/openlogin.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="21" selection-start="597" selection-end="597" vertical-scroll-proportion="0.583691">
-          <folding />
-        </state>
+        <state line="17" column="21" selection-start="597" selection-end="597" vertical-scroll-proportion="0.583691" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/system/helpers/email_helper.php">
@@ -571,42 +551,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/system/libraries/Form_validation.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="166" column="31" selection-start="4245" selection-end="4245" vertical-scroll-proportion="0.55976677">
-          <folding />
-        </state>
+        <state line="166" column="31" selection-start="4245" selection-end="4245" vertical-scroll-proportion="0.55976677" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/models/myuser_model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="137" column="32" selection-start="4181" selection-end="4181" vertical-scroll-proportion="-56.81818">
+        <state line="137" column="32" selection-start="4181" selection-end="4181" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/core/MY_Controller.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="20" selection-start="293" selection-end="293" vertical-scroll-proportion="-9.454545">
+        <state line="13" column="20" selection-start="293" selection-end="293" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/index/common/active-message.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="6" selection-start="0" selection-end="786" vertical-scroll-proportion="-2.909091">
+        <state line="4" column="6" selection-start="0" selection-end="786" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/index/common/regetpassword.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="44" selection-start="621" selection-end="621" vertical-scroll-proportion="-10.181818">
+        <state line="15" column="121" selection-start="743" selection-end="743" vertical-scroll-proportion="-10.909091">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/myuser.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="169" column="42" selection-start="5247" selection-end="5247" vertical-scroll-proportion="0.34763947">
+        <state line="194" column="20" selection-start="6208" selection-end="6208" vertical-scroll-proportion="0.7253219">
           <folding />
         </state>
       </provider>
