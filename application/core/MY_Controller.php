@@ -171,6 +171,25 @@ class MY_Controller extends CI_Controller
         redirect($refer.$lc.'info='.$msg);
     }
 
+    protected function  _before_open_login($info=FALSE){
+        $refer = $this->agent->referrer();
+        $refer = $refer==''?'/':$refer;
+        $this->load->library('sina');
+        $state=getGUID();
+
+        $data = array(
+            "flag" => "index",
+            'sina' =>$this->sina->sinaAuthUrl($state),
+            'from' =>$refer
+        );
+
+        $data['info']= !$info?'':$info;
+        $this->nsession->set_userdata('lstate',$state);
+        return $data;
+    }
+
+
+
     protected  function __sessing($key){
         return $this->nsession->userdata($key);
     }

@@ -89,7 +89,9 @@ class Myuser extends MY_Controller {
                 $this->fireLog($from);
                 redirect($from);
             }else{
-                $data['info']='用户未激活,登陆'.$rst['id'].'点击激活链接激活用户';
+
+                $data =  $this->_before_open_login('用户未激活,登陆'.$rst['id'].'点击激活链接激活用户');
+                $this->_before_open_login($rst['id']);
                 $this->load->view('index/openlogin',$data);
                 $this->load->view('apps/footer');
             }
@@ -136,19 +138,9 @@ class Myuser extends MY_Controller {
             $this->email->message($message);
             $this->email->send();
 
-            $refer = $this->agent->referrer();
-            $refer = $refer==''?'/':$refer;
-            $this->load->library('sina');
-            $state=getGUID();
 
-            $data = array(
-                "flag" => "index",
-                'info' => '恭喜!注册成功，激活邮件已发送,请先登陆邮箱'.$id.'激活用户,再登陆',
-                'sina' =>$this->sina->sinaAuthUrl($state),
-                'from' =>$refer
-            );
-            $this->nsession->set_userdata('lstate',$state);
-
+            $cdata =  $this->_before_open_login('注册成功,请登录'.$rst['id'].'点击激活链接激活');
+            $data = array_merge($data,$cdata);
             $this->load->view('index/openlogin',$data);
         }
         $this->load->view('apps/footer');
@@ -166,12 +158,14 @@ class Myuser extends MY_Controller {
             if(!$user){
                 $this->load->view('myuser/bademail');
             }else{
-                $this->email->from('xxxxfox@163.com', '测试BE电子商务');
+                $this->email->from('xxxxfox@163.com', 'BE数码通讯');
                 $this->email->to($email);
                 $this->email->subject('BE数码通讯用户密码重置邮件，请勿回复');
                 $message = $this->load->view('index/common/regetpassword',array('code'=>''),true);
                 $this->email->message($message);
                 $this->email->send();
+                $cdata =  $this->_before_open_login('重置密码邮件已发送到'.$email.',请点击链接修改');
+                $data = array_merge($data,$cdata);
                 $this->load->view('index/openlogin',$data);
                 $this->load->view('myuser/mailsent',$data);
             }
@@ -195,6 +189,8 @@ class Myuser extends MY_Controller {
             $data['info']='恭喜，用户已经激活';
         }
 
+        $cdata =  $this->_before_open_login($data['info']);
+        $data = array_merge($data,$cdata);
         $this->load->view('index/openlogin',$data);
         $this->load->view('apps/footer');
     }

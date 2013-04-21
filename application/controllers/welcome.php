@@ -281,24 +281,13 @@ class Welcome extends MY_Controller
 
 
 
-    public function openlogin($url='/',$odata=array())
+    public function openlogin($url='/')
     {
 
-        $refer = $this->agent->referrer();
-        $refer = $refer==''?'/':$refer;
-        $this->load->library('sina');
-        $state=getGUID();
-
-        $data = array(
-            "flag" => "index",
-            'info' => '',
-            'sina' =>$this->sina->sinaAuthUrl($state),
-            'from' =>$refer
-        );
 
 
+        $data =  $this->_before_open_login();
 
-        $this->nsession->set_userdata('lstate',$state);
         $this->__user_header($data);
 
         $this->load->view("index/openlogin");
