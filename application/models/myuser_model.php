@@ -142,8 +142,9 @@ class Myuser_model extends Media_Model {
                 'acted'=>true
             );
             $this->update($data);
+            return TRUE;
         }
-        return count($user)!=0;
+        return FALSE;
     }
 
 

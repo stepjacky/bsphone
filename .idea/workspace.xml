@@ -55,7 +55,7 @@
     <file path="/show.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366472342275" ignored="false" />
     <file path="/email.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366549185058" ignored="false" />
     <file path="/myuser.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366549441978" ignored="false" />
-    <file path="/myuser_model.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366549826100" ignored="false" />
+    <file path="/myuser_model.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366549882666" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +87,7 @@
       <file leaf-file-name="myuser_model.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/models/myuser_model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="143" column="33" selection-start="4443" selection-end="4443" vertical-scroll-proportion="0.8927039">
+            <state line="138" column="28" selection-start="4302" selection-end="4302" vertical-scroll-proportion="0.6180258">
               <folding />
             </state>
           </provider>
@@ -525,7 +525,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/models/myuser_model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="143" column="33" selection-start="4443" selection-end="4443" vertical-scroll-proportion="0.8927039">
+        <state line="138" column="28" selection-start="4302" selection-end="4302" vertical-scroll-proportion="0.6180258">
           <folding />
         </state>
       </provider>
