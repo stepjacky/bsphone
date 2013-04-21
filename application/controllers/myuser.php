@@ -127,7 +127,7 @@ class Myuser extends MY_Controller {
             $this->load->view('index/register',$data);
 
         }else{
-            $data['info'] = '恭喜!注册成功，激活邮件已发送,请先登陆邮箱'.$id.'激活用户,再登陆';
+
             $this->load->library('email');
             $this->email->from('xxxxfox@163.com', '测试BE电子商务');
             $this->email->to($id);
@@ -135,6 +135,20 @@ class Myuser extends MY_Controller {
             $message = $this->load->view('index/common/active-message',array('code'=>$activecode),true);
             $this->email->message($message);
             $this->email->send();
+
+            $refer = $this->agent->referrer();
+            $refer = $refer==''?'/':$refer;
+            $this->load->library('sina');
+            $state=getGUID();
+
+            $data = array(
+                "flag" => "index",
+                'info' => '恭喜!注册成功，激活邮件已发送,请先登陆邮箱'.$id.'激活用户,再登陆',
+                'sina' =>$this->sina->sinaAuthUrl($state),
+                'from' =>$refer
+            );
+            $this->nsession->set_userdata('lstate',$state);
+
             $this->load->view('index/openlogin',$data);
         }
         $this->load->view('apps/footer');

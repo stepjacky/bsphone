@@ -281,7 +281,7 @@ class Welcome extends MY_Controller
 
 
 
-    public function openlogin($url='/')
+    public function openlogin($url='/',$odata=array())
     {
 
         $refer = $this->agent->referrer();
@@ -295,6 +295,7 @@ class Welcome extends MY_Controller
             'sina' =>$this->sina->sinaAuthUrl($state),
             'from' =>$refer
         );
+
 
 
         $this->nsession->set_userdata('lstate',$state);

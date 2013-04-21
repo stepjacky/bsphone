@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c66e97a5-ee7b-49e6-abff-297e3a88525f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/core/MY_Model.php" afterPath="$PROJECT_DIR$/application/core/MY_Model.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/myuser_model.php" afterPath="$PROJECT_DIR$/application/models/myuser_model.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/myuser.php" afterPath="$PROJECT_DIR$/application/controllers/myuser.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/welcome.php" afterPath="$PROJECT_DIR$/application/controllers/welcome.php" />
     </list>
     <ignored path="bsphone.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,7 +38,7 @@
     <file path="/sharedinfo_model.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366297401820" ignored="false" />
     <file path="/index.js" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366299660846" ignored="false" />
     <file path="/editNew.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366468839262" ignored="false" />
-    <file path="/welcome.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366301679378" ignored="false" />
+    <file path="/welcome.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366551308246" ignored="false" />
     <file path="/product.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366306065748" ignored="false" />
     <file path="/flexslider.css" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366306416040" ignored="false" />
     <file path="/comment_model.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366306815632" ignored="false" />
@@ -76,19 +76,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="myuser.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="myuser.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/controllers/myuser.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="118" column="32" selection-start="3588" selection-end="3588" vertical-scroll-proportion="-5.090909">
+            <state line="147" column="31" selection-start="4615" selection-end="4615" vertical-scroll-proportion="0.75965667">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="myuser_model.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="myuser_model.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/models/myuser_model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="5" selection-start="1919" selection-end="1919" vertical-scroll-proportion="0.6223176">
+            <state line="55" column="5" selection-start="1919" selection-end="1919" vertical-scroll-proportion="-13.181818">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="welcome.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/controllers/welcome.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="300" column="55" selection-start="7967" selection-end="8340" vertical-scroll-proportion="-15.272727">
               <folding />
             </state>
           </provider>
@@ -121,7 +130,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/application/views/joinus/process.php" />
         <option value="$PROJECT_DIR$/application/views/joinus/project.php" />
         <option value="$PROJECT_DIR$/application/views/joinus/question.php" />
         <option value="$PROJECT_DIR$/application/views/joinus/winning.php" />
@@ -134,9 +142,10 @@
         <option value="$PROJECT_DIR$/application/views/joinus/one.php" />
         <option value="$PROJECT_DIR$/application/controllers/joinus.php" />
         <option value="$PROJECT_DIR$/application/config/email.php" />
-        <option value="$PROJECT_DIR$/application/controllers/myuser.php" />
         <option value="$PROJECT_DIR$/application/core/MY_Model.php" />
         <option value="$PROJECT_DIR$/application/models/myuser_model.php" />
+        <option value="$PROJECT_DIR$/application/controllers/welcome.php" />
+        <option value="$PROJECT_DIR$/application/controllers/myuser.php" />
       </list>
     </option>
   </component>
@@ -256,7 +265,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
+              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -349,7 +358,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="98" y="44" width="1675" height="926" extended-state="1" />
+    <frame x="98" y="44" width="1675" height="926" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -432,11 +441,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/views/settings/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="351" selection-end="351" vertical-scroll-proportion="0.37768242" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/models/phone_model.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="39" selection-start="1115" selection-end="1115" vertical-scroll-proportion="-0.9170243" />
@@ -501,13 +505,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/myuser.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="118" column="32" selection-start="3588" selection-end="3588" vertical-scroll-proportion="-5.090909">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/core/MY_Model.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="236" column="0" selection-start="6676" selection-end="6676" vertical-scroll-proportion="-13.212121">
@@ -517,7 +514,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/models/myuser_model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="5" selection-start="1919" selection-end="1919" vertical-scroll-proportion="0.6223176">
+        <state line="55" column="5" selection-start="1919" selection-end="1919" vertical-scroll-proportion="-13.181818">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/welcome.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="300" column="55" selection-start="7967" selection-end="8340" vertical-scroll-proportion="-15.272727">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/myuser.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="147" column="31" selection-start="4615" selection-end="4615" vertical-scroll-proportion="0.75965667">
           <folding />
         </state>
       </provider>
