@@ -93,7 +93,7 @@ class Myuser_model extends Media_Model {
     public function find_by_email($email){
         if(!$this->__valid($email))return FALSE;
         $this->db->select('id,name,password');
-        $this->db->where('email',$email);
+        $this->db->where('id',$email);
         $query = $this->db->get($this->table());
         $user = $query->first_row('array');
         return $user;

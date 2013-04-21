@@ -3,10 +3,19 @@
 <table id="list" class="table table-striped table-bordered table-hover">
         <thead>
         <tr>
-          <th colspan="14">
+          <th >
             <button type="button" class="btn btn-info" onclick="newOne();">
              <i class="icon-plus"></i>新增用户
             </button>
+          </th>
+          <th colspan="7">
+              <label class="label label-success">
+                  激活
+              </label>
+              <label class="label label-warning">
+                  待激活
+              </label>
+
           </th>
         </tr>
         <tr>
@@ -19,15 +28,13 @@
                 <th>用户类型</th>
 
                          
-                <th>手机型号</th> 
-                         
+                <th>手机型号</th>
+
                 <th>基金</th>
                          
-                <th>VIP编号</th> 
-                         
-                <th>男性</th>
+                <th>VIP编号</th>
 
-                <th>QQ号</th> 
+
                          
             <th>管理</th>
         </tr>
@@ -35,7 +42,8 @@
         <tbody>
 
             <?php foreach($datasource as $bean):?>
-           <tr>
+           <tr class="<?=$bean['acted']?'success':'error'?>"
+               >
                 <td>
               <?=$bean['id']?>
             </td>  
@@ -65,17 +73,8 @@
 
                 <td>
               <?=$bean['vipid']?>               
-            </td>  
-                      
-                <td>
-              <?=$bean['maled']?>               
-            </td>  
-                      
+            </td>
 
-                      
-                <td>
-              <?=$bean['qq']?>               
-            </td>  
                       
            <td>
              <button class="btn btn-success" type="button" onclick="editOne('<?=urlencode($bean['id'])?>');">

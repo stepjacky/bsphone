@@ -28,16 +28,17 @@ class Myuser extends MY_Controller {
      
     public  function __construct(){
         parent::__construct("Myuser_model");
-
+        $this->load->library('email');
 
     }
 
     public function index(){
+
         $data = array();
-        
         $this->load->view("apps/header");
         $this->load->view("myuser/index",$data);
         $this->load->view("apps/footer");
+
     }
     
      /**
@@ -78,6 +79,7 @@ class Myuser extends MY_Controller {
 
         $id = urldecode($id);
         $rst = $this->dao->login($id,$password);
+
         if(!$rst){
             $data['info']='用户名或者密码错误';
             $this->load->view('index/openlogin',$data);
@@ -86,8 +88,9 @@ class Myuser extends MY_Controller {
             if($rst['acted']){
                 $this->nsession->set_userdata('user', $rst);
                 $from = $this->_post('from');
-                $this->fireLog($from);
-                redirect($from);
+                //$this->fireLog($from);
+
+                redirect(isset($from)?$from:'/');
             }else{
 
                 $data =  $this->_before_open_login('用户未激活,登陆'.$rst['id'].'点击激活链接激活用户');
@@ -148,20 +151,27 @@ class Myuser extends MY_Controller {
     }
 
     public function rgetpass(){
-        $email = urldecode($this->_post('email'));
-
+        $this->load->helper('email');
+        $email = urldecode($this->_get('email'));
         $data = array('email'=>$email);
         $this->__user_header($data);
+        $this->fireLog($email);
         if (valid_email($email))
         {
             $user = $this->dao->find_by_email($email);
             if(!$user){
                 $this->load->view('myuser/bademail');
             }else{
+                $rpasscode = getGUID();
+                $data = array(
+                    'id'=>$email,
+                    'resetpasscode'=>$rpasscode
+                );
+                $this->dao->update($data);
                 $this->email->from('xxxxfox@163.com', 'BE数码通讯');
                 $this->email->to($email);
                 $this->email->subject('BE数码通讯用户密码重置邮件，请勿回复');
-                $message = $this->load->view('index/common/regetpassword',array('code'=>''),true);
+                $message = $this->load->view('index/common/regetpassword',array('code'=>$rpasscode),true);
                 $this->email->message($message);
                 $this->email->send();
                 $cdata =  $this->_before_open_login('重置密码邮件已发送到'.$email.',请点击链接修改');

@@ -66,6 +66,7 @@ class Profile extends MY_Controller {
 
         $data['data'] =  $this->ordDao->find_my_porder($page);
 
+        $this->fireLog($data);
         $this->__user_header($data);
         $this->load->view("profile/header",$data);
         $this->load->view("profile/myorder",$data);

@@ -8,7 +8,7 @@
             </a></span></div>
         <form action='/myuser/login' method="post">
 
-           <input type='hidden' name='from'  value='<?=$from?>'  />
+           <input type='hidden' name='from'  value='<?=isset($from)?$from:'/'?>'  />
         <div class="login_pop_l">
             <dl>
                 <dt>E-MAIL：</dt>

@@ -58,7 +58,7 @@ class Porder_model extends Media_Model {
 
         $where = "myuser_username='".$user['id']."'";
 
-        $data = $this->query_paged($page,$rows,'/profile/index/myorder',array("firedate"=>"desc"),$where);
+        $data = $this->query_paged($page,$rows,'/profile/myorder',array("firedate"=>"desc"),$where);
 
         return $data;
 
