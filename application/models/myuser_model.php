@@ -36,7 +36,7 @@ class Myuser_model extends Media_Model {
 
         $id = urldecode($id);
         $this->firelog($id);
-        $sql="update qqnickname set amount=amount-1 where name='".$id."' and amount>1";
+        $sql="delete from  qqnickname where name='".$id."' and amount>1";
         $this->db->trans_start();
         $this->db->query($sql);
         $this->db->delete("shipaddress",array('myuser_username'=>$id));
@@ -116,9 +116,11 @@ class Myuser_model extends Media_Model {
 
 
        $email = urldecode($email);
+
        $this->db->where('id',$email);
        $this->db->from($this->table());
        $count =  $this->db->count_all_results();
+       $this->firelog($count);
        if($count!=0)return FALSE;
        $data = array(
            'id'=>$email,
@@ -128,6 +130,7 @@ class Myuser_model extends Media_Model {
        );
        $this->save($data);
        $rst = $this->get($email);
+       $this->firelog($rst);
        return $rst;
     }
 

@@ -228,7 +228,7 @@ class MY_Model extends CI_Model
 
     public function get($id,$pk='id'){
 
-        //$this->firelog($id);
+        $this->firelog($id);
         $id = urldecode($id);
         $query = $this->db->get_where($this->table(), array($pk => $id));
         $bean =  $query->first_row('array');
