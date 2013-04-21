@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c66e97a5-ee7b-49e6-abff-297e3a88525f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/core/MY_Controller.php" afterPath="$PROJECT_DIR$/application/core/MY_Controller.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/myuser.php" afterPath="$PROJECT_DIR$/application/controllers/myuser.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/welcome.php" afterPath="$PROJECT_DIR$/application/controllers/welcome.php" />
     </list>
     <ignored path="bsphone.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -56,7 +54,7 @@
     <file path="/advantage.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366394681596" ignored="false" />
     <file path="/show.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366472342275" ignored="false" />
     <file path="/email.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366549185058" ignored="false" />
-    <file path="/myuser.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366552759472" ignored="false" />
+    <file path="/myuser.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366553421978" ignored="false" />
     <file path="/myuser_model.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366551597104" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -77,19 +75,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="myuser.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="myuser.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/controllers/myuser.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="191" column="31" selection-start="5965" selection-end="5965" vertical-scroll-proportion="-10.272727">
+            <state line="185" column="0" selection-start="5763" selection-end="5763" vertical-scroll-proportion="0.34763947">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MY_Controller.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="MY_Controller.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/core/MY_Controller.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="188" column="5" selection-start="4928" selection-end="4928" vertical-scroll-proportion="0.6423462">
+            <state line="188" column="5" selection-start="4928" selection-end="4928" vertical-scroll-proportion="-61.60606">
               <folding />
             </state>
           </provider>
@@ -107,7 +105,7 @@
       <file leaf-file-name="welcome.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/controllers/welcome.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="288" column="33" selection-start="7953" selection-end="7992" vertical-scroll-proportion="-8.727273">
+            <state line="285" column="0" selection-start="7944" selection-end="7944" vertical-scroll-proportion="-6.5454545">
               <folding />
             </state>
           </provider>
@@ -515,6 +513,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/application/core/MY_Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="188" column="5" selection-start="4928" selection-end="4928" vertical-scroll-proportion="-61.60606">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/welcome.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="285" column="0" selection-start="7944" selection-end="7944" vertical-scroll-proportion="-6.5454545">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/application/models/myuser_model.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="142" column="28" selection-start="4394" selection-end="4394" vertical-scroll-proportion="-11.0">
@@ -522,23 +534,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/welcome.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="288" column="33" selection-start="7953" selection-end="7992" vertical-scroll-proportion="-8.727273">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/myuser.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="191" column="31" selection-start="5965" selection-end="5965" vertical-scroll-proportion="-10.272727">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/core/MY_Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="188" column="5" selection-start="4928" selection-end="4928" vertical-scroll-proportion="0.6423462">
+        <state line="185" column="0" selection-start="5763" selection-end="5763" vertical-scroll-proportion="0.34763947">
           <folding />
         </state>
       </provider>

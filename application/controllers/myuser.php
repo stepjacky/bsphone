@@ -180,19 +180,8 @@ class Myuser extends MY_Controller {
     }
 
     public function active($code){
-        $rst  =  $this->dao->active($code);
-        $data = array('flag'=>'index');
-        $this->__user_header($data);
-        if(!$rst){
-            $data['info']='无效激活，用户已激活或者激活吗非法';
-        }else{
-            $data['info']='恭喜，用户已经激活';
-        }
-
-        $cdata =  $this->_before_open_login($data['info']);
-        $data = array_merge($data,$cdata);
-        $this->load->view('index/openlogin',$data);
-        $this->load->view('apps/footer');
+        $this->dao->active($code);
+        redirect('/welcome/openlogin');
     }
 
 
