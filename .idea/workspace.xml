@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c66e97a5-ee7b-49e6-abff-297e3a88525f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/config/email.php" afterPath="$PROJECT_DIR$/application/config/email.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/myuser.php" afterPath="$PROJECT_DIR$/application/controllers/myuser.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/myuser_model.php" afterPath="$PROJECT_DIR$/application/models/myuser_model.php" />
     </list>
     <ignored path="bsphone.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -56,6 +55,7 @@
     <file path="/show.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366472342275" ignored="false" />
     <file path="/email.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366549185058" ignored="false" />
     <file path="/myuser.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366549441978" ignored="false" />
+    <file path="/myuser_model.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366549826100" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,10 +75,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="myuser.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="myuser.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/controllers/myuser.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="181" column="9" selection-start="5656" selection-end="5656" vertical-scroll-proportion="0.6523605">
+            <state line="177" column="18" selection-start="5545" selection-end="5545" vertical-scroll-proportion="-13.090909">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="myuser_model.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/models/myuser_model.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="143" column="33" selection-start="4443" selection-end="4443" vertical-scroll-proportion="0.8927039">
               <folding />
             </state>
           </provider>
@@ -102,7 +111,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/application/views/joinus/new.php" />
         <option value="$PROJECT_DIR$/application/views/joinus/process.php" />
         <option value="$PROJECT_DIR$/application/views/joinus/project.php" />
         <option value="$PROJECT_DIR$/application/views/joinus/question.php" />
@@ -118,6 +126,7 @@
         <option value="$PROJECT_DIR$/application/controllers/joinus.php" />
         <option value="$PROJECT_DIR$/application/config/email.php" />
         <option value="$PROJECT_DIR$/application/controllers/myuser.php" />
+        <option value="$PROJECT_DIR$/application/models/myuser_model.php" />
       </list>
     </option>
   </component>
@@ -220,6 +229,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bsphone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bsphone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -413,11 +440,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/views/joinus/winning.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="4" selection-start="248" selection-end="248" vertical-scroll-proportion="0.24034335" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/settings/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="0" selection-start="351" selection-end="351" vertical-scroll-proportion="0.37768242" />
@@ -477,7 +499,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/core/MY_Model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="132" column="39" selection-start="4072" selection-end="4072" vertical-scroll-proportion="-10.545455" />
+        <state line="132" column="39" selection-start="4072" selection-end="4072" vertical-scroll-proportion="-10.545455">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/joinus.php">
@@ -494,7 +518,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/myuser.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="181" column="9" selection-start="5656" selection-end="5656" vertical-scroll-proportion="0.6523605">
+        <state line="177" column="18" selection-start="5545" selection-end="5545" vertical-scroll-proportion="-13.090909">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/myuser_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="143" column="33" selection-start="4443" selection-end="4443" vertical-scroll-proportion="0.8927039">
           <folding />
         </state>
       </provider>
