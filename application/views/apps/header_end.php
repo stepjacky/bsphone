@@ -95,8 +95,9 @@
         </dt>
         <dd>
             <ul>
-                <li><a href="/phone/query?brand=apple&qidxa=1"><img alt="苹果"
-                                                                    src="http://upload.vgooo.com/images/old_dir/mobilebrand//20110414/1214043020110839.gif"></a>
+                <li><a href="/phone/query?brand=apple&qidxa=1">
+                        <img alt="苹果"
+                             src="http://upload.vgooo.com/images/old_dir/mobilebrand//20110414/1214043020110839.gif"></a>
                 </li>
                 <li><a href="/phone/query?brand=sumsung&qidxa=2"><img alt="三星"
                                                                       src="http://upload.vgooo.com/images/old_dir/mobilebrand//20110301/0401034820112059.gif"></a>
