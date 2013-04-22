@@ -25,8 +25,12 @@
                         <span>分享到：
                             <a href="javascript:void(0);" onclick="sina();" title="转帖至新浪微博"><img src="/resources/images/index/sina.gif" alt="转帖至新浪微博"></a>
                         </span>
-                        <input type="image" onclick="window.open('', '_blank')" src="/resources/images/index/parts_bnt1.gif">
-                        <input type="image" onclick="window.open('')" src="/resources/images/index/parts_bnt2.gif">
+                        <input type="image"
+                               onclick="window.open(
+                               'http://sighttp.qq.com/authd?IDKEY=5a34fa8867f404b36f0508a8949c55697fb75ef3f7056c11', '_blank')"
+                               src="/resources/images/index/parts_bnt1.gif">
+                        <input type="image" onclick="window.open('/helpinfo/one/6599F163-553C-3BE7-DA8C-14273BF33BC5','_blank')"
+                               src="/resources/images/index/parts_bnt2.gif">
                     </p>
                 </div>
             </div>
@@ -49,22 +53,5 @@
             </dl>
         </div>
         <div class="bot3"><span class="bot3_l"></span><span class="bot3_r"></span></div>
-    </div>
-
-    <div class="layoutdiv">
-        <div class="points_1">
-            <h6><img src="http://www.vgooo.com/images/ui/title1.png" alt=""><span class="h6_l"></span><span class="h6_r"></span></h6>
-            <div class="points_bor1">
-                <img src="/resources/images/index/points_bor1.png"/>
-            </div>
-        </div>
-        <div class="points_2">
-            <h6><img src="http://www.vgooo.com/images/ui/title2.png" alt=""><span class="h6_l"></span><span class="h6_r"></span></h6>
-            <div class="points_bor2">
-
-                <img src="/resources/images/index/points_bor2.png"/>
-
-            </div>
-        </div>
     </div>
 </div>

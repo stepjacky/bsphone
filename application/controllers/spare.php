@@ -106,6 +106,7 @@ class Spare extends Media_Controller {
 
         $this->__user_header($data);
         $this->load->view('spare/one',$data);
+        $this->load->view("index/common/phonefooter");
         $this->load->view('apps/footer');
     }
 
