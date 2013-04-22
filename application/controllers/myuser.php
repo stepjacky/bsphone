@@ -128,7 +128,9 @@ class Myuser extends MY_Controller {
 
 
         if(!$rst){
-            $data['info'] = '相同的用户已经注册，请重新选择注册Email';
+
+            $cdata =  $this->_before_open_login('相同的用户已经注册，请重新选择注册Email');
+            $data = array_merge($data,$cdata);
             $this->load->view('index/register',$data);
 
         }else{
