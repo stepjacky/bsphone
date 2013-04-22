@@ -82,12 +82,12 @@
                         </small>
                     </p>
                     <p><strong>配件：</strong>
-                        <small><a href="/spare/by_type/2A53A4BD-F4FA-C8CB-A18D-C7A4E050FADB">手机保护套</a><a
-                                href="/spare/by_type/59DBE786-2038-E659-C663-5A2616DFA386">屏幕保护膜</a><a
-                                href="/spare/by_type/CEC04022-4104-5616-E694-E29B409CA4CF">蓝牙耳机</a><a
-                                href="/spare/by_type/CEAC35E7-7EC0-33CA-34A9-A51D18C1EB49">手机电池</a><a
-                                href="/spare/by_type/59DBE786-2038-E659-C663-5A2616DFA386">内存卡</a><a
-                                href="/spare/by_type/B0FF2AEC-8396-4357-5B95-AFC581A5B4B9">其他配件</a></small>
+                        <small><a href="/spare/by_type/6BB5F53F-2732-0395-BF1F-DDF919C6D7E5">手机保护套</a><a
+                                href="/spare/by_type/3B9E15CA-AFD6-FBBD-3D76-EED8EF63274E">屏幕保护膜</a><a
+                                href="/spare/by_type/83B7A85D-10E2-19BF-3460-14F5FC13B81D">蓝牙耳机</a><a
+                                href="/spare/by_type/8EC1036E-8892-48B8-BE90-87B8C5E42D65">手机电池</a><a
+                                href="/spare/by_type/E5D65E68-CA70-B810-C151-B8EB68D63A77">内存卡</a><a
+                                href="/spare/by_type/9CFDAF9D-0C80-580A-9C18-7E910EB5282C">其他配件</a></small>
                     </p>
                 </div>
             </div>
