@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c66e97a5-ee7b-49e6-abff-297e3a88525f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/spare/one.php" afterPath="$PROJECT_DIR$/application/views/spare/one.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/spare.php" afterPath="$PROJECT_DIR$/application/controllers/spare.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/artitle_model.php" afterPath="$PROJECT_DIR$/application/models/artitle_model.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="bsphone.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366626656229" ignored="false" />
+    <file path="/Dummy.txt" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366635440818" ignored="false" />
     <file path="/admin.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1365742287170" ignored="false" />
     <file path="/MY_Controller.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366552063376" ignored="false" />
     <file path="/header.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1365742849372" ignored="false" />
@@ -25,7 +25,7 @@
     <file path="/shopcart.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1365743745582" ignored="false" />
     <file path="/one.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366472254539" ignored="false" />
     <file path="/joinus.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366472888759" ignored="false" />
-    <file path="/artitle_model.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366307594574" ignored="false" />
+    <file path="/artitle_model.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366635660988" ignored="false" />
     <file path="/home-artitle.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366275320322" ignored="false" />
     <file path="/trends_model.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366275653859" ignored="false" />
     <file path="/artitle.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366350726378" ignored="false" />
@@ -85,28 +85,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="spare.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/controllers/spare.php">
+      <file leaf-file-name="artitle.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/controllers/artitle.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="108" column="54" selection-start="3355" selection-end="3355" vertical-scroll-proportion="-6.5454545">
+            <state line="182" column="30" selection-start="5648" selection-end="5648" vertical-scroll-proportion="-10.181818">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="one.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/application/views/spare/one.php">
+      <file leaf-file-name="artitle_model.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/models/artitle_model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="125" selection-start="1810" selection-end="1810" vertical-scroll-proportion="0.70408165">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="phone.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/controllers/phone.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="94" column="52" selection-start="2991" selection-end="3037" vertical-scroll-proportion="-7.787879">
+            <state line="153" column="5" selection-start="5042" selection-end="5042" vertical-scroll-proportion="0.6180258">
               <folding />
             </state>
           </provider>
@@ -130,7 +121,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/application/controllers/profile.php" />
         <option value="$PROJECT_DIR$/application/views/index/openlogin.php" />
         <option value="$PROJECT_DIR$/application/views/index/common/active-message.php" />
         <option value="$PROJECT_DIR$/application/views/myuser/bademail.php" />
@@ -146,6 +136,7 @@
         <option value="$PROJECT_DIR$/application/views/apps/header_end.php" />
         <option value="$PROJECT_DIR$/application/controllers/spare.php" />
         <option value="$PROJECT_DIR$/application/views/spare/one.php" />
+        <option value="$PROJECT_DIR$/application/models/artitle_model.php" />
       </list>
     </option>
   </component>
@@ -187,7 +178,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -234,12 +224,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
+              <option name="myItemId" value="models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -256,17 +247,17 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="177" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="1076" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="1080" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="1076" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="173" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="170" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="FullScreen" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -334,7 +325,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24984385" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18486424" sideWeight="0.9986894" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19641826" sideWeight="0.9986894" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32979387" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -410,16 +401,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/application/views/myuser/bademail.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="41" selection-start="484" selection-end="484" vertical-scroll-proportion="-6.5454545" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/index/common/regetpassword.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="73" selection-start="787" selection-end="787" vertical-scroll-proportion="0.55976677" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/index/openlogin.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="21" selection-start="597" selection-end="597" vertical-scroll-proportion="-12.363636" />
@@ -472,28 +453,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/apps/header_end.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="24" selection-start="2751" selection-end="2751" vertical-scroll-proportion="0.34985423">
-          <folding />
-        </state>
+        <state line="82" column="24" selection-start="2751" selection-end="2751" vertical-scroll-proportion="0.34985423" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/phone.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="94" column="52" selection-start="2991" selection-end="3037" vertical-scroll-proportion="-7.787879">
+        <state line="94" column="52" selection-start="2991" selection-end="3037" vertical-scroll-proportion="0.034334764">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/spare.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="108" column="54" selection-start="3355" selection-end="3355" vertical-scroll-proportion="-6.5454545">
+        <state line="108" column="54" selection-start="3355" selection-end="3355" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/spare/one.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="125" selection-start="1810" selection-end="1810" vertical-scroll-proportion="0.70408165">
+        <state line="31" column="125" selection-start="1810" selection-end="1810" vertical-scroll-proportion="0.034985423">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/artitle.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="182" column="30" selection-start="5648" selection-end="5648" vertical-scroll-proportion="-10.181818">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/artitle_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="153" column="5" selection-start="5042" selection-end="5042" vertical-scroll-proportion="0.6180258">
           <folding />
         </state>
       </provider>

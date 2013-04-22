@@ -149,6 +149,7 @@ class Artitle_model extends Media_Model {
     }
 
     public function remove_home_artitle($id){
+        $this->firelog($id);
         $this->db->delete('homeartitle',array('id'=>$id));
     }
 
