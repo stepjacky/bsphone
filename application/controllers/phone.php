@@ -83,6 +83,21 @@ class Phone extends Media_Controller
         $this->load->view("apps/footer");
     }
 
+    public function search($kword=FALSE) {
+        $data = array();
+        $keyword = !$kword?$this->__xsl_post('keyword'):urldecode($kword);
+        !empty($keyword) OR redirect('/');
+        $where = "p.name like '%".$keyword."%' or pp.name like '%".$keyword."%'";
+        $beans = $this->dao->find_where($where);
+        $data['beans'] = $beans;
+        $this->__user_header($data);
+        $this->load->view("phone/search-result", $data);
+        $this->load->view("index/common/phonefooter");
+        $this->load->view("apps/footer");
+    }
+
+
+
     public function query()
     {
 

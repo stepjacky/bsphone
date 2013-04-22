@@ -8,7 +8,7 @@
                 <div class="user_logindiv">
                     <h2><img src="http://www.vgooo.com/user/images/user/login_title1.gif"></h2>
                     <div class="user_login_l back">
-                        SORRY，您输入的Email无效或者该Email尚未绑定!
+                        SORRY，您输入的Email无效或者该Email尚未绑定,或者该链接已经失效,请重新请求!
                     </div>
                 </div>
             </div>

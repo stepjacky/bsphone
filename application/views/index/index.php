@@ -41,7 +41,7 @@
         <ul class="compar">
             <?php foreach($comartitles as $art):  ?>
             <li>
-                <a href="/trends/one/<?=val($art['id'])?>" target="_blank">
+                <a href="/trends/two/<?=val($art['id'])?>/notice" target="_blank">
                     <?=val($art['name'])?>
 
                 </a>
@@ -67,14 +67,14 @@
 
             <map name="m_help_1" id="m_help_1">
                 <area shape="rect" coords="122,46,199,68" href="/outcome/show" alt="" />
-                <area shape="rect" coords="6,46,89,68" href="javascript:;" alt="" />
-                <area shape="rect" coords="72,8,137,29" href="/outcome/show" alt="" />
+                <area shape="rect" coords="6,46,89,68" href="/helpinfo/one/4636092A-9460-E8D0-4EC4-7B6236C8ACC2" alt="" />
+                <area shape="rect" coords="72,8,137,29" href="/helpinfo/one/E27340B6-A916-6CF5-C086-DF1D45391B85" alt="" />
             </map>
 
             <map name="m_help_2" id="m_help_2">
-                <area shape="rect" coords="122,48,198,67" href="#" alt="" />
+                <area shape="rect" coords="122,48,198,67" href="/helpinfo/one/F392D31A-E76E-B6E8-0C7A-ABCDCD639227" alt="" />
                 <area shape="rect" coords="10,48,87,67" href="/preorder" alt="" />
-                <area shape="rect" coords="78,8,145,32" href="#" alt="" />
+                <area shape="rect" coords="78,8,145,32" href="/helpinfo/one/6599F163-553C-3BE7-DA8C-14273BF33BC5" alt="" />
             </map>
 
             <map name="m_help_3" id="m_help_3">

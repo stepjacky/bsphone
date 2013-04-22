@@ -8,7 +8,7 @@
                     <p class="vip_tel"><img src="/resources/images/index/vip_help_5.gif"></p>
                     <p><img src="/resources/images/index/vip_help_6.gif"></p>
                     <p><a target="_blank" href="/welcome/vip"><img src="/resources/images/index/vip_help_2.gif"></a></p>
-                    <p><a target="_blank" href="http://www.vgooo.com/intro/helpview/text-192.html"><img src="/resources/images/index/vip_help_3.gif"></a></p>
+                    <p><a target="_blank" href="/helpinfo/one/B32F235B-8857-7CEE-27E1-6C61F163C8A9"><img src="/resources/images/index/vip_help_3.gif"></a></p>
                 </div>
             </div>
             <div class="bot1"><span class="bot1_l"></span><span class="bot1_r"></span></div>
@@ -206,7 +206,7 @@
 
             </div>
             <div class="info_list_r">
-                <p><em><?=val($username)?></em></p>
+                <p><em><?=val($nick)?></em></p>
                 <p><?=val($content)?></p>
             </div>
             <div><span>发表于:<?=val($firedate)?></span></div>
@@ -224,10 +224,7 @@
 <ul class="most">
 <li>
     <div class="most_l">
-        <img onmouseout="t_info = setTimeout('$(\'#info1_3535\').hide()',300);" onmouseover="$('.user_data').hide();info('3535','147679','info1_');" src="http://upload.vgooo.com/images/userface/shopface/2012/0429/1729044620123031.jpg">
-        <div onmouseout="$('#info1_3535').hide();" onmouseover="clearTimeout(t_info);$('#info1_3535').show();" style="display:none;" class="user_data" id="info1_3535">
-            <p class="lonading">lonading...</p>
-        </div>
+        <img onmouseout="t_info = setTimeout('$(\'#info1_3535\').hide()',300);"  src="http://upload.vgooo.com/images/userface/shopface/2012/0429/1729044620123031.jpg">
         <div class="info_vip">
             <img alt="金卡会员" src="/resources/images/index/vip_1.png">
         </div>

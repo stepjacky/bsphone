@@ -13,7 +13,8 @@
 <body>
 <pre>
           这是来自BE数码通讯的测试激活邮件,请点击下面链接或者手动复制到浏览器地址栏激活用户
-      <a href="http://www.bsphone.com/myuser/active/<?=$code?>">http://www.bsphone.com/myuser/active/<?=$code?></a>
+      <a href="<?=base_url('/myuser/active')?>/<?=$code?>">
+          <?=base_url('/myuser/active')?>/<?=$code?></a>
         此请勿回复
     </pre>
 </body>

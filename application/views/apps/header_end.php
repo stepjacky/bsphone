@@ -28,23 +28,28 @@
 <div class="grid_12 search-bar">
 
     <dl class="search">
-        <form id="Vgooo_Form_top" name="Vgooo_Form_top" action="/search/all"
-              method="post">
+        <form  action="/phone/search"
+               method="post">
             <dt>
                 <input autocomplete="on" class="search_txt ac_input"
                       id="keyword"
                        name="keyword" type="text">
-                <input class="search_bnt" title="点击进行搜索" onclick="quicksearch();" type="button">
+                <input class="search_bnt"
+                       title="点击进行搜索"
+                       type="submit"
+                       name=""
+                       value=""
+                    >
             </dt>
         </form>
         <dd>
             <p>热门机型:
-                <a href="/phone/one/索尼LT26w" title="索尼LT26w" target="_blank">索尼LT26w</a>
-                <a href="/phone/one/LGP880" title="LG P880 " target="_blank">LG
+                <a href="/phone/search/索尼 LT26w" title="索尼LT26w" target="_blank">索尼 LT26w</a>
+                <a href="/phone/search/LGP 880" title="LG P880 " target="_blank">LG
                     P880 </a>
-                <a href="/phone/one/HTCOneS" title="HTC One S" target="_blank">HTC One S</a>
-                <a href="/phone/one/苹果" title="HTC One S" target="_blank">苹果5</a>
-                <a href="/phone/one/ipad4" title="HTC One S" target="_blank">iPad4</a>
+                <a href="/phone/search/HTC One S" title="HTC One S" target="_blank">HTC One S</a>
+                <a href="/phone/search/苹果" title="HTC One S" target="_blank">苹果5</a>
+                <a href="/phone/search/ipad4" title="HTC One S" target="_blank">iPad4</a>
                 <a href="" title="" target="_blank"></a>
             </p>
             <span><a href="/phone/query">快速选机</a></span></dd>

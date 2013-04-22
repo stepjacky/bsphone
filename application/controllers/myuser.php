@@ -107,9 +107,9 @@ class Myuser extends MY_Controller {
     }
 
     public function register(){
-        $id    = $this->_post('id');
-        $name  = $this->_post('name');
-        $pass  = $this->_post('password');
+        $id    = $this->__xsl_post('id');
+        $name  = $this->__xsl_post('name');
+        $pass  = $this->__xsl_post('password');
 
 
         $data = array('info'=>'','flag'=>'index');
@@ -134,17 +134,16 @@ class Myuser extends MY_Controller {
         }else{
 
             $this->load->library('email');
+            $cdata =  $this->_before_open_login('注册成功,请登录'.$rst['id'].'点击激活链接激活');
+            $data = array_merge($data,$cdata);
+            $this->load->view('index/openlogin',$data);
+
             $this->email->from('xxxxfox@163.com', '测试BE电子商务');
             $this->email->to($id);
             $this->email->subject('BE数码通讯用户激活邮件，请勿回复');
             $message = $this->load->view('index/common/active-message',array('code'=>$activecode),true);
             $this->email->message($message);
             $this->email->send();
-
-
-            $cdata =  $this->_before_open_login('注册成功,请登录'.$rst['id'].'点击激活链接激活');
-            $data = array_merge($data,$cdata);
-            $this->load->view('index/openlogin',$data);
         }
         $this->load->view('apps/footer');
 
@@ -170,16 +169,17 @@ class Myuser extends MY_Controller {
                     'codeenpire'=>$tomorrow
                 );
                 $this->dao->update($data);
+
+                $cdata =  $this->_before_open_login('重置密码邮件已发送到'.$email.',请点击链接修改');
+                $data = array_merge($data,$cdata);
+                $this->load->view('index/openlogin',$data);
+                $this->load->view('myuser/mailsent',$data);
                 $this->email->from('xxxxfox@163.com', 'BE数码通讯');
                 $this->email->to($email);
                 $this->email->subject('BE数码通讯用户密码重置邮件，请勿回复');
                 $message = $this->load->view('index/common/regetpassword',array('code'=>$rpasscode,'id'=>$email),true);
                 $this->email->message($message);
                 $this->email->send();
-                $cdata =  $this->_before_open_login('重置密码邮件已发送到'.$email.',请点击链接修改');
-                $data = array_merge($data,$cdata);
-                $this->load->view('index/openlogin',$data);
-                $this->load->view('myuser/mailsent',$data);
             }
         }
         else
@@ -192,7 +192,48 @@ class Myuser extends MY_Controller {
     }
 
     public function resetpass($code,$id){
-        //reset pass
+        $data = array(
+            'flag'=>'index',
+            'code'=>$code,
+            'id'=>urldecode($id)
+        );
+
+        $valid =  $this->dao->valid_reset_pass($code,$id);
+        $this->__user_header($data);
+        if(!$valid){
+         $this->load->view('myuser/bademail');
+        }else{
+            $this->load->view('myuser/resetpassword',$data);
+        }
+
+        $this->load->view('apps/footer');
+
+    }
+
+    public function updatepass(){
+        $id    = $this->__xsl_post('id');
+        $id    = urldecode($id);
+        $code  = $this->__xsl_post('code');
+        $pword = $this->__xsl_post('password');
+        $valid =  $this->dao->valid_reset_pass($code,$id);
+        $data  = array(
+            'flag'=>'index'
+        );
+        $this->__user_header($data);
+        if($valid){
+            $udata = array(
+                'id'=>$id,
+                'password'=>$pword,
+                'resetpasscode'=>null,
+                'codeenpire'=>null
+            );
+            $this->dao->update($udata);
+            redirect('/welcome/openlogin');
+        }else{
+            $this->load->view('myuser/bademail');
+        }
+
+        $this->load->view('apps/footer');
     }
 
     public function active($code){

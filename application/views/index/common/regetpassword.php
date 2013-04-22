@@ -12,8 +12,9 @@
 </head>
 <body>
 <pre>
-         您请求重置BE数码通讯的账号密码,请点击下面链接重置,请不要泄露该链接
-      <a href="http://www.bsphone.com/myuser/active/<?=$code?>">http://www.bsphone.com/myuser/resetpass/<?=$code?>/<?=$id?></a>
+         您请求重置BE数码通讯的账号密码,请点击下面链接重置,请不要泄露该链接,该链接三天内有效
+      <a href="<?=base_url('/myuser/resetpass')?>/<?=$code?>/<?=urlencode($id)?>">
+          <?=base_url('/myuser/resetpass')?>/<?=$code?>/<?=urlencode($id)?></a>
         此请勿回复
     </pre>
 </body>

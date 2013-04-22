@@ -143,12 +143,29 @@ class Myuser_model extends Media_Model {
         if(count($user)!=0){
             $data = array(
                 "id"=>$user['id'],
+                'activecode'=>null,
                 'acted'=>true
             );
             $this->update($data);
             return TRUE;
         }
         return FALSE;
+    }
+
+    public function valid_reset_pass($code,$id){
+
+
+        $SQL = "select id,resetpasscode from myuser
+        where id=?
+        and resetpasscode=?
+        and DATEDIFF(DATE(codeenpire), CURDATE())>=0";
+
+
+        $query = $this->db->query($SQL,array(urldecode($id),$code));
+        $bean = $query->first_row('array');
+        $this->firelog($bean);
+        return !empty($bean);
+
     }
 
 
