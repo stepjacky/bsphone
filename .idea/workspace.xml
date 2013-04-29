@@ -46,7 +46,7 @@
     <file path="/movies.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366350997653" ignored="false" />
     <file path="/phonefooter.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366625487682" ignored="false" />
     <file path="/sparetype.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366380449563" ignored="false" />
-    <file path="/list.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1367251133638" ignored="false" />
+    <file path="/list.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1367251240354" ignored="false" />
     <file path="/list.js" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1367249865962" ignored="false" />
     <file path="/edit.js" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366471913103" ignored="false" />
     <file path="/join-header.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366390952130" ignored="false" />
@@ -124,7 +124,7 @@
       <file leaf-file-name="list.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/views/phone/list.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="35" selection-start="249" selection-end="249" vertical-scroll-proportion="0.14475271">
+            <state line="10" column="15" selection-start="427" selection-end="427" vertical-scroll-proportion="0.28950542">
               <folding />
             </state>
           </provider>
@@ -648,7 +648,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/phone/list.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="35" selection-start="249" selection-end="249" vertical-scroll-proportion="0.14475271">
+        <state line="10" column="15" selection-start="427" selection-end="427" vertical-scroll-proportion="0.28950542">
           <folding />
         </state>
       </provider>

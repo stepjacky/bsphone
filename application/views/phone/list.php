@@ -1,17 +1,15 @@
 <link href="/resources/styles/phone/style.css" media="screen" rel="stylesheet" type="text/css" />
 <h3>手机列表</h3>
+<div class="btn-group">
+    <?php foreach($brands as $brand):?>
+        <button class="btn btn-info" onclick="loadByBrand('<?=$brand['id']?>')">
+            <?=$brand['name']?>
+        </button>
+    <?php endforeach; ?>
+</div>
 <table id="list" class="table table-striped table-bordered table-hover">
         <thead>
-        <tr>
-           <td  colspan="9" class="btn-group">
-              <?php foreach($brands as $brand):?>
-                 <button class="btn btn-info" onclick="loadByBrand('<?=$brand['id']?>')">
-                     <?=$brand['name']?>
-                 </button>
-              <?php endforeach; ?>
-           </td>
 
-        </tr>
         <tr>
           <th colspan="9">
             <button type="button" class="btn btn-info" onclick="newOne();">
