@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c66e97a5-ee7b-49e6-abff-297e3a88525f" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/phone.php" afterPath="$PROJECT_DIR$/application/controllers/phone.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/phone_model.php" afterPath="$PROJECT_DIR$/application/models/phone_model.php" />
     </list>
     <ignored path="bsphone.iws" />
@@ -20,7 +21,7 @@
     <file path="/index.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1367245250879" ignored="false" />
     <file path="/style.css" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1365743267106" ignored="false" />
     <file path="/thumbnails.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1365776103918" ignored="false" />
-    <file path="/phone_model.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1367252576392" ignored="false" />
+    <file path="/phone_model.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1367254301861" ignored="false" />
     <file path="/shopcart.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1365743745582" ignored="false" />
     <file path="/one.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366472254539" ignored="false" />
     <file path="/joinus.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366472888759" ignored="false" />
@@ -85,10 +86,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="phone_model.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="phone_model.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/models/phone_model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="469" column="34" selection-start="14060" selection-end="14060" vertical-scroll-proportion="0.6525935">
+            <state line="443" column="0" selection-start="13187" selection-end="13187" vertical-scroll-proportion="-10.575758">
               <folding />
             </state>
           </provider>
@@ -130,10 +131,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="phone.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="phone.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/controllers/phone.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="459" column="16" selection-start="13567" selection-end="13567" vertical-scroll-proportion="-15.272727">
+            <state line="454" column="29" selection-start="13328" selection-end="13328" vertical-scroll-proportion="0.46320868">
               <folding />
             </state>
           </provider>
@@ -180,8 +181,8 @@
         <option value="$PROJECT_DIR$/resources/scripts/phone/list.js" />
         <option value="$PROJECT_DIR$/application/views/phone/list.php" />
         <option value="$PROJECT_DIR$/application/core/MY_Model.php" />
-        <option value="$PROJECT_DIR$/application/controllers/phone.php" />
         <option value="$PROJECT_DIR$/application/models/phone_model.php" />
+        <option value="$PROJECT_DIR$/application/controllers/phone.php" />
       </list>
     </option>
   </component>
@@ -639,16 +640,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/phone.php">
+    <entry file="file://$PROJECT_DIR$/application/models/phone_model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="459" column="16" selection-start="13567" selection-end="13567" vertical-scroll-proportion="-15.272727">
+        <state line="443" column="0" selection-start="13187" selection-end="13187" vertical-scroll-proportion="-10.575758">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/phone_model.php">
+    <entry file="file://$PROJECT_DIR$/application/controllers/phone.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="469" column="34" selection-start="14060" selection-end="14060" vertical-scroll-proportion="0.6525935">
+        <state line="454" column="29" selection-start="13328" selection-end="13328" vertical-scroll-proportion="0.46320868">
           <folding />
         </state>
       </provider>
