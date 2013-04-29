@@ -467,7 +467,7 @@ class Phone_model extends Media_Model {
         $this->firelog($count);
         $baseurl = sprintf("/%s/lists/%s",$this->table(),$brand?$brand:'0');
         $this->firelog($baseurl);
-       //$config['uri_segment'] = 6;
+        $config['uri_segment'] = 4;
         $config['base_url'] = $baseurl;
         $config['total_rows'] = $count;
         $config['per_page'] = $rows;

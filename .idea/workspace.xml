@@ -88,7 +88,7 @@
       <file leaf-file-name="phone_model.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/models/phone_model.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="467" column="30" selection-start="13945" selection-end="13945" vertical-scroll-proportion="0.5946924">
+            <state line="469" column="34" selection-start="14060" selection-end="14060" vertical-scroll-proportion="0.6525935">
               <folding />
             </state>
           </provider>
@@ -648,7 +648,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/models/phone_model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="467" column="30" selection-start="13945" selection-end="13945" vertical-scroll-proportion="0.5946924">
+        <state line="469" column="34" selection-start="14060" selection-end="14060" vertical-scroll-proportion="0.6525935">
           <folding />
         </state>
       </provider>
