@@ -3,7 +3,7 @@
 <table id="list" class="table table-striped table-bordered table-hover">
         <thead>
         <tr>
-           <td  colspan="9" class="btn btn-group">
+           <td  colspan="9" class="btn-group">
               <?php foreach($brands as $brand):?>
                  <button class="btn btn-info" onclick="loadByBrand('<?=$brand['id']?>')">
                      <?=$brand['name']?>
