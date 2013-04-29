@@ -440,6 +440,11 @@ class Phone_model extends Media_Model {
 
     public function gets($page=1,$rows=10,$sorts=array("firedate"=>"desc"),$brand=FALSE){
 
+        $this->firelog($page);
+        $this->firelog($rows);
+        $this->firelog($sorts);
+        $this->firelog($brand);
+
         if($brand)
             $this->db->where('brand',$brand);
         $start = $rows*$page - $rows; //
