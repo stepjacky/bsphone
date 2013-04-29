@@ -104,6 +104,11 @@ class Spare extends Media_Controller {
             'bean'=>$bean
         );
 
+
+        $data['keywords']=  str_replace('@',$bean['name'],'@报价,@参数,@图片,@评测,@视频,@优缺点');
+        $data['description']=str_replace('@',$bean['name'],'BE数码通信手机配件中心提供 @手机保护套的产品信息，价格行情，图片。');
+        $data['title']= str_replace('@',$bean['name'],'@手机保护套手机配件-BE数码通信');
+
         $this->__user_header($data);
         $this->load->view('spare/one',$data);
         $this->load->view("index/common/phonefooter");

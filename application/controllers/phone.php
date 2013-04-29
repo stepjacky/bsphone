@@ -450,6 +450,20 @@ class Phone extends Media_Controller
     }
 
 
+    public function lists($page=1,$rows=10,$brand=FALSE){
+
+        $this->load->model("Brand_model","bradao");
+        $brands  = $this->bradao->find_all();
+        $result  = $this->dao->gets($page,$rows,$sorts=array("firedate"=>"desc"),$brand);
+        $pagelink = $this->dao->page_link($page);
+        $data['datasource'] = $result;
+        $data['brands'] = $brands;
+        $data['pagelink']=$pagelink;
+        $this->load->view($this->dao->table()."/list",$data);
+    }
+
+
+
     function __qstr($pnames)
     {
         $pary = array();
@@ -469,6 +483,8 @@ class Phone extends Media_Controller
         $url = http_build_query($pary);
         return ($url == null || $url == "") ? "" : "&" . $url;
     }
+
+
 
 
 }   

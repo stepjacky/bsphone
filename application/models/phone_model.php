@@ -437,4 +437,35 @@ class Phone_model extends Media_Model {
         }
         return $taglist;
     }
+
+    public function gets($page=1,$rows=10,$sorts=array("firedate"=>"desc"),$brand=FALSE){
+
+        if($brand)
+            $this->db->where('brand',$brand);
+        $start = $rows*$page - $rows; //
+        if ($start<0) $start = 0;
+        $this->db->limit($rows,$start);
+        foreach($sorts as $fd=>$dc){
+            $this->db->order_by($fd,$dc);
+        }
+
+        $query = $this->db->get($this->table());
+        $result = $query->result_array();
+        return $result;
+    }
+
+    public function page_link($page=1,$rows=10,$brand=FALSE){
+
+        $where = array();
+        if(!$brand)$where['brand'] = $brand;
+        $count  =  $this->count_all($where);
+        $config['base_url'] = sprintf("/%s/lists/%d/10/%s",$this->table(),$page,!$brand?$brand:'');
+        $config['total_rows'] = $count;
+        $config['per_page'] = $rows;
+        $this->pagination->initialize($config);
+        $pagelink = $this->pagination->create_links($page);
+        return $pagelink;
+
+    }
+
 }

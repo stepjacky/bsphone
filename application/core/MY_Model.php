@@ -105,6 +105,12 @@ class MY_Model extends CI_Model
         return $this->page_nav("/".$this->table()."/lists/",$this->db->count_all($this->table()),$page,$row);
     }
 
+    public function count_all($where = array()){
+        foreach($where as $f=>$v){
+           $this->db->where($f,$v);
+        }
+        $this->db->count_all_results($this->table());
+    }
     public function page_nav($baseurl='',$count=0,$page=1,$rows=10){
         $config['base_url'] = $baseurl;
         $config['total_rows'] = $count;

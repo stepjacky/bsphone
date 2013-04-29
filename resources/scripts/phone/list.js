@@ -28,3 +28,8 @@ function modifyStatus(id,s){
     $.post('/phone/modify_status/'+id+"/"+s);
 
 }
+
+function loadByBrand(brand){
+    $("#main-panel").load('/phone/lists/1/10/'+brand);
+
+}

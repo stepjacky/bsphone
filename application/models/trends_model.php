@@ -99,6 +99,7 @@ class Trends_model extends Media_Model {
 
     public function hotservice(){
         $this->db->select("id,name,minipic");
+        $this->db->like('tags','售后服务');
         $this->db->order_by("firedate","desc");
         $this->db->limit(5,0);
         $query = $this->db->get($this->table());

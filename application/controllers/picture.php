@@ -28,7 +28,6 @@ class Picture extends MY_Controller {
      
     public  function __construct(){
         parent::__construct("Picture_model");
-        $this->load->library('upload');
     }
 
     public function index(){

@@ -3,17 +3,30 @@
 <table id="list" class="table table-striped table-bordered table-hover">
         <thead>
         <tr>
-          <th colspan="19">
+           <td  colspan="9" class="btn btn-group">
+              <?php foreach($brands as $brand):?>
+                 <button class="btn btn-info" onclick="loadByBrand('<?=$brand['id']?>')">
+                     <?=$brand['name']?>
+                 </button>
+              <?php endforeach; ?>
+           </td>
+
+        </tr>
+        <tr>
+          <th colspan="9">
             <button type="button" class="btn btn-info" onclick="newOne();">
              <i class="icon-plus"></i>新增手机
             </button>
+             背景色区分:
+            <label class="label label-success">在售</label>
+            <label class="label label-info">即将</label>
+            <label class="label label-error">下架</label>
           </th>
         </tr>
         <tr>
                          
                 <th>名称</th>
-                         
-                <th>热度</th> 
+
                          
                 <th>屏幕尺寸</th> 
                          
@@ -23,17 +36,10 @@
                          
                 <th>像素[万]</th> 
                          
-                <th>电池容量[毫安]</th> 
-                         
-                <th>标配</th>
-                         
-                <th>在售</th> 
-                         
-                <th>颜色</th> 
-                         
+                <th>电池容量[毫安]</th>
+
                 <th>品牌</th>
-                         
-                <th>OS</th>
+
 
                 <th>状态</th>
                          
@@ -52,11 +58,8 @@
                       
                 <td>
               <?=$bean['name']?>               
-            </td>  
-                      
-                <td>
-              <?=$bean['moods']?>               
-            </td>  
+            </td>
+
                       
                 <td>
               <?=$bean['screen']?>               
@@ -77,26 +80,15 @@
                 <td>
               <?=$bean['cellcap']?>               
             </td>  
+
                       
-                <td>
-              <?=$bean['feature']?>               
-            </td>
-                      
-                <td>
-              <?=$bean['outsale']?>               
-            </td>  
-                      
-                <td>
-              <?=$bean['color']?>               
-            </td>  
+
                       
                 <td>
               <?=$bean['brand']?>
             </td>  
                       
-                <td>
-              <?=$bean['os']?>
-            </td>  
+
                       
            <td>
                <div class="btn-group">

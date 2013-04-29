@@ -94,7 +94,7 @@
             <img src="/resources/images/index/title3.png"><span class="h5_l"></span><span class="h5_r"></span></h5>
         <div class="bor1">
             <dl class="share" style="height:304px;">
-                <dt>有<em>9176</em>个人分享了手机使用心得</dt>
+                <dt>有<em><?=$sharecount?></em>个人分享了手机使用心得</dt>
                 <dd>
                     <ul id="sharelist">
                       <?php

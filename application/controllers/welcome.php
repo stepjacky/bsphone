@@ -45,6 +45,7 @@ class Welcome extends MY_Controller
 
         $data['shareinfos'] = $this->sheDao->find_for_index();
         $data['coagents'] = $this->coaDao->gets(1,5);
+        $data['sharecount']  = $this->shrDao->count_all();
         $this->load->view("index/index", $data);
 
         $this->load->view("apps/footer");
