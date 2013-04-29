@@ -465,7 +465,7 @@ class Phone_model extends Media_Model {
         if($brand)$where['brand'] = $brand;
         $count  =  $this->count_all($where);
         $this->firelog($count);
-        $baseurl = sprintf("/%s/lists/%d/10/%s",$this->table(),$page,$brand?$brand:'');
+        $baseurl = sprintf("/%s/lists/%s",$this->table(),$brand?$brand:'0');
         $this->firelog($baseurl);
        //$config['uri_segment'] = 6;
         $config['base_url'] = $baseurl;
