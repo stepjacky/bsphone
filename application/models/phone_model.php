@@ -469,6 +469,7 @@ class Phone_model extends Media_Model {
         $config['per_page'] = $rows;
         $this->pagination->initialize($config);
         $pagelink = $this->pagination->create_links($page);
+        $this->firelog($pagelink);
         return $pagelink;
 
     }
