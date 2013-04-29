@@ -464,7 +464,10 @@ class Phone_model extends Media_Model {
         $where = array();
         if(!$brand)$where['brand'] = $brand;
         $count  =  $this->count_all($where);
-        $config['base_url'] = sprintf("/%s/lists/%d/10/%s",$this->table(),$page,!$brand?$brand:'');
+        $this->firelog($count);
+        $baseurl = sprintf("/%s/lists/%d/10/%s",$this->table(),$page,!$brand?$brand:'');
+        $this->firelog($baseurl);
+        $config['base_url'] = $baseurl;
         $config['total_rows'] = $count;
         $config['per_page'] = $rows;
         $this->pagination->initialize($config);
