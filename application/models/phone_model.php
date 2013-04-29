@@ -462,12 +462,12 @@ class Phone_model extends Media_Model {
     public function page_link($page=1,$rows=10,$brand=FALSE){
 
         $where = array();
-        if(!$brand)$where['brand'] = $brand;
+        if($brand)$where['brand'] = $brand;
         $count  =  $this->count_all($where);
         $this->firelog($count);
-        $baseurl = sprintf("/%s/lists/%d/10/%s",$this->table(),$page,!$brand?$brand:'');
+        $baseurl = sprintf("/%s/lists/%d/10/%s",$this->table(),$page,$brand?$brand:'');
         $this->firelog($baseurl);
-        $config['uri_segment'] = 6;
+       //$config['uri_segment'] = 6;
         $config['base_url'] = $baseurl;
         $config['total_rows'] = $count;
         $config['per_page'] = $rows;
