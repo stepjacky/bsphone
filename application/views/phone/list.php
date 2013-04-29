@@ -122,7 +122,7 @@
         </tbody>
         <tfoot>
         <tr>          
-            <td colspan="16">
+            <td colspan="9">
                 <?=$pagelink;?>
             </td>
         </tr>

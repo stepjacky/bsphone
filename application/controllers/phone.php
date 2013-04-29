@@ -456,6 +456,7 @@ class Phone extends Media_Controller
         $brands  = $this->bradao->find_all();
         $result  = $this->dao->gets($page,$rows,$sorts=array("firedate"=>"desc"),$brand);
         $pagelink = $this->dao->page_link($page);
+
         $data['datasource'] = $result;
         $data['brands'] = $brands;
         $data['pagelink']=$pagelink;
