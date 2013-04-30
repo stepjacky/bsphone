@@ -442,8 +442,10 @@ class Phone_model extends Media_Model {
 
 
 
-        if($brand)
+        if($brand){
             $this->db->where('brand',$brand);
+            $rows = 25;
+        }
         $start = $rows*$page - $rows; //
         if ($start<0) $start = 0;
         $this->db->limit($rows,$start);
@@ -454,25 +456,6 @@ class Phone_model extends Media_Model {
         $query = $this->db->get($this->table());
         $result = $query->result_array();
         return $result;
-    }
-
-    public function page_link($page=1,$rows=10,$brand=FALSE){
-
-        $where = array();
-        if($brand)$where['brand'] = $brand;
-        $count  =  $this->count_all($where);
-        $this->firelog($count);
-        $baseurl = sprintf("/%s/lists/%s",$this->table(),$brand?$brand:'0');
-        $this->firelog($baseurl);
-        $config['uri_segment'] = 4;
-        $config['base_url'] = $baseurl;
-        $config['total_rows'] = $count;
-        $config['per_page'] = $rows;
-        $this->pagination->initialize($config);
-        $pagelink = $this->pagination->create_links($page);
-        $this->firelog($pagelink);
-        return $pagelink;
-
     }
 
 }

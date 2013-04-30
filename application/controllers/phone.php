@@ -452,7 +452,7 @@ class Phone extends Media_Controller
 
     public function lists($page=1,$rows=10,$brand=FALSE){
 
-        if($rows==0)$rows=10;
+        if(!$rows)$rows=10;
         $this->load->model("Brand_model","bradao");
         $brands  = $this->bradao->find_all();
         $result  = $this->dao->gets($page,$rows,$sorts=array("firedate"=>"desc"),$brand);
