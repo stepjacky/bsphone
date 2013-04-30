@@ -270,10 +270,10 @@
     <div class="bor3">
         <dl class="dtnav news">
             <dt>
-                <span class="crumb">
+                <span class="crumb" mid="more1" href="/welcome/artitle">
                     <a class="t4"></a>
                 </span>
-                <span>
+                <span mid="more1" href="/welcome/service">
                     <a class="t5"></a>
                 </span>
             </dt>
@@ -335,10 +335,10 @@
 
     <div class="bor3">
         <dl class="dtnav community">
-            <dt> <span class="crumb">
+            <dt> <span class="crumb" mid="more2" href="/welcome/aboutus/action/d">
                     <a class="t6"></a>
                  </span>
-                <span>
+                <span  mid="more2" href="/welcome/aboutus/action/d">
                     <a class="t7"></a>
                 </span>
             </dt>
@@ -397,7 +397,11 @@
 <div class="clear"></div>
 <div class="grid_12 index-footer">
 
-    <h6><a id="more3" rel="nofollow" href="/welcome/artitle" target="_blank"></a><span
+    <h6>
+<!--
+        <a id="more3" rel="nofollow" href="/welcome/artitle" target="_blank"></a>-->
+
+         <span
             class="h6_l"></span><span class="h6_r"></span></h6>
 
     <div class="bor3">

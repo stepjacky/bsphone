@@ -10,8 +10,19 @@
           </th>
         </tr>
         <tr>
-                <th>编号</th> 
-                         
+            <th colspan="3">
+
+                <div class="input-append">
+                    <input id="keys" type="text" placeholder="请输入名称或者标签" />
+                    <button class="btn btn-info" onclick="queryByKey('keys')">查询</button>
+                </div>
+
+
+            </th>
+
+        </tr>
+        <tr>
+
                 <th>标题</th> 
                          
                 <th>发起日期</th> 
@@ -19,16 +30,14 @@
                          
             <th>管理</th>
         </tr>
+
         </thead>
         <tbody>
 
             <?php foreach($datasource as $bean):?>
            <tr>
-                <td>
-              <?=$bean['id']?>               
-            </td>  
-                      
-                <td>
+
+            <td>
               <?=$bean['name']?>               
             </td>  
                       

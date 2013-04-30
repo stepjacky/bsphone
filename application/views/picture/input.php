@@ -63,6 +63,10 @@
             id:'service',
             name:'售后服务',
             isParent:false
+        },{
+            id:"copagent",
+            name:"合作社区",
+            isParent:false
         }
 
     ];

@@ -52,7 +52,8 @@ class Tags extends MY_Controller {
         }
         $data['catalogs'] = array(
             'artitle'=>'文章新闻',
-            'video'=>'视频信息'
+            'video'=>'视频信息',
+            'phone'=>'手机特点'
 
         );
         $this->load->view("admin/res-head");
@@ -64,6 +65,6 @@ class Tags extends MY_Controller {
         $name = urldecode($name);
         $this->dao->remove($name,$catalog,$pk);
     }
-    
+
     
 }   

@@ -41,5 +41,19 @@ class Sharedinfo_model extends MY_Model {
               ";
         return $this->query($SQL);
     }
+
+    public function find_by_phone($phone){
+
+        $SQL="select mu.name nick ,mu.avatar avatar , s.*
+        from sharedinfo s
+        join myuser mu on mu.name=s.username
+        where s.phone_id=?";
+
+        $query =  $this->db->query($SQL,array($phone));
+
+        $shares = $query->result_array();
+
+        return $shares;
+    }
     
 }   

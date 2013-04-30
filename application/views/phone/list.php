@@ -6,6 +6,9 @@
             <?=$brand['name']?>
         </button>
     <?php endforeach; ?>
+    <button class="btn btn-success" onclick="loadByStatus(0)">在售</button>
+    <button class="btn btn-info" onclick="loadByStatus(1)">即将上市</button>
+    <button class="btn btn-danger" onclick="loadByStatus(-1)">下架</button>
 </div>
 <table id="list" class="table table-striped table-bordered table-hover">
         <thead>

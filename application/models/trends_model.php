@@ -32,6 +32,7 @@ class Trends_model extends Media_Model {
 
     public function list_vip(){
         $this->db->select("id,name,minipic");
+        $this->db->like('tags',"活动专题");
         $this->db->order_by('firedate','desc');
         $this->db->limit(5,0);
         $query = $this->db->get($this->table());
@@ -106,6 +107,16 @@ class Trends_model extends Media_Model {
         $beans = $query->result_array();
         return $beans;
 
+    }
+
+    public function find_by_nametags($key,$page=1,$rows=10){
+        $key = urldecode($key);
+        $this->db->select("id,name,firedate,minipic,content");
+        $this->db->like('tags',$key);
+        $this->db->or_like('name',$key);
+        //$this->db->limit($rows,0);
+        $query = $this->db->get($this->table());
+        return $query->result_array();
     }
 
 

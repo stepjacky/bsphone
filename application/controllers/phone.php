@@ -33,6 +33,8 @@ class Phone extends Media_Controller
         $this->load->library('create_ckeditor');
         $this->load->model("Brand_model", "brandDao");
         $this->load->model("Phoneos_model", "osDao");
+        $this->load->model("Tags_model","tagdao");
+
     }
 
     public function index()
@@ -104,7 +106,7 @@ class Phone extends Media_Controller
 
         $brands = $this->brandDao->find_all();
         $oss    = $this->osDao->find_all();
-        $taglist  = $this->dao->fetch_tags();
+        $taglist  = $this->tagdao->find_by_catalog("phone");
         $data = array(
             "flag" => "product",
             "brands"=>$brands,
@@ -453,14 +455,27 @@ class Phone extends Media_Controller
     public function lists($page=1,$rows=10,$brand=FALSE){
 
         if(!$rows)$rows=10;
-        $this->load->model("Brand_model","bradao");
-        $brands  = $this->bradao->find_all();
+
+        $brands  = $this->brandDao->find_all();
         $result  = $this->dao->gets($page,$rows,$sorts=array("firedate"=>"desc"),$brand);
         $pagelink = $this->dao->page_link($page,$rows,$brand);
 
         $data['datasource'] = $result;
         $data['brands'] = $brands;
         $data['pagelink']=$pagelink;
+        $this->load->view($this->dao->table()."/list",$data);
+    }
+
+
+    public function lists_status($s=0){
+        $brands  = $this->brandDao->find_all();
+        $this->db->where("pstatus",$s);
+        $query = $this->db->get($this->dao->table());
+        $beans = $query->result_array();
+        $data['datasource'] = $beans;
+        $data['brands'] = $brands;
+        $data['pagelink']="";
+        $this->fireLog($beans);
         $this->load->view($this->dao->table()."/list",$data);
     }
 

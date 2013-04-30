@@ -33,3 +33,6 @@ function loadByBrand(brand){
     $("#main-panel").load('/phone/lists/1/10/'+brand);
 
 }
+function loadByStatus(s){
+    $("#main-panel").load('/phone/lists_status/'+s);
+}

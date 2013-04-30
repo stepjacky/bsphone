@@ -14,3 +14,9 @@ function removeOne(id){
         $(that).parent().parent().remove();
     });
 }
+
+function queryByKey(keyid){
+    var key = $("#"+keyid).val();
+    if(!key) return;
+    $("#main-panel").load('/trends/find_by_nametags/'+key);
+}

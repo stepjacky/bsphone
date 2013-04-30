@@ -35,6 +35,10 @@ function hideSmartBrands() {
     $("div.all").hide();
 }
 function toggleSpan(){
+    var mid  = $(this).attr("mid");
+    var href = $(this).attr("href");
+    $("#"+mid).attr("href",href);
+
     $(this).addClass("crumb");
     var sibs  = $(this).siblings();
     $.each(sibs,function(index,item){

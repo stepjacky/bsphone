@@ -79,15 +79,23 @@
     <p><span><img alt="其它功能" src="/resources/images/index/opt_6.gif">产品标签 ：</span>
         <a title="全部" href="query?tag=all<?=$tag?>&qidxf=t<?=$qidxf;?>" qidxf="t" class="crumb">全部</a>
 
-        <?php foreach($taglist as $tname=>$idx){?>
+        <?php
+           $tidx =0;
+        foreach($taglist as $tname){
+              $tttg = "t".$tidx;
+            ?>
 
-          <a title="<?=$tname?>"
-             href="query?tag=<?=$tname?><?=$tag?>&qidxf=<?=$idx?><?=$qidxf;?>"
-             qidxf="<?=$idx?>"
-             class=""><?=$tname?></a>
+          <a title="<?=$tname['name']?>"
+             href="query?tag=<?=$tname['name']?><?=$tag?>&qidxf=<?=$tttg?><?=$qidxf;?>"
+             qidxf="<?=$tttg?>"
+             class=""><?=$tname['name']?></a>
 
 
-        <?php }?>
+        <?php
+
+            $tidx++;
+
+        }?>
 
     </p>
 </div>

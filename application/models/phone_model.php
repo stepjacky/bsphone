@@ -28,7 +28,8 @@ class Phone_model extends Media_Model {
      
     public  function __construct(){
         parent::__construct("Phone_model");
-    }  
+        $this->load->model("Sharedinfo_model",'shrdao');
+    }
 
     public function find($cnds = array(),$sort=array()){
         $whs = array();
@@ -179,12 +180,11 @@ class Phone_model extends Media_Model {
         $phone['mainartitle']= $this->result($mainartitle,'artitle');
 
 
-        $this->db->where("phone_id",$phone['id']);
-        $query = $this->db->get("sharedinfo");
-        $shares = $query->result_array();
+
+        $shares = $this->shrdao->find_by_phone($phone['id']);
+        $this->firelog($shares);
         $phone['shares'] = $shares;
         $phone['shareslen'] = count($shares);
-        //$this->db->count_all_results();
 
         $this->db->where('ptype', "plist");
         $this->db->where('phone_id', $phone['id']);

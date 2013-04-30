@@ -46,10 +46,10 @@
                 </dt>
                 <dd class="employ_l"><input type="button" onclick="location.href='/phone/query'" value="" name=""></dd>
                 <dd class="employ_r">
-                    <p class="locate_1">100</p>
-                    <p class="locate_2"><input type="button" onclick="addgift('73');" value="" name=""></p>
-                    <p class="locate_3">100</p>
-                    <p class="locate_4"><input type="button" onclick="addgift('69');" value="" name=""></p>
+                    <p class="locate_1">0</p>
+                    <p class="locate_2"><input type="button"  value="" name=""></p>
+                    <p class="locate_3">0</p>
+                    <p class="locate_4"><input type="button"  value="" name=""></p>
                 </dd>
             </dl>
         </div>
@@ -67,7 +67,7 @@
                     <div class="get_r">
                         <p><strong>绑定邮箱<em>奖励2基金</em></strong></p>
                         <p>没绑定邮箱的旧注册会员第一次绑定邮箱可以获得2基金奖励。</p>
-                        <p><input type="image" onclick="window.open('','_blank')" src="/resources/images/index/task_bnt.gif">
+                        <p><input type="image" src="/resources/images/index/task_bnt.gif">
                             <em>(已有41371会员完成)</em>
                         </p>
                     </div>

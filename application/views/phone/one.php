@@ -169,19 +169,43 @@ extract($bean);
                 <div class="buy">
                     <p class="buy_bnt">
 
+
                         <input type="submit" name="" value="" class="online_buy">
+                 <span class="save_bnt"
+                       onmouseover="$(this).addClass('hover')"
+                       onmouseout="$(this).removeClass('hover')"
+                     >
+                  <input type="button" name="" class="save">
+                  <small>
+                      <i>
+                          持VIP卡购买手机可优惠20元
+                          <a target="_blank" href="/welcome/vip">
+                              <img src="/resources/images/index/vip_1.png" title="如何成为金卡会员" alt="如何成为金卡会员"></a>
+                      </i>
+                      <i>
+                      在线邮购使用购物基金可抵扣20元<a target="_blank"
+                                               href="/helpinfo/one/C942D65E-F8E6-0476-9897-E70C093572F4">
+                          <img src="/resources/images/index/jijin.jpg" title="基金是什么" alt="基金是什么"></a>
+                      </i>
+                  </small>
+                </span>
+
+                     <input type="button"
+                            onclick="window.open('http://sighttp.qq.com/authd?IDKEY=5a34fa8867f404b36f0508a8949c55697fb75ef3f7056c11', '_blank');" name="" class="zx2">
 
                     </p>
 
+
+
                     <p class="fs"><strong>付款方式</strong>
                         <br>
-                        <a href=""
+                        <a href="/helpinfo/one/F392D31A-E76E-B6E8-0C7A-ABCDCD639227"
                              target="_blank">分期付款</a>
-                        <a rel="nofollow" href=""
+                        <a rel="nofollow" href="/helpinfo/one/A034E211-E555-696B-965A-7D2FECC8B8C8"
                              target="_blank">银行帐号</a>
-                        <a rel="nofollow" href=""
+                        <a rel="nofollow" href="/helpinfo/one/461DB0E7-000A-FA0D-ED04-2E858D0B7692"
                              target="_blank">支付宝</a>
-                        <a rel="nofollow" href=""
+                        <a rel="nofollow" href="/helpinfo/one/4636092A-9460-E8D0-4EC4-7B6236C8ACC2"
                            target="_blank">货到付款</a>
                         <span>
                             <a> 预约购机</a></span></p>
@@ -387,18 +411,18 @@ extract($bean);
         <dd class="dl_text">
             <ul class="tool_list">
                 <li>
-                    <p><a rel="nofollow" target="_blank" href="http://sh.vgooo.com/html/info/regulation.html">保修条例</a>
+                    <p><a rel="nofollow" target="_blank"
+                          href="/trends/one/61382ACE-C20A-C21F-4A09-D02C3CCFB782">保修条例</a>
                     </p>
                 </li>
                 <li>
-                    <p><a rel="nofollow" target="_blank" href="http://sh.vgooo.com/html/info/process.html">处理流程</a></p>
+                    <p><a rel="nofollow" target="_blank"
+                          href="/trends/one/08D957B1-A51C-04CF-5618-5CE02CC1479F">处理流程</a></p>
                 </li>
                 <li>
-                    <p><a rel="nofollow" target="_blank" href="http://sh.vgooo.com/html/external/index.html">对外服务</a>
+                    <p><a rel="nofollow" target="_blank"
+                          href="/trends/one/A3900DD3-F8CF-30D4-685E-F041CBF190D3">对外服务</a>
                     </p>
-                </li>
-                <li>
-                    <p><a rel="nofollow" href="http://sh.vgooo.com/html/mass/index.html">质量问题申诉</a></p>
                 </li>
             </ul>
         </dd>
@@ -420,8 +444,8 @@ extract($bean);
         <?php foreach ($shares as $shs): ?>
         <dd class="">
             <div name="#share_41792" class="dd_left">
-                <img src="/resources/images/index/1530124420121798.jpg">
-
+                <img src="<?=$shs['avatar']?>">
+                <label><?=$shs['nick'];?></label>
                 <div class="info_vip">
                     <img alt="普通会员" src="/resources/images/index/vip_3.png">
                 </div>

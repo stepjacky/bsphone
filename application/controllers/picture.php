@@ -134,7 +134,9 @@ class Picture extends MY_Controller {
             || $ptype=="video"
             || $ptype=='subjecs'
             || $ptype=='spare'
-            || $ptype=='service');
+            || $ptype=='service'
+            || $ptype=="copagent"
+       );
     }
 
 

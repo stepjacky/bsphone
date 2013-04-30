@@ -202,5 +202,13 @@ class Trends extends Media_Controller {
         $this->load->view("apps/footer");
     }
 
-    
+
+    public function find_by_nametags($key,$page=1,$rows=10){
+        $beans  =  $this->dao->find_by_nametags($key,$page,$rows);
+        $data['datasource'] = $beans;
+        $data['pagelink']="";
+        $this->load->view($this->dao->table()."/list",$data);
+
+    }
+
 }   

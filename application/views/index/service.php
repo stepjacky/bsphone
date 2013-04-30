@@ -7,7 +7,7 @@
 <div class="content grid_12" style="margin-top:10px">
 
 <div class="gzhu">
-    <h6><a rel="nofollow" href="/welcome/serivcecenter"></a><img src="/resources/images/index/sales_title01.png"><span class="h6_l"></span><span class="h6_r"></span></h6>
+    <h6><img src="/resources/images/index/sales_title01.png"><span class="h6_l"></span><span class="h6_r"></span></h6>
     <div class="gzhu_ceng">
        <?php foreach($topmovs as $mov):?>
         <?php
@@ -67,17 +67,17 @@
             </div>
             <div class="anniu">
                     <span>
-                        <a title="手机上网教程" href="/welcome/service">
+                        <a title="手机上网教程" href="/trends/one/BEA417E5-7DF0-4A35-302A-976450BF2AA6">
                         <img width="202" height="50" alt="手机上网教程" src="/resources/images/index/mobilenetsetting.gif">
                         </a>
                     </span>
                 <span >
-                    <a title="保修条例" href="/welcome/service">
+                    <a title="保修条例" href="/trends/one/61382ACE-C20A-C21F-4A09-D02C3CCFB782">
                 <img width="202" height="50" alt="保修条例" src="/resources/images/index/sale_06.jpg">
                     </a> </span>
-                    <span ><a title="维修条例" href="/welcome/service">
+                    <span ><a title="维修条例" href="/trends/one/08D957B1-A51C-04CF-5618-5CE02CC1479F">
                         <img width="202" height="50" alt="维修流程" src="/resources/images/index/sale_08.jpg"></a> </span>
-                    <span "><a title="对外服务" href="/welcome/service">
+                    <span "><a title="对外服务" href="/trends/one/A3900DD3-F8CF-30D4-685E-F041CBF190D3">
                         <img width="202" height="50" alt="对外服务" src="/resources/images/index/sale_10.jpg"></a> </span>
             </div>
             <div class="zixun">

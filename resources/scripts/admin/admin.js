@@ -6,6 +6,7 @@
  * To change this template use File | Settings | File Templates.
  */
 
+var lasturl = '';
 $(function(){
     $("a.tab-menuitem").bind("click",showItemPage);
     ajaxSetting();

@@ -235,10 +235,9 @@ class MY_Controller extends CI_Controller
 
     }
 
-    protected  function _end($msg="")
+    protected  function _end()
     {
-        $vdata['message'] = (!$msg)?"操作完成":$msg;
-        $this->load->view("common/result", $vdata);
+       $this->load->view("common/result-close");
     }
 
     public   function __user_header(&$data){

@@ -1808,16 +1808,27 @@ h1 small em, .mainshow em {
     bottom: 8px;
     left: 25px;
     height: 124px;
-    overflow: hidden;
+    overflow: visible;
 }
 
 .price .buy p {
     width: 100%;
     float: left;
-    margin: 8px 0;
+    margin: 2px 0;
     font-weight: normal;
     display: inline;
     padding: 0;
+}
+
+
+
+.buy p span.save_bnt {
+    float: left;
+    height: 32px;
+    margin-right: 3px;
+    margin-left:  2px;
+    position: relative;
+    width: 73px;
 }
 
 
@@ -1836,7 +1847,7 @@ h1 small em, .mainshow em {
 /*  .gm,.zx{width:127px;height:32px;border:none;cursor:pointer;}
 		.gm{background-position:0 -106px;}
 		.zx{background-position:-129px -106px;}*/
-.gm, .zx, .yuyue, .zx2, .online_buy {
+.gm, .zx, .yuyue, .zx2, .save , .online_buy {
     width: 127px;
     height: 32px;
     border: none;
@@ -1845,15 +1856,23 @@ h1 small em, .mainshow em {
 
 .gm {
     background-position: 0 -106px;
+
 }
 
 .zx {
     background-position: -129px -106px;
+
+}
+
+.save {
+    background: url("/resources/images/index/save.gif") repeat scroll 0 0 transparent;
+    width: 73px;
 }
 
 .online_buy {
     width: 104px;
     background: url(/resources/images/index/online_buy.gif);
+    float: left;
 }
 
 .yuyue {
@@ -1865,6 +1884,35 @@ h1 small em, .mainshow em {
     width: 76px;
     background: url(/resources/images/index/zx2.gif);
 }
+
+
+.price p .save_bnt small {
+    background: url("/resources/images/index/save_tips.gif") repeat scroll 0 0 transparent;
+    display: none;
+    height: 42px;
+    left: 0;
+    padding: 5px 0 0 5px;
+    position: absolute;
+
+    top: 32px;
+    width: 212px;
+}
+.price p .hover small {
+    display: block;
+    z-index: 999;
+}
+.save_bnt small img {
+    vertical-align: middle;
+}
+.save_bnt small i {
+    float: left;
+    font-family: "宋体";
+    line-height: 10px;
+    padding: 3px 0;
+    width: 100%;
+}
+
+
 
 .buy p.fs {
     width: 250px;
