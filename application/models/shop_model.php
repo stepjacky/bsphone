@@ -44,7 +44,7 @@ class Shop_model extends MY_Model {
         $this->db->limit(1,0);
         $query = $this->db->get($this->table());
         $bean = $query->first_row('array');
-        return $bean;
+        return empty($bean)?$this->emptyObject():$bean;
     }
 
     public function find_for_nav(){
