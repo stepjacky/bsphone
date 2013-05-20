@@ -39,7 +39,7 @@
                     <dt>
 
                         <a target="_blank"  href="/video/one/<?=val($id)?>">
-                            <?=val($name)?>
+
                             <img src="<?=val($minipic)?>">
                             <small></small><span></span>
                         </a>
