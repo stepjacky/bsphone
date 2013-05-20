@@ -26,7 +26,7 @@
 	.news_subnav li{float:left;height:28px;margin-right:10px;margin-bottom: 7px;}
 	  .news_subnav li a{float:left;height:26px;padding:0 10px;white-space:nowrap;border:1px solid #e0e0e0;font:bold 14px/26px "宋体";}
 	  .news_subnav li.crumb a,.news_subnav li a:hover{background:#0ba7e4;color:#fff;border-color:#0ba7e4;}
-          
+
   .layout_div{width:100%;float:left;padding-bottom:8px;}
     .images{width:662px;height:249px;background:#fff;float:left;overflow:hidden; position:relative;}
 	  .images li{width:640px;height:239px;padding:5px 11px;position:relative;}
@@ -34,7 +34,7 @@
 		.images li p{position:absolute;float:left;left:0;bottom:0;padding:0 10px;background:#000;width:642px;filter: Alpha(Opacity=70);opacity:0.7;color:#fff;line-height:18px;height:56px; overflow:hidden;}
 		  .images li p strong{width:100%;float:left;color:#5ab8e0;line-height:20px;}
 		  .images li p small{width:100%;float:left; text-indent:24px;}
-		
+
     .bor6{width:668px;float:left;border:solid #c7c2ba;border-width:0 1px;}
 	 	  .news_page{padding:5px 10px;height:30px;width:648px;float:left;text-align:right;background:url(/resources/images/index/news_page.gif);margin-bottom:-5px; position:relative; z-index:2;}
 	    .news_page strong{float:left;line-height:30px;font-size:14px;}
@@ -47,7 +47,7 @@
 		    .news_page span p a:hover{color:#0ba7e4;}
 		.news_page small{float:right;}
 		   .news_page small input{width:90px;height:31px;border:none;background:url(/resources/images/index/new_plbnt.gif);cursor:pointer;}
-			
+
 	  .news_list{width:630px;float:left;padding:10px 19px;background:url(/resources/images/index/bor_bg1.gif) repeat-x 0 1px; font-family:"宋体";}
 	  .ks_page{width:100%;float:left; text-align:right;font-weight:bold;color:#0aa7d6;padding-bottom:15px;padding-top:8px;}
 	    .news_list dl{padding:10px 0;background:url(/resources/images/index/dtbg.gif) repeat-x bottom;}
@@ -68,7 +68,7 @@
 		  .news_list dd p,.news_text dd p{padding:10px 0;}
 
                   .news_load{width:100%;float:left;padding:10px 0 15px; text-align:center;}
-                  
+
 	  .news_load{width:100%;float:left;padding:10px 0 15px; text-align:center;}
 	  .savor{padding:10px 0;background:url(/resources/images/index/bor_bg1.gif) repeat-x top;}
 	    .dtnav dt span a.news_t1{width:209px;background:url(/resources/images/index/news_savor.gif);}
@@ -98,8 +98,8 @@
   .fine{width:298px;float:left;padding-top:5px;}
     .fine li{width:100%;height:;padding:;float:left; text-align:center;padding:5px 0;}
       .fine li img{width:267px;height:80px;padding:1px;border:1px solid #e5e0d4;}
-  
-  
+
+
   .bor7{background:#f9f9f9 url(/resources/images/index/bor_bg4.gif) repeat-x top;border:solid #c7c2ba;border-width:0 1px;float:left;}
   .tag{padding:10px 15px;width:268px;float:left;}
 	.tag a{margin-right:15px;font-weight:bold; line-height: 25px;font-family:"微软雅黑";}
@@ -115,11 +115,11 @@
              .list1 li a:hover{text-decoration:underline;}
 		.before a{color:#0aa7d6;font-weight:bold;}
 		  .list1 li img{padding:6px 10px 0 0;float:left;}
-     
+
 	 .recom{width:278px;padding:13px 10px 5px;float:left;}
 	  .recom li{width:100%;float:left; text-align:center;padding:6px 0;}
 	     .recom li img{width:250px;height:200px;padding:7px;border:1px solid #dddad6;}
-	 
+
 	 .news_list4{width:278px;padding:0 10px 5px;float:left;}
 	   .news_list4 li{border-bottom:1px solid #dedede;width:100%;float:left;padding:10px 0; position:relative;}
 	     .news_list4 li .tade{top:45px;left:40px;}
@@ -133,7 +133,7 @@
 		   .news_list4 li p.style2  a:hover{text-decoration:underline;}
 		   .news_list4 li p.style2 strong{color:#0aa7d6;}
 	    .news_list4 .page{ text-align:center;}
-	 
+
 	 .pl{width:278px;padding:10px;float:left;position:relative;}
 	    .pl p{padding-bottom:5px;width:100%;float:left;}
 	   .textarea_bg2{float:left;width:272px;height:86px;padding:2px 3px;background:url(/resources/images/index/textarea_bg2.gif);overflow:hidden;}
@@ -149,7 +149,7 @@
             .cite{height:24px;float:left;background:url(/resources/images/index/cite_bg.gif) left;padding-left:6px;display: none;}
             .cite em{height:24px;float:left;background:url(/resources/images/index/cite_bg.gif) right;padding-right:20px;font:bold 12px/24px "宋体";color:#666; position:relative;}
               .cite em a{width:15px;height:15px;float:right;background:url(/resources/images/index/cite_cancel.gif); overflow:hidden; position:absolute;top:4px;right:4px;}
-		
+
 	 .pl_list{width:278px;padding:8px 10px;float:left; position:relative;}
            .pl_list .rob{width:222px;float:left;height:42px;font:12px/21px "宋体";overflow:hidden;background:url(/resources/images/index/rob.gif) no-repeat 14px 0;padding:11px 0 0 56px;}
 	 .pl_list .rob strong{color:#ff7800;}
@@ -163,7 +163,7 @@
 		    .quote_txt{width:;padding:0 20px 10px 0;background:#eee url(/resources/images/index/quote_bg2.gif) no-repeat right bottom;}
 			  .quote_txt p{padding-top:3px;}
 			  .quote_txt strong{color:#76a90d;}
-		         
+
              .zc{position:absolute;right:0;bottom:3px;text-align:right;color:#b5b5b5;}
                 .zc a{color:#72aa22;}
 		 .pl_list .tade,.news_list4 .tade{position:absolute;left:18px;top:30px;padding:3px 5px;width:auto;background:#f9f9f9;border:1px solid #818181;}
@@ -189,7 +189,7 @@
 		  .strategy p{padding:3px 0 3px 22px;width:256px;float:left;}
 		    .strategy p strong{width:33px;padding-left:78px;text-align:center;float:left;color:#72aa22;font-size:20px;}
 			.strategy p a{font-weight:bold;color:#0ba7e4;}
-		
+
 		.reply{width:300px;height:210px;background:url(/resources/images/index/news_reply.gif); position:absolute;left:-1px;}
 		  .reply h2{font-size:14px;height:26px;line-height:26px; text-indent:15px;}
 		    .reply h2 a{float:right;margin:5px 5px 0 0;}
@@ -198,7 +198,7 @@
 	  .news_text .page p,.figure .page p{padding-top:0;font-size:12px;}
 	  .figure .page p{padding-bottom:10px;}
 	    .news_text .page p strong,.figure .page p strong{color:#649604;}
-		
+
 .rewards{width:924px;float:left;background:#fff;padding:10px 24px;}
   .rewards h2{font-size:24px;color:#0ba7e4;width:100%;float:left; text-align:center;padding-top:20px;}
 	.figure{width:100%;float:left;padding:5px 0;border-bottom:1px dashed #e8e8e8;}
@@ -247,7 +247,7 @@
 		  .fbpl small a{margin:0 3px;}
             .inputbg3{float:left;width:714px;height:30px;padding:3px;background:url(/resources/images/index/inputbg3.gif);overflow:hidden;}
 	      .inputbg3 input{width:710px;height:30px;border:none;background:none;font:bold 14px/30px "宋体";padding-left:4px;color:#333;}
-   
+
    .news_text{width:650px;padding:20px 10px 0;float:left;}
      .news_text dt{width:100%;float:left;height:130px;background:url(/resources/images/index/news_dt.gif); text-align:center;}
 	   .news_text dt p{width:100%;float:left;}
@@ -260,7 +260,7 @@
 	 .key{width:100%;float:left;line-height:30px;font-size:12px;}
 	   .key a{color:#649604;margin:0 5px;}
 	   .key a:hover{ text-decoration:underline;}
-           
+
 	   .key small{float:right;padding:7px 5px 0 0;line-height:16px;}
 	     .key small img{vertical-align:middle;}
 		 .key small a{margin:0 3px;}
@@ -268,7 +268,7 @@
             .news_layout{width:100%;float:left;padding-top:10px;}
             .news_layout .savor ul{padding-left:16px;}
             .news_layout .savor li{padding:0 18px;}
-  
+
   .xgdiv1,.xgdiv2{width:320px;float:left;}
   .xgdiv2{float:right;}
     .news_list2{width:278px;padding:5px 20px;float:left;}

@@ -153,4 +153,11 @@ class Comment_model extends Media_Model {
             $this->update_funds($user,$amount);
         }
     }
+
+    public function  count_for_type($type,$id){
+        $SQL="select count(*) num from comment c where c.%s='%s'";
+        $query   =  $this->db->query(sprintf($SQL,$type,$id));
+        $result  = $query->row_array();
+        return $result['num'];
+    }
 }   

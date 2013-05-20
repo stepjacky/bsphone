@@ -61,8 +61,10 @@ class Artitle_model extends Media_Model {
     }
 
     public function find_by_tag($tag,$rows=20){
+
+        if($tag=='all')$rows=100;
         $this->db->select("id,name,tags,firedate,summary,largepic");
-        $this->db->like('tags',$tag);
+        if($tag!="all") $this->db->like('tags',$tag);
         $this->db->order_by('firedate','desc');
         $this->db->limit($rows,0);
         $query = $this->db->get($this->table());
@@ -174,5 +176,4 @@ class Artitle_model extends Media_Model {
 
 
 
-    
 }   

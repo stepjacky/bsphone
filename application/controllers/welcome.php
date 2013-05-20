@@ -58,19 +58,22 @@ class Welcome extends MY_Controller
         $this->load->model('Comment_model', 'cmtDao');
         $this->load->model('Artitle_model', 'artDao');
         $data = array("flag" => "artitle");
-        $data['tags'] = $this->tagDao->find_by_catalog('artitle');
-        $beans = $this->artDao->gets(1, 10);
+        $data['gtags'] = $this->tagDao->find_by_catalog('artitle');
+
+        $beans = $this->artDao->gets(1, 20);
         foreach ($beans as &$bean) {
             $tags = explode(',', $bean['tags']);
             $bean['atags'] = $tags;
+            $bean['cmtnum'] = $this->cmtDao->count_for_type('artitle_id',$bean['id']);
         }
         $data['beans'] = $beans;
-        $comments = $this->cmtDao->most_for_artitle();
-        $data['comments'] = $comments;
+        //$comments = $this->cmtDao->most_for_artitle();
+        //$data['comments'] = $comments;
         $data['tidx'] = 0;
 
         $data['top4'] = $this->artDao->find_recommend();
 
+        $this->fireLog($data['gtags']);
         $this->__user_header($data);
         $this->load->view("index/artitle", $data);
         $this->load->view("apps/footer");
@@ -115,15 +118,20 @@ class Welcome extends MY_Controller
         $this->load->model('Tags_model', 'tagDao');
         $this->load->model('Comment_model', 'cmtDao');
         $this->load->model('Video_model', 'vdoDao');
-        $data['tags'] = $this->tagDao->find_by_catalog('video');
-        $beans = $this->vdoDao->gets(1, 10);
-        $data['beans'] = $beans;
-        $hots = $this->vdoDao->hot_video();
-        $data['hots'] = $hots;
-        $comments = $this->cmtDao->most_for_video();
-        $data['comments'] = $comments;
-        $data['tidx'] = 0;
+        $data['gtags'] = $this->tagDao->find_by_catalog('video');
+        $beans = $this->vdoDao->gets(1, 200);
 
+        foreach ($beans as &$bean) {
+            $tags = explode(',', $bean['tags']);
+            $bean['atags'] = $tags;
+            $bean['cmtnum'] = $this->cmtDao->count_for_type('artitle_id',$bean['id']);
+        }
+        $data['beans'] = $beans;
+        //$hots = $this->vdoDao->hot_video();
+       // $data['hots'] = $hots;
+        //$comments = $this->cmtDao->most_for_video();
+       // $data['comments'] = $comments;
+        $data['tidx'] = 0;
         $top4 = $this->vdoDao->find_recommend();
         $data['top4'] = $top4;
         $this->__user_header($data);

@@ -60,15 +60,17 @@ class Video extends Media_Controller {
     public function by_tags($tag,$tidx=0){
         $tag = urldecode($tag);
         $beans     =  $this->dao->find_by_tag($tag);
-        $comments  =  $this->cmtDao->most_for_video();
+        //$comments  =  $this->cmtDao->most_for_video();
         $tags = $this->tagDao->find_by_catalog('video');
-        $hots = $this->dao->hot_video();
-
+        //$hots = $this->dao->hot_video();
+        foreach ($beans as &$bean) {
+            $bean['cmtnum'] = $this->cmtDao->count_for_type('artitle_id',$bean['id']);
+        }
         $data  =array(
-            'hots'=>$hots,
-            'tags'=>$tags,
+            //'hots'=>$hots,
+            'gtags'=>$tags,
             "beans"=>$beans,
-            'comments'=>$comments,
+            //'comments'=>$comments,
             'tidx'=>$tidx,
             'flag'=>'movies'
         );

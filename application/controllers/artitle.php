@@ -85,13 +85,17 @@ class Artitle extends Media_Controller {
         $beans     =  $this->dao->find_by_tag($tag);
         $comments  =  $this->cmtDao->most_for_artitle();
         $tags = $this->tagDao->find_by_catalog('artitle');
+        foreach ($beans as &$bean) {
+            $bean['cmtnum'] = $this->cmtDao->count_for_type('artitle_id',$bean['id']);
+        }
         $data  =array(
-            'tags'=>$tags,
+            'gtags'=>$tags,
             "beans"=>$beans,
             'comments'=>$comments,
             'tidx'=>$tidx,
             'flag'=>'artitle'
         );
+
         $data['top4'] = $this->dao->find_recommend();
         $this->__user_header($data);
         $this->load->view("index/artitle",$data);

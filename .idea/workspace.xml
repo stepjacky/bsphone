@@ -2,12 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c66e97a5-ee7b-49e6-abff-297e3a88525f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/shop_model.php" afterPath="$PROJECT_DIR$/application/models/shop_model.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/images/index/Connect_logo_3.png" afterPath="$PROJECT_DIR$/resources/images/index/Connect_logo_3.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/images/index/parts_6.png" afterPath="$PROJECT_DIR$/resources/images/index/parts_6.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/images/index/sina_login.png" afterPath="$PROJECT_DIR$/resources/images/index/sina_login.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/images/index/title30.gif" afterPath="$PROJECT_DIR$/resources/images/index/title30.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/images/index/zx2.gif" afterPath="$PROJECT_DIR$/resources/images/index/zx2.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/styles/artitle.css" afterPath="$PROJECT_DIR$/resources/styles/artitle.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/styles/index/artitle.css" afterPath="$PROJECT_DIR$/resources/styles/index/artitle.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/artitle.php" afterPath="$PROJECT_DIR$/application/controllers/artitle.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/index/artitle.php" afterPath="$PROJECT_DIR$/application/views/index/artitle.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/artitle_model.php" afterPath="$PROJECT_DIR$/application/models/artitle_model.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/scripts/artitle/bytags.js" afterPath="$PROJECT_DIR$/resources/scripts/artitle/bytags.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/comment_model.php" afterPath="$PROJECT_DIR$/application/models/comment_model.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/index/movies.php" afterPath="$PROJECT_DIR$/application/views/index/movies.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/video.php" afterPath="$PROJECT_DIR$/application/controllers/video.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/video_model.php" afterPath="$PROJECT_DIR$/application/models/video_model.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/welcome.php" afterPath="$PROJECT_DIR$/application/controllers/welcome.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="bsphone.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1368024807919" ignored="false" />
+    <file path="/Dummy.txt" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1369058538197" ignored="false" />
     <file path="/admin.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1365742287170" ignored="false" />
     <file path="/MY_Controller.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366552063376" ignored="false" />
     <file path="/header.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1365742849372" ignored="false" />
@@ -25,10 +40,10 @@
     <file path="/shopcart.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1365743745582" ignored="false" />
     <file path="/one.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1367336269410" ignored="false" />
     <file path="/joinus.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366472888759" ignored="false" />
-    <file path="/artitle_model.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366635660988" ignored="false" />
+    <file path="/artitle_model.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1369063824022" ignored="false" />
     <file path="/home-artitle.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366275320322" ignored="false" />
     <file path="/trends_model.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1367342153002" ignored="false" />
-    <file path="/artitle.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366350726378" ignored="false" />
+    <file path="/artitle.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1369063865126" ignored="false" />
     <file path="/pre-add-tops.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366292997349" ignored="false" />
     <file path="/founds.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366276238593" ignored="false" />
     <file path="/vip4top.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366278621002" ignored="false" />
@@ -38,13 +53,13 @@
     <file path="/sharedinfo_model.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1367335891024" ignored="false" />
     <file path="/index.js" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1367329977495" ignored="false" />
     <file path="/editNew.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366468839262" ignored="false" />
-    <file path="/welcome.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1367245214482" ignored="false" />
+    <file path="/welcome.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1369062615512" ignored="false" />
     <file path="/product.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1367341781424" ignored="false" />
     <file path="/flexslider.css" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366306416040" ignored="false" />
-    <file path="/comment_model.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366306815632" ignored="false" />
+    <file path="/comment_model.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1369062067283" ignored="false" />
     <file path="/MY_Model.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1367252539992" ignored="false" />
     <file path="/spare_model.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366307747932" ignored="false" />
-    <file path="/movies.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366350997653" ignored="false" />
+    <file path="/movies.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1369065566856" ignored="false" />
     <file path="/phonefooter.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366625487682" ignored="false" />
     <file path="/sparetype.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366380449563" ignored="false" />
     <file path="/list.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1367342555929" ignored="false" />
@@ -73,6 +88,8 @@
     <file path="/tags.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1367341206066" ignored="false" />
     <file path="/trends.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1367342357929" ignored="false" />
     <file path="/shop_model.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1368024883039" ignored="false" />
+    <file path="/artitle.css" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1369060537636" ignored="false" />
+    <file path="/video_model.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1369065222882" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,19 +109,98 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="shop.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/controllers/shop.php">
+      <file leaf-file-name="welcome.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/controllers/welcome.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="26" selection-start="1896" selection-end="1896" vertical-scroll-proportion="-14.545455">
+            <state line="67" column="9" selection-start="2333" selection-end="2333" vertical-scroll-proportion="-11.636364">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="shop_model.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/application/models/shop_model.php">
+      <file leaf-file-name="video.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/controllers/video.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="54" selection-start="1743" selection-end="1743" vertical-scroll-proportion="0.55006033">
+            <state line="68" column="22" selection-start="2317" selection-end="2317" vertical-scroll-proportion="-12.363636">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="video_model.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/models/video_model.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="42" column="0" selection-start="1532" selection-end="1532" vertical-scroll-proportion="-12.757576">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="movies.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/views/index/movies.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="47" selection-start="47" selection-end="47" vertical-scroll-proportion="-0.99758744">
+              <folding>
+                <element signature="n#style#0;n#ul#0;n#div#1;n#div#2;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="artitle.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/controllers/artitle.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="86" column="58" selection-start="3085" selection-end="3136" vertical-scroll-proportion="-7.2727275">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="artitle_model.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/models/artitle_model.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="74" column="9" selection-start="2627" selection-end="2748" vertical-scroll-proportion="-16.878788">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="artitle.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/index/artitle.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="98" column="0" selection-start="2596" selection-end="2752" vertical-scroll-proportion="-18.575758">
+              <folding>
+                <element signature="n#style#0;n#ul#0;n#div#1;n#div#2;n#!!top" expanded="true" />
+                <marker date="1369063865267" expanded="true" signature="2348:2446" placeholder="..." />
+                <marker date="1369063865267" expanded="true" signature="2388:2446" placeholder="..." />
+                <marker date="1369063865267" expanded="true" signature="2626:2667" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bytags.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/scripts/artitle/bytags.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="28" column="5" selection-start="934" selection-end="934" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="artitle.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/styles/index/artitle.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1402" column="0" selection-start="27667" selection-end="27667" vertical-scroll-proportion="-16.689655">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="movies.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/styles/index/movies.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="17" selection-start="270" selection-end="270" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -128,22 +224,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/resources/scripts/phone/list.js" />
-        <option value="$PROJECT_DIR$/application/views/common/result-close.php" />
-        <option value="$PROJECT_DIR$/application/core/MY_Controller.php" />
-        <option value="$PROJECT_DIR$/resources/scripts/admin/admin.js" />
-        <option value="$PROJECT_DIR$/application/controllers/picture.php" />
-        <option value="$PROJECT_DIR$/application/views/picture/input.php" />
-        <option value="$PROJECT_DIR$/resources/scripts/picture/admin.js" />
-        <option value="$PROJECT_DIR$/application/controllers/tags.php" />
-        <option value="$PROJECT_DIR$/application/controllers/phone.php" />
-        <option value="$PROJECT_DIR$/application/views/index/product.php" />
-        <option value="$PROJECT_DIR$/application/models/trends_model.php" />
         <option value="$PROJECT_DIR$/resources/scripts/trends/list.js" />
         <option value="$PROJECT_DIR$/application/views/tags/list.php" />
         <option value="$PROJECT_DIR$/application/views/trends/list.php" />
         <option value="$PROJECT_DIR$/application/controllers/trends.php" />
         <option value="$PROJECT_DIR$/application/models/shop_model.php" />
+        <option value="$PROJECT_DIR$/resources/styles/artitle.css" />
+        <option value="$PROJECT_DIR$/resources/styles/index/artitle.css" />
+        <option value="$PROJECT_DIR$/application/models/comment_model.php" />
+        <option value="$PROJECT_DIR$/resources/scripts/artitle/bytags.js" />
+        <option value="$PROJECT_DIR$/application/models/artitle_model.php" />
+        <option value="$PROJECT_DIR$/application/views/index/artitle.php" />
+        <option value="$PROJECT_DIR$/application/controllers/artitle.php" />
+        <option value="$PROJECT_DIR$/application/views/index/movies.php" />
+        <option value="$PROJECT_DIR$/application/controllers/welcome.php" />
+        <option value="$PROJECT_DIR$/application/controllers/video.php" />
+        <option value="$PROJECT_DIR$/application/models/video_model.php" />
       </list>
     </option>
   </component>
@@ -185,7 +281,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -232,7 +327,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
+              <option name="myItemId" value="images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -250,66 +345,17 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
+              <option name="myItemId" value="images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="trends" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bsphone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bsphone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bsphone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bsphone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bsphone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bsphone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
+              <option name="myItemId" value="index" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -340,11 +386,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="G:\webroot\bsphone\application\views\common" />
       <recent name="G:\webroot\bsphone\resources\images\index" />
+      <recent name="G:\webroot\bsphone\application\views\index" />
+      <recent name="G:\webroot\bsphone\application\views\common" />
       <recent name="G:\webroot\bsphone\application\views\phone" />
       <recent name="G:\webroot\bsphone\application\config" />
-      <recent name="G:\webroot\bsphone\application\views" />
     </key>
   </component>
   <component name="RunManager" selected="PHPUnit.bsphone">
@@ -398,14 +444,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24984385" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27408993" sideWeight="0.9986894" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16059957" sideWeight="0.9986894" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32979387" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -481,87 +527,122 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resources/scripts/picture/edit.js">
+    <entry file="file://$PROJECT_DIR$/resources/styles/artitle.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="85" selection-end="85" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/tags/editNew.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="3" selection-start="543" selection-end="543" vertical-scroll-proportion="-13.484848" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/tags.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="5" selection-start="2063" selection-end="2063" vertical-scroll-proportion="-19.636364" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/phone.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="109" column="22" selection-start="3351" selection-end="3351" vertical-scroll-proportion="-11.636364" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/tags_model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="10.909091" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/phone_model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="434" column="30" selection-start="12984" selection-end="12984" vertical-scroll-proportion="-14.939394" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/index/product.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="82" selection-start="4282" selection-end="4282" vertical-scroll-proportion="0.52110976" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/trends_model.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="111" column="32" selection-start="3772" selection-end="3788" vertical-scroll-proportion="0.5946924" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/core/MY_Controller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="36" selection-start="1541" selection-end="1608" vertical-scroll-proportion="0.55006033" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/scripts/trends/list.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="59" selection-start="534" selection-end="534" vertical-scroll-proportion="0.55684453" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/tags/list.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="407" selection-end="407" vertical-scroll-proportion="0.31845596" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/trends/list.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="13" selection-start="722" selection-end="722" vertical-scroll-proportion="0.6369119" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/trends.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="194" column="0" selection-start="5085" selection-end="5085" vertical-scroll-proportion="0.6236429" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/index/service.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-2.2058823" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/shop.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="26" selection-start="1896" selection-end="1896" vertical-scroll-proportion="-14.545455">
+        <state line="68" column="0" selection-start="4721" selection-end="4721" vertical-scroll-proportion="-6.1164465">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/models/shop_model.php">
+    <entry file="file://$PROJECT_DIR$/application/views/artitle/pre-add-tops.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="54" selection-start="1743" selection-end="1743" vertical-scroll-proportion="0.55006033">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/artitle/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/artitle/one.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="84" column="19" selection-start="3271" selection-end="3271" vertical-scroll-proportion="0.07358263">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/core/MY_Model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="302" column="6" selection-start="8242" selection-end="8242" vertical-scroll-proportion="-0.3486128">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/comment_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="156" column="35" selection-start="4784" selection-end="4798" vertical-scroll-proportion="0.6525935">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/styles/index/movies.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="17" selection-start="270" selection-end="270" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/welcome.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="67" column="9" selection-start="2333" selection-end="2333" vertical-scroll-proportion="-11.636364">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/artitle_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="74" column="9" selection-start="2627" selection-end="2748" vertical-scroll-proportion="-16.878788">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/artitle.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="86" column="58" selection-start="3085" selection-end="3136" vertical-scroll-proportion="-7.2727275">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/video.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="22" selection-start="2317" selection-end="2317" vertical-scroll-proportion="-12.363636">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/models/video_model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="0" selection-start="1532" selection-end="1532" vertical-scroll-proportion="-12.757576">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/styles/index/artitle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1402" column="0" selection-start="27667" selection-end="27667" vertical-scroll-proportion="-16.689655">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/index/artitle.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="98" column="0" selection-start="2596" selection-end="2752" vertical-scroll-proportion="-18.575758">
+          <folding>
+            <element signature="n#style#0;n#ul#0;n#div#1;n#div#2;n#!!top" expanded="true" />
+            <marker date="1369063865267" expanded="true" signature="2348:2446" placeholder="..." />
+            <marker date="1369063865267" expanded="true" signature="2388:2446" placeholder="..." />
+            <marker date="1369063865267" expanded="true" signature="2626:2667" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/scripts/artitle/bytags.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="5" selection-start="934" selection-end="934" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/index/movies.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="47" selection-start="47" selection-end="47" vertical-scroll-proportion="-0.99758744">
+          <folding>
+            <element signature="n#style#0;n#ul#0;n#div#1;n#div#2;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

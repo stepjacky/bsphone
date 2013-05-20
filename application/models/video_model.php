@@ -42,11 +42,16 @@ class Video_model extends Media_Model {
 
 
     public function find_by_tag($tag){
-        $this->db->select("id,name,tags,firedate,views,minipic");
-        $this->db->like('tags',$tag);
+
+        $this->db->select("id,name,tags,firedate,views,minipic,remark");
+        if($tag!="all") $this->db->like('tags',$tag);
+
         $query = $this->db->get($this->table());
         $beans = $query->result_array();
-
+        foreach($beans as &$bean){
+            $tags = explode(',',$bean['tags']);
+            $bean['atags'] = $tags;
+        }
         return $beans;
     }
 
@@ -165,8 +170,9 @@ class Video_model extends Media_Model {
     }
 
     public function find_index_by_tag($tag='',$rows=5){
+        if($tag=="all")$rows=100;
         $this->db->select("id,name,firedate,minipic");
-        $this->db->like('tags',$tag);
+        if($tag!='all') $this->db->like('tags',$tag);
         $this->db->order_by('firedate','desc');
         $this->db->limit($rows,0);
         $query = $this->db->get($this->table());
