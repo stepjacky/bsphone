@@ -458,4 +458,30 @@ class Phone_model extends Media_Model {
         return $result;
     }
 
+    public function compares($ids){
+        $this->firelog($ids);
+        $idary = explode('_',$ids);
+        $SQL = "SELECT p.id id ,p.name name,CONCAT(p.screenx,'*',p.screeny) square,
+p.screen screen ,p.carame carame,p.remark remark,p.cellcap cellcap,
+b.name brand,o.name os,MIN(pp.price) price,
+pc.path minipic
+FROM phone p
+JOIN brand b ON b.id = p.brand
+JOIN phoneos o ON o.id=p.os
+JOIN phoneprice pp ON pp.phone_id=p.id
+JOIN picture pc ON pc.phone_id=p.id AND pc.ptype='minipic'
+WHERE p.id='%s'";
+
+      $beans = array();
+
+        foreach($idary as $id){
+            $query =  $this->db->query(sprintf($SQL,$id));
+            $result = $query->row_array();
+            array_push($beans,$result);
+        }
+
+
+      return $beans;
+    }
+
 }

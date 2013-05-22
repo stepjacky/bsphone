@@ -1434,6 +1434,13 @@ h3 {
     text-align: center;
 }
 
+
+#basketlist li p a img {
+    width:70px;
+    height: 90px;
+
+}
+
 .xg_news {
     width: 100%;
     float: left;

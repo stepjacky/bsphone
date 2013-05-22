@@ -480,6 +480,22 @@ class Phone extends Media_Controller
     }
 
 
+    public function compares($ids){
+        $beans  = $this->dao->compares($ids);
+        $this->fireLog($beans);
+        $data['beans'] = $beans;
+        $data['flag'] = 'product';
+
+        $data['keywords']=  str_replace('@','数码','@报价,@参数,@图片,@评测,@视频,@优缺点');
+        $data['description']=str_replace('@','数码','BE数码通信为您提供@的手机报价，@手机图片，@手机评测，@评测视频，@优缺点。为您在购买@手机时提供最全面最有价值的参考。');
+        $data['title']= str_replace('@','各种数码产品','@报价_视频_参数_图片_新闻-BE数码通信');
+        $this->__user_header($data);
+        $this->load->view("phone/compare", $data);
+        $this->load->view("apps/footer");
+    }
+
+
+
 
     function __qstr($pnames)
     {
