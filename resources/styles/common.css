@@ -386,6 +386,7 @@ a {
     position: absolute;
     z-index: 999;
     display: none;
+    margin-left: -10px;
 }
 
 .brand dt.hover .all {

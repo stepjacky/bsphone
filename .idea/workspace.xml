@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c66e97a5-ee7b-49e6-abff-297e3a88525f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/phone/compare.php" afterPath="$PROJECT_DIR$/application/views/phone/compare.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/styles/common.css" afterPath="$PROJECT_DIR$/resources/styles/common.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/apps/header_end.php" afterPath="$PROJECT_DIR$/application/views/apps/header_end.php" />
     </list>
     <ignored path="bsphone.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,7 +34,7 @@
     <file path="/vip4top.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366278621002" ignored="false" />
     <file path="/hotphone.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366294562107" ignored="false" />
     <file path="/phone.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1369239384218" ignored="false" />
-    <file path="/common.css" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366294735935" ignored="false" />
+    <file path="/common.css" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1369299033790" ignored="false" />
     <file path="/sharedinfo_model.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1367335891024" ignored="false" />
     <file path="/index.js" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1367329977495" ignored="false" />
     <file path="/editNew.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366468839262" ignored="false" />
@@ -62,7 +63,7 @@
     <file path="/active-message.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366618203007" ignored="false" />
     <file path="/resetpassword.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366620735975" ignored="false" />
     <file path="/bademail.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366619885423" ignored="false" />
-    <file path="/header_end.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366624119861" ignored="false" />
+    <file path="/header_end.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1369298800903" ignored="false" />
     <file path="/search-result.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366623414902" ignored="false" />
     <file path="/vip.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366625838488" ignored="false" />
     <file path="/spare.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1367246667444" ignored="false" />
@@ -95,14 +96,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="compare.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="compare.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/phone/compare.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="104" column="43" selection-start="4065" selection-end="4065" vertical-scroll-proportion="0.5946924">
+            <state line="104" column="43" selection-start="4065" selection-end="4065" vertical-scroll-proportion="-14.939394">
               <folding>
                 <element signature="n#style#0;n#img#0;n#a#0;n#td#1;n#tr#2;n#tbody#0;n#table#0;n#div#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#table#1;n#div#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#td#1;n#tr#1;n#tbody#0;n#table#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header_end.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/apps/header_end.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="61" column="34" selection-start="2097" selection-end="2097" vertical-scroll-proportion="-7.2727275">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="common.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/styles/common.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="388" column="23" selection-start="7144" selection-end="7144" vertical-scroll-proportion="0.7067138">
+              <folding>
+                <marker date="1369299034214" expanded="true" signature="639:1090" placeholder="{...}" />
+                <marker date="1369299034214" expanded="true" signature="23649:23704" placeholder="{...}" />
               </folding>
             </state>
           </provider>
@@ -126,8 +148,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/resources/scripts/artitle/bytags.js" />
-        <option value="$PROJECT_DIR$/application/models/artitle_model.php" />
         <option value="$PROJECT_DIR$/application/controllers/artitle.php" />
         <option value="$PROJECT_DIR$/application/controllers/welcome.php" />
         <option value="$PROJECT_DIR$/application/controllers/video.php" />
@@ -142,6 +162,8 @@
         <option value="$PROJECT_DIR$/application/views/apps/header_start.php" />
         <option value="$PROJECT_DIR$/application/views/phone/one.php" />
         <option value="$PROJECT_DIR$/application/views/phone/compare.php" />
+        <option value="$PROJECT_DIR$/application/views/apps/header_end.php" />
+        <option value="$PROJECT_DIR$/resources/styles/common.css" />
       </list>
     </option>
   </component>
@@ -229,7 +251,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
+              <option name="myItemId" value="styles" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -262,28 +284,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bsphone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bsphone" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="application" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="phone" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -468,11 +468,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resources/styles/index/artitle.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1402" column="0" selection-start="27667" selection-end="27667" vertical-scroll-proportion="0.027842227" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/scripts/artitle/bytags.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="28" column="5" selection-start="934" selection-end="934" vertical-scroll-proportion="0.30394432" />
@@ -502,16 +497,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="28" selection-start="278" selection-end="278" vertical-scroll-proportion="0.33410674">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/styles/common.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="1" selection-start="1475" selection-end="1475" vertical-scroll-proportion="0.028268551">
-          <folding>
-            <marker date="1366294737586" expanded="true" signature="-1:-1" placeholder="{...}" />
-            <marker date="1366294737586" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -585,11 +570,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/phone/compare.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="104" column="43" selection-start="4065" selection-end="4065" vertical-scroll-proportion="0.5946924">
+        <state line="104" column="43" selection-start="4065" selection-end="4065" vertical-scroll-proportion="-14.939394">
           <folding>
             <element signature="n#style#0;n#img#0;n#a#0;n#td#1;n#tr#2;n#tbody#0;n#table#0;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#table#1;n#div#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#td#1;n#tr#1;n#tbody#0;n#table#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/apps/header_end.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="34" selection-start="2097" selection-end="2097" vertical-scroll-proportion="-7.2727275">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/styles/common.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="388" column="23" selection-start="7144" selection-end="7144" vertical-scroll-proportion="0.7067138">
+          <folding>
+            <marker date="1369299034214" expanded="true" signature="639:1090" placeholder="{...}" />
+            <marker date="1369299034214" expanded="true" signature="23649:23704" placeholder="{...}" />
           </folding>
         </state>
       </provider>
