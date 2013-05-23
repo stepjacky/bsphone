@@ -63,8 +63,64 @@ extract($bean);
                     <p>&nbsp;分享到:</p>
 
                     <p>
-                        <a onclick="sina();" title="转帖至新浪微博">
-                            <img src="/resources/images/index/sina.gif" alt="转帖至新浪微博"></a>
+                        <ul style="list-style: none;margin: 0">
+                          <li style="display:inline;float:left;width: 20px">
+                              <wb:share-button count="n"  appkey="1047254860" relateuid="2623384347" ></wb:share-button>
+
+
+                          </li>
+
+                          <li style="display:inline;float:left;width: 20px">
+
+                              <script type="text/javascript">
+                                  (function(){
+                                      var p = {
+                                          url:location.href,
+                                          showcount:'0',/*是否显示分享总数,显示：'1'，不显示：'0' */
+                                          desc:'',/*默认分享理由(可选)*/
+                                          summary:'这里有<?=$name?>,还不错,来看看吧',/*分享摘要(可选)*/
+                                          title:document.title,/*分享标题(可选)*/
+                                          site:'',/*分享来源 如：腾讯网(可选)*/
+                                          pics:'', /*分享图片的路径(可选)*/
+                                          style:'203',
+                                          width:22,
+                                          height:22
+                                      };
+                                      var s = [];
+                                      for(var i in p){
+                                          s.push(i + '=' + encodeURIComponent(p[i]||''));
+                                      }
+                                      document.write(['<a version="1.0" class="qzOpenerDiv" href="http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?',s.join('&'),'" target="_blank">分享</a>'].join(''));
+                                  })();
+                              </script>
+                              <script src="http://qzonestyle.gtimg.cn/qzone/app/qzlike/qzopensl.js#jsdate=20111201" charset="utf-8"></script>
+                          </li>
+
+                          <li style="display:inline;float:left;width: 20px;margin-top: -2px">
+                              <script type="text/javascript" charset="utf-8">
+                                  (function(){
+                                      var kx_width = 22;
+                                      var kx_height = 20;
+                                      var param = {
+                                          url:location.href, //分享网址
+                                          content:'这里有<?=$name?>,还不错,过来看看吧', //(可选)需要分享的文字，当文字为空时，自动抓取分享网址的title
+                                          pic:'', //(可选)分享的图片,多个使用半角逗号分隔
+                                          starid:'',//(可选)公共主页id
+                                          aid:'',  //(可选)显示分享来源
+                                          showcount:0,//是否显示分享数
+                                          style:1//显示样式
+                                      }
+                                      var arr = [];
+                                      for( var tmp in param ){
+                                          arr.push(tmp + '=' + encodeURIComponent( param[tmp] || '' ) )
+                                      }
+                                      document.write('<iframe allowTransparency="true" frameborder="0" scrolling="no" src="http://www.kaixin001.com/rest/records.php?'+arr.join('&')+'" width="'+kx_width+'" height="'+kx_height+'"></iframe>')
+                                  })()
+                              </script>
+                          </li>
+                        </ul>
+
+
 
                     </p>
                     <p><a href="/video/phone/<?=$name?>">&gt; 有<em><?=$vcount?></em>个视频</a></p>
