@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c66e97a5-ee7b-49e6-abff-297e3a88525f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/apps/header_start.php" afterPath="$PROJECT_DIR$/application/views/apps/header_start.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/phone/one.php" afterPath="$PROJECT_DIR$/application/views/phone/one.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/phone/compare.php" afterPath="$PROJECT_DIR$/application/views/phone/compare.php" />
     </list>
     <ignored path="bsphone.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -76,7 +74,7 @@
     <file path="/shop_model.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1368024883039" ignored="false" />
     <file path="/artitle.css" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1369060537636" ignored="false" />
     <file path="/video_model.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1369065222882" ignored="false" />
-    <file path="/compare.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1369240188862" ignored="false" />
+    <file path="/compare.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1369298453021" ignored="false" />
     <file path="/header_start.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1369293119416" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -96,7 +94,21 @@
     <favorites_list name="bsphone" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="compare.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/views/phone/compare.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="104" column="43" selection-start="4065" selection-end="4065" vertical-scroll-proportion="0.5946924">
+              <folding>
+                <element signature="n#style#0;n#img#0;n#a#0;n#td#1;n#tr#2;n#tbody#0;n#table#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#table#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#1;n#tr#1;n#tbody#0;n#table#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -126,10 +138,10 @@
         <option value="$PROJECT_DIR$/resources/styles/bsshop.css" />
         <option value="$PROJECT_DIR$/application/controllers/phone.php" />
         <option value="$PROJECT_DIR$/application/views/index/product.php" />
-        <option value="$PROJECT_DIR$/application/views/phone/compare.php" />
         <option value="$PROJECT_DIR$/application/models/phone_model.php" />
         <option value="$PROJECT_DIR$/application/views/apps/header_start.php" />
         <option value="$PROJECT_DIR$/application/views/phone/one.php" />
+        <option value="$PROJECT_DIR$/application/views/phone/compare.php" />
       </list>
     </option>
   </component>
@@ -374,13 +386,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24984385" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21895075" sideWeight="0.6707727" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21895075" sideWeight="0.6707727" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32979387" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -524,13 +536,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/phone/compare.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="47" selection-start="1007" selection-end="1007" vertical-scroll-proportion="0.028950542">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/models/phone_model.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="477" column="58" selection-start="14202" selection-end="14202" vertical-scroll-proportion="0.56574184">
@@ -574,6 +579,17 @@
             <element signature="n#style#0;n#dd#4;n#dl#0;n#div#0;n#div#4;n#!!top" expanded="true" />
             <element signature="n#style#0;n#dd#5;n#dl#0;n#div#0;n#div#4;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#strong#1;n#div#1;n#div#4;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/phone/compare.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="104" column="43" selection-start="4065" selection-end="4065" vertical-scroll-proportion="0.5946924">
+          <folding>
+            <element signature="n#style#0;n#img#0;n#a#0;n#td#1;n#tr#2;n#tbody#0;n#table#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#1;n#tr#1;n#tbody#0;n#table#1;n#div#0;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

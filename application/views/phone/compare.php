@@ -27,7 +27,7 @@
                  <a title="<?=$name?>"
                     target="_blank"
                     href="/phone/one/<?=$id?>">
-                     <img src="<?=$minipic?>" width="70" height="90"></a></td>
+                     <img src="<?=$minipic?>" width="70" height="90" style="vertical-align: middle;margin-top: 35px"></a></td>
                 <?php endforeach;?>
             </tr>
             <tr>
