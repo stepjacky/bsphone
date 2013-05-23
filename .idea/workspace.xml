@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c66e97a5-ee7b-49e6-abff-297e3a88525f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/styles/common.css" afterPath="$PROJECT_DIR$/resources/styles/common.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/apps/header_end.php" afterPath="$PROJECT_DIR$/application/views/apps/header_end.php" />
     </list>
     <ignored path="bsphone.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,7 +33,7 @@
     <file path="/vip4top.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366278621002" ignored="false" />
     <file path="/hotphone.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366294562107" ignored="false" />
     <file path="/phone.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1369239384218" ignored="false" />
-    <file path="/common.css" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1369299033790" ignored="false" />
+    <file path="/common.css" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1369299645220" ignored="false" />
     <file path="/sharedinfo_model.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1367335891024" ignored="false" />
     <file path="/index.js" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1367329977495" ignored="false" />
     <file path="/editNew.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366468839262" ignored="false" />
@@ -112,7 +111,7 @@
       <file leaf-file-name="header_end.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/apps/header_end.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="34" selection-start="2097" selection-end="2097" vertical-scroll-proportion="-7.2727275">
+            <state line="33" column="54" selection-start="897" selection-end="897" vertical-scroll-proportion="-13.090909">
               <folding />
             </state>
           </provider>
@@ -121,10 +120,10 @@
       <file leaf-file-name="common.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/styles/common.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="388" column="23" selection-start="7144" selection-end="7144" vertical-scroll-proportion="0.7067138">
+            <state line="99" column="18" selection-start="2909" selection-end="2909" vertical-scroll-proportion="0.6784452">
               <folding>
-                <marker date="1369299034214" expanded="true" signature="639:1090" placeholder="{...}" />
-                <marker date="1369299034214" expanded="true" signature="23649:23704" placeholder="{...}" />
+                <marker date="1369299654512" expanded="true" signature="639:1090" placeholder="{...}" />
+                <marker date="1369299654512" expanded="true" signature="23668:23723" placeholder="{...}" />
               </folding>
             </state>
           </provider>
@@ -385,7 +384,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -581,17 +580,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/apps/header_end.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="34" selection-start="2097" selection-end="2097" vertical-scroll-proportion="-7.2727275">
+        <state line="33" column="54" selection-start="897" selection-end="897" vertical-scroll-proportion="-13.090909">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/styles/common.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="388" column="23" selection-start="7144" selection-end="7144" vertical-scroll-proportion="0.7067138">
+        <state line="99" column="18" selection-start="2909" selection-end="2909" vertical-scroll-proportion="0.6784452">
           <folding>
-            <marker date="1369299034214" expanded="true" signature="639:1090" placeholder="{...}" />
-            <marker date="1369299034214" expanded="true" signature="23649:23704" placeholder="{...}" />
+            <marker date="1369299654512" expanded="true" signature="639:1090" placeholder="{...}" />
+            <marker date="1369299654512" expanded="true" signature="23668:23723" placeholder="{...}" />
           </folding>
         </state>
       </provider>
