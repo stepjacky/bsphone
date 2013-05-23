@@ -120,10 +120,10 @@
       <file leaf-file-name="common.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/styles/common.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="100" column="21" selection-start="2937" selection-end="2937" vertical-scroll-proportion="0.6219081">
+            <state line="100" column="4" selection-start="2921" selection-end="2921" vertical-scroll-proportion="0.6219081">
               <folding>
-                <marker date="1369299876044" expanded="true" signature="639:1090" placeholder="{...}" />
-                <marker date="1369299876044" expanded="true" signature="23698:23753" placeholder="{...}" />
+                <marker date="1369300364634" expanded="true" signature="639:1090" placeholder="{...}" />
+                <marker date="1369300364634" expanded="true" signature="23700:23755" placeholder="{...}" />
               </folding>
             </state>
           </provider>
@@ -587,10 +587,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/styles/common.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="100" column="21" selection-start="2937" selection-end="2937" vertical-scroll-proportion="0.6219081">
+        <state line="100" column="4" selection-start="2921" selection-end="2921" vertical-scroll-proportion="0.6219081">
           <folding>
-            <marker date="1369299876044" expanded="true" signature="639:1090" placeholder="{...}" />
-            <marker date="1369299876044" expanded="true" signature="23698:23753" placeholder="{...}" />
+            <marker date="1369300364634" expanded="true" signature="639:1090" placeholder="{...}" />
+            <marker date="1369300364634" expanded="true" signature="23700:23755" placeholder="{...}" />
           </folding>
         </state>
       </provider>

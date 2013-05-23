@@ -97,8 +97,8 @@ a {
     color: #808080;
     height: 14px;
     padding: 5px 0;
-    *margin-left: -5px ;
-    *margin-top: -5px ;
+    margin-left: -5px\9 ;
+    margin-top: -5px\9 ;
     width: 320px;
 }
 
