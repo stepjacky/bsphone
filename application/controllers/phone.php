@@ -189,12 +189,14 @@ class Phone extends Media_Controller
 
         $data['beans'] = $pdts;
 
+        $tbrand=  $this->_get('brand');
 
-        $wbeans = $this->dao->find_by_status(1);
+
+        $wbeans = $this->dao->find_by_status(1,$tbrand);
 
         $data['wbeans'] = $wbeans;
 
-        $ebeans = $this->dao->find_by_status(-1);
+        $ebeans = $this->dao->find_by_status(-1,$tbrand);
 
         $data['ebeans'] = $ebeans;
 

@@ -71,11 +71,8 @@
 <li>
     <img  src="<?=val($userimg)?>">
     <div class="list_txt">
-        <p><strong><?=val($username)?></strong></p>
+        <p><strong><?=val($nick)?></strong></p>
         <p><?=val($content)?></p>
-    </div>
-    <div class="info_vip">
-        <img alt="普通会员" src="http://www.vgooo.com/user/resources/images/index/vip_3.png">
     </div>
 
     <div class="zc">发布于:<?=val(date('y-M-d ',strtotime($firedate)))?></div>
@@ -94,10 +91,11 @@
         <div class="bor2">
             <div class="video_content">
                 <div class="video_txt">
-                    <p><?=val($name)?></p>
+                    <p><?=val($remark)?></p>
                 </div>
                 <div class="video_key">
-                    <p><span>发表于<?=val($firedate)?></span><span>播放次数：<?=val($views)?>次</span></p>
+                    <p><span>发表于<?=val(date('Y-m-d',strtotime($firedate)))?></span>
+                        <span>播放次数：<?=val($views)?>次</span></p>
                 </div>
             </div>
         </div>
@@ -120,7 +118,8 @@
                             <img src="<?=val($minipic)?>" alt="<?=val($name)?>"><small></small></a></p>
                         <p class="video_name"><a target="_blank" href="/video/one/<?=val($id)?>">
                             <?=val($name)?></a></p>
-                        <p><span class="video_time"><?=date('y-M-d',strtotime($firedate))?></span><span class="video_order"><?=val($views)?></span></p>
+                        <p><span class="video_time"><?=date('y-M-d',strtotime($firedate))?></span>
+                            <span class="video_order"><?=val($views)?></span></p>
                     </li>
                    <?php endforeach;?>
 

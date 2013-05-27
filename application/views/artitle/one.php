@@ -10,9 +10,9 @@
         <div class="bor6">
             <dl class="news_text">
                 <dt>
-                <p><strong><?=val($name);?></strong></p>
+                <p class="double"><strong><?=val($name);?></strong></p>
                 <p><span>来源：<em><?=val($source);?></em></span><span>作者：<em><?=val($author);?></em></span>
-                    <span>于<em id="time"><?=val($firedate);?></em>发表</span><span>阅读：<em id="views"><?=val($views);?></em></span></p>
+                    <span>于<em id="time"><?=val(date("Y-m-d",strtotime($firedate)));?></em>发表</span><span>阅读：<em id="views"><?=val($views);?></em></span></p>
                 </dt>
                 <dd>
                     <div id="news_content" class="news_content">

@@ -67,7 +67,7 @@
                     <em><a href='/video/by_tags/<?=val($atag)?>' target="_blank"><?=val($atag)?></a></em>
                     /
                 <?php endforeach;?>
-                </span><span>于<em><?=val($firedate)?></em>发表</span>
+                </span><span>于<em><?=val(date("Y-m-d",$firedate))?></em>发表</span>
 
                         </div>
                     </dd>

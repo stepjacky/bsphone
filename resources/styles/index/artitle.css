@@ -1477,6 +1477,9 @@
     float: left;
     font: 26px/36px "微软雅黑";
     width: 100%;
+
+    height: auto;
+
 }
 .new_list dl dd h1 a {
     color: #00A8EB;

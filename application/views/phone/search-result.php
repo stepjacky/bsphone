@@ -17,10 +17,8 @@
 
 
             </p>
-            <p>
-                <input type="button"
-                       onclick="location.href='/phone/one/<?=$id?>';"
-                       value="购买" name="">
+            <p class="pricediv">
+                <?=$status==0?$price:($status<0?'已下架':'未上市')?>
                </p>
         </li>
 

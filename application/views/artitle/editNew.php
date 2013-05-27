@@ -51,19 +51,6 @@
    </td>     
    
 <tr>
-  
-  
-     
-  
-     <tr>
-   <td>发布日期</td>
-   <td>            
-        <input type="text" name="firedate" id="firedate" data-date-format="yyyy-mm-dd" readonly="true" class=" datepicker" value="<?php echo isset($firedate)?$firedate:''?>" />
-   </td>     
-   
-<tr>
-  
-  
      
   
      <tr>

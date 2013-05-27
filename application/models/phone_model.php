@@ -220,12 +220,14 @@ class Phone_model extends Media_Model {
      * -1       退市
      *
      * */
-    public function find_by_status($s=1){
+    public function find_by_status($s=1,$brand=FALSE){
 
 
         $this->db->select("t.id id ,t.name name ,p.path minipic");
         $this->db->join('picture p', "p.phone_id =t.id and p.ptype='minipic'");
         $this->db->where('t.pstatus',$s);
+        if($brand)
+            $this->db->where('brand',$brand);
         $this->db->order_by('t.firedate','desc');
         $query = $this->db->get($this->table()." t ");
         return $query->result_array();
@@ -383,7 +385,7 @@ class Phone_model extends Media_Model {
     }
 
     public function find_where($where="",$sort=FALSE){
-        $sql="select p.id id,p.name name,min(pp.price) price,pc.path minipic
+        $sql="select p.id id,p.name name, p.pstatus status,min(pp.price) price,pc.path minipic
               from ".$this->table()." p
               join phoneprice pp on pp.phone_id=p.id
               join picture pc on pc.phone_id=p.id and pc.ptype='minipic'

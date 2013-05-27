@@ -32,7 +32,9 @@
                         </div>
                         <div class="use_tips">
                             <span>* 温馨提示：</span>
-                            <small>分享手机使用心得可获得 <em>5元</em> 购物基金，同时分享到微博可获得 <em>10元</em> 购物基金。什么是 [<a target="_blank" href="http://www.vgooo.com/intro/helpview/text-166.html">购物基金</a>]<br>此平台是会员对所购手机的优点、缺点、使用心得的分享，其它不相关的评论一概删除。</small>
+                            <small>分享手机使用心得可获得 <em>5元</em> 购物基金，同时分享到微博可获得 <em>10元</em>
+                                购物基金。什么是 [<a target="_blank"
+                                             href="/welcome/vip">购物基金</a>]<br>此平台是会员对所购手机的优点、缺点、使用心得的分享，其它不相关的评论一概删除。</small>
                         </div>
                         <div class="tsfx">
                       <span style="display: none;" class="pl_fx">

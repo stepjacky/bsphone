@@ -146,6 +146,10 @@
                     <p class="name">
                         <a title="<?=$name?>" href="one/<?=$id?>"
                            target="_blank"><?=$name?></a></p>
+                    <p>
+                        <input type="button" onclick="saveCompareMobile('<?=$id?>','<?=$name?>','<?=$minipic?>');" value="比较" name="">
+
+                    </p>
                 </li>
               <?php endforeach;?>
             </ul>
