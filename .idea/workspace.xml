@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c66e97a5-ee7b-49e6-abff-297e3a88525f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/styles/artitle.css" afterPath="$PROJECT_DIR$/resources/styles/artitle.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/styles/index/artitle.css" afterPath="$PROJECT_DIR$/resources/styles/index/artitle.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/index/artitle.php" afterPath="$PROJECT_DIR$/application/views/index/artitle.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/artitle/editNew.php" afterPath="$PROJECT_DIR$/application/views/artitle/editNew.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/sharedinfo/input.php" afterPath="$PROJECT_DIR$/application/views/sharedinfo/input.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/index/movies.php" afterPath="$PROJECT_DIR$/application/views/index/movies.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/artitle/one.php" afterPath="$PROJECT_DIR$/application/views/artitle/one.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/video/one.php" afterPath="$PROJECT_DIR$/application/views/video/one.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/phone.php" afterPath="$PROJECT_DIR$/application/controllers/phone.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/phone_model.php" afterPath="$PROJECT_DIR$/application/models/phone_model.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/index/product.php" afterPath="$PROJECT_DIR$/application/views/index/product.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/phone/search-result.php" afterPath="$PROJECT_DIR$/application/views/phone/search-result.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/welcome.php" afterPath="$PROJECT_DIR$/application/controllers/welcome.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="bsphone.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -56,7 +43,7 @@
     <file path="/comment_model.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1369062067283" ignored="false" />
     <file path="/MY_Model.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1367252539992" ignored="false" />
     <file path="/spare_model.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366307747932" ignored="false" />
-    <file path="/movies.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1369065566856" ignored="false" />
+    <file path="/movies.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1369668778006" ignored="false" />
     <file path="/phonefooter.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366625487682" ignored="false" />
     <file path="/sparetype.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366380449563" ignored="false" />
     <file path="/list.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1367342555929" ignored="false" />
@@ -162,10 +149,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="search-result.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="search-result.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/phone/search-result.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="19" selection-start="255" selection-end="255" vertical-scroll-proportion="0.20921545">
+            <state line="7" column="19" selection-start="255" selection-end="255" vertical-scroll-proportion="-5.090909">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="movies.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/views/index/movies.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="69" column="74" selection-start="2331" selection-end="2331" vertical-scroll-proportion="0.50809467">
               <folding />
             </state>
           </provider>
@@ -210,7 +206,6 @@
         <option value="$PROJECT_DIR$/application/views/phone/compare.php" />
         <option value="$PROJECT_DIR$/application/views/apps/header_end.php" />
         <option value="$PROJECT_DIR$/resources/styles/common.css" />
-        <option value="$PROJECT_DIR$/application/views/index/movies.php" />
         <option value="$PROJECT_DIR$/resources/styles/artitle.css" />
         <option value="$PROJECT_DIR$/application/views/index/artitle.php" />
         <option value="$PROJECT_DIR$/application/views/artitle/one.php" />
@@ -223,6 +218,7 @@
         <option value="$PROJECT_DIR$/application/views/artitle/editNew.php" />
         <option value="$PROJECT_DIR$/application/models/phone_model.php" />
         <option value="$PROJECT_DIR$/application/views/phone/search-result.php" />
+        <option value="$PROJECT_DIR$/application/views/index/movies.php" />
       </list>
     </option>
   </component>
@@ -383,7 +379,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="index" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -487,7 +487,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="1" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -577,13 +577,6 @@
             <marker date="1369300364634" expanded="true" signature="-1:-1" placeholder="{...}" />
             <marker date="1369300364634" expanded="true" signature="-1:-1" placeholder="{...}" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/index/movies.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="45" selection-start="2017" selection-end="2017" vertical-scroll-proportion="-25.454546">
-          <folding />
         </state>
       </provider>
     </entry>
@@ -680,7 +673,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/phone/search-result.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="19" selection-start="255" selection-end="255" vertical-scroll-proportion="0.20921545">
+        <state line="7" column="19" selection-start="255" selection-end="255" vertical-scroll-proportion="-5.090909">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/index/movies.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="69" column="74" selection-start="2331" selection-end="2331" vertical-scroll-proportion="0.50809467">
           <folding />
         </state>
       </provider>
