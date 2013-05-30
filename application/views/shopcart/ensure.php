@@ -74,21 +74,21 @@
 
             <tr>
                 <td class="alignLeft"><label>
-                        <input type="radio" name="deliver" checked="checked" value="EXPRESS@20" />
+                        <input type="radio" name="deliver" checked="checked" value="EXPRESS@0" />
                        顺丰快递                                            </label>
                 </td>
                 <td>建议支持顺丰快递的地区选择，快递速度一般比EMS快。</td>
-                <td><em id="sf_16">¥20 </em></td>
-                <td>邮费默认为到付,广东省内15元,省外25元.统一保价400元</td>
+                <td><em id="sf_16">¥0 </em></td>
+                <td>邮费默认为到付,四川省内15元,省外25元.统一保价400元</td>
 
             </tr>
             <tr>
                 <td class="alignLeft"><label>
-                        <input type="radio" name="deliver" value="POST@15" />
+                        <input type="radio" name="deliver" value="POST@20" />
                               其他                                  </label>
                 </td>
                 <td></td>
-                <td><em id="sf_16">¥15 </em></td>
+                <td><em id="sf_16">¥20 </em></td>
                 <td></td>
 
             </tr>

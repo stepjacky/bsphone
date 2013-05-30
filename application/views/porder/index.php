@@ -48,11 +48,11 @@
                                 </tr>
                                 <tr>
                                     <td colspan="2"><strong>订单商品:</strong>
-                                      <ul>
+
                                           <?php foreach($pdetails as $dtl):?>
-                                            <li><?=$dtl['pdtname']?></li>
+                                            <?=$dtl['pdtname']?> ,
                                           <?php endforeach;?>
-                                      </ul>
+
 
                                     </td>
                                 </tr>

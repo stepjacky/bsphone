@@ -1,3 +1,6 @@
+<h2>
+         第一步:请选择你的头像图片,点击上传
+</h2>
 
 <form action="/avator/upload" enctype="multipart/form-data" method="post" >
     头像

@@ -18,9 +18,10 @@
 
             </p>
             <p>
-                <input type="button"
-                       onclick="location.href='/phone/one/<?=$id?>';"
-                       value="购买" name="">
+                <!--<input type="button"
+                       onclick="location.href='/phone/one/<?/*=$id*/?>';"
+                       value="购买" name="">-->
+                <input type="button" onclick="saveCompareMobile('<?=$id?>','<?=$name?>','<?=$minipic?>');" value="比较" name="">
                </p>
         </li>
 

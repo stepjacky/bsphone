@@ -49,7 +49,7 @@
 </script>
 
 
-<h2>请在大图上拉取所需要的部分</h2>
+<h2>请在大图上按住鼠标左键拖动,拉取头像显示区域,并点击保存,右边小图将是你的头像图片</h2>
 <div align="center">
     <img src="<?=$image_src?>"
          style="float: left; margin-right: 10px;"
@@ -59,6 +59,8 @@
             height:<?=$thumb_height;?>px;">
         <img src="<?=$image_src;?>"
              style="position: relative;" alt="Thumbnail Preview" />
+        <br/>
+             头像预览
     </div>
     <br style="clear:both;"/>
     <form name="thumbnail" action="/avator/thumbnail" method="post">

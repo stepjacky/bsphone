@@ -152,13 +152,7 @@
 
      </tr>
 
-      <tr>
-          <td>备注</td>
-          <td>
-              <textarea id="remark" name="remark" class=" input-xlarge"><?php echo isset($remark)?$remark:''?></textarea>
-          </td>
 
-      </tr>
 
       <tr>
           <td>标签</td>
@@ -175,6 +169,14 @@
       </tr>
 
 
+
+      <tr>
+          <td>备注</td>
+          <td>
+              <?php echo $remark_editor;?>
+          </td>
+
+      </tr>
 
      <tr>
    <td>细节</td>

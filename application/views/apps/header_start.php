@@ -9,7 +9,9 @@
         <?=isset($title)?$title:'BE数码通信-成都手机报价 介绍 参数 图片 评测 新闻 视频 专业导购'?>
     </title>
     <meta content="<?=isset($keywords)?$keywords:'成都手机,成都进口手机,报价,参数,视频,介绍,新闻,评测,维修,售后,专业,导购'?>" name="keywords">
-    <meta content="<?=isset($description)?$description:'BE数码通信专业手机连锁销售、手机产业资讯、手机售后服务。采取电子商务网站+实体的运作模式，坚持以"质量、价格、服务"以及各项软硬件增值服务为中心的发展战略，为客户打造最完善的购物平台'?>" name="Description">
+    <meta content="<?=isset($description)?$description:'BE数码通信专业手机连锁销售、
+    手机产业资讯、手机售后服务。采取电子商务网站+实体的运作模式，
+    坚持以质量、价格、服务以及各项软硬件增值服务为中心的发展战略，为客户打造最完善的购物平台'?>" name="Description">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script type="text/javascript" charset="utf-8" src="/resources/jquery-1.8.2.js"></script>

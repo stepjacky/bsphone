@@ -64,6 +64,10 @@ class Phone extends Media_Controller
         }
 
         $data['my_editor'] = $this->create_ckeditor->createEditor($ckcfg);
+        $ckcfg = array();
+        $ckcfg["name"] = "remark";
+        $ckcfg["value"] = $data["remark"];
+        $data['remark_editor'] = $this->create_ckeditor->createEditor($ckcfg);
 
         $data['brands'] = $this->brandDao->find_all();
         $data['oses'] = $this->osDao->find_all();
@@ -81,7 +85,9 @@ class Phone extends Media_Controller
         $data['beans'] = $beans;
         $this->__user_header($data);
         $this->load->view("phone/hotphone", $data);
+
         $this->load->view("index/common/phonefooter");
+        $this->load->view("phone/compare-util");
         $this->load->view("apps/footer");
     }
 
@@ -206,7 +212,9 @@ class Phone extends Media_Controller
         $this->fireLog($data);
         $this->__user_header($data);
         $this->load->view("index/product", $data);
+
         $this->load->view("index/common/phonefooter");
+        $this->load->view("phone/compare-util");
         $this->load->view("apps/footer");
 
     }
