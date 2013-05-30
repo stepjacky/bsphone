@@ -1,4 +1,4 @@
-<div style="width: 350px; top: 898px; display:none;" id="basket" class="than">
+<div style="width: 350px; top: 598px; display:none;" id="basket" class="than">
     <h2>
         <strong>产品比较</strong>
         <small><input type="button" onclick="submitCompare()" name="" class="than_bnt"><a><img onclick="$('#basket').hide();" src="/resources/images/index/close.gif"></a></small>
