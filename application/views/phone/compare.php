@@ -35,7 +35,8 @@
                 <?php foreach($beans as $bean):?>
                     <?php extract($bean);?>
                     <td class="kd2">
-                        <em>￥<?=$price?>&nbsp;</em>
+
+                        <em><?=$status==0?'￥'.$price:''?>&nbsp;</em>
                     </td>
                 <?php endforeach;?>
             </tr>

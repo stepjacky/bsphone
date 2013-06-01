@@ -465,7 +465,7 @@ class Phone_model extends Media_Model {
         $idary = explode('_',$ids);
         $SQL = "SELECT p.id id ,p.name name,CONCAT(p.screenx,'*',p.screeny) square,
 p.screen screen ,p.carame carame,p.remark remark,p.cellcap cellcap,
-b.name brand,o.name os,MIN(pp.price) price,
+b.name brand,o.name os,MIN(pp.price) price,p.pstatus status,
 pc.path minipic
 FROM phone p
 JOIN brand b ON b.id = p.brand
