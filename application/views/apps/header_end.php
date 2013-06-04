@@ -44,12 +44,18 @@
         </form>
         <dd>
             <p>热门机型:
-                <a href="/phone/search?keyword=索尼 LT26w" title="索尼LT26w" target="_blank">索尼 LT26w</a>
-                <a href="/phone/search?keyword=LGP 880" title="LG P880 " target="_blank">LG
-                    P880 </a>
-                <a href="/phone/search?keyword=HTC One S" title="HTC One S" target="_blank">HTC One S</a>
-                <a href="/phone/search?keyword=苹果" title="苹果" target="_blank">苹果5</a>
-                <a href="/phone/search?keyword=ipad4" title="ipad4" target="_blank">iPad4</a>
+                <?php
+                   $r = 0;
+                ?>
+
+                <?php foreach($recphone as $rphone):?>
+                <a href="/phone/search?keyword=<?=$rphone['name']?>" title="<?=$rphone['name']?>"
+                   target="_blank"><?=$rphone['name']?></a>
+                <?php
+                    if($r++ ==4) break;
+
+                    ?>
+                <?php endforeach;?>
                 <a href="" title="" target="_blank"></a>
             </p>
             <span><a href="/phone/query">快速选机</a></span></dd>

@@ -13,7 +13,7 @@ class Welcome extends MY_Controller
     {
 
         $data = array("flag" => "index");
-        $this->__user_header($data);
+
 
         $this->load->model('Phone_model', 'pDao');
         $this->load->model('Spare_model', 'arDao');
@@ -30,7 +30,7 @@ class Welcome extends MY_Controller
 
 
         $data['recphone'] = $this->pDao->find_new_recommend();
-
+        $this->__user_header($data);
         $data['cmiphone'] = $this->pDao->find_coming();
         $data['recspare'] = $this->arDao->recommends();
         $data['comartitles'] = $this->trdDao->find_homed_by_tags('网站公告',8);;
