@@ -264,7 +264,7 @@ extract($bean);
                         <a rel="nofollow" href="/helpinfo/one/4636092A-9460-E8D0-4EC4-7B6236C8ACC2"
                            target="_blank">货到付款</a>
                         <span>
-                            <a> 预约购机</a></span></p>
+                            <a href="/preorder"> 预约购机</a></span></p>
                 </div>
             </div>
                <?php if(isset($_GET['info']) && !empty($_GET['info']) ):?>

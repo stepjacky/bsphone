@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c66e97a5-ee7b-49e6-abff-297e3a88525f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/ckfinder/config.php" afterPath="$PROJECT_DIR$/resources/ckfinder/config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/preorder/index.php" afterPath="$PROJECT_DIR$/application/views/preorder/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/picture.php" afterPath="$PROJECT_DIR$/application/controllers/picture.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/phone/one.php" afterPath="$PROJECT_DIR$/application/views/phone/one.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/config/upload.php" afterPath="$PROJECT_DIR$/application/config/upload.php" />
     </list>
     <ignored path="bsphone.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,7 +23,7 @@
     <file path="/thumbnails.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1365776103918" ignored="false" />
     <file path="/phone_model.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1370059801783" ignored="false" />
     <file path="/shopcart.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1365743745582" ignored="false" />
-    <file path="/one.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1369665784287" ignored="false" />
+    <file path="/one.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1370354701164" ignored="false" />
     <file path="/joinus.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366472888759" ignored="false" />
     <file path="/artitle_model.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1369063824022" ignored="false" />
     <file path="/home-artitle.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366275320322" ignored="false" />
@@ -100,24 +98,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="FolderHandler.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/ckfinder/core/connector/php/php5/Core/FolderHandler.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="7" selection-start="810" selection-end="810" vertical-scroll-proportion="153.45454">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Hooks.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/ckfinder/core/connector/php/php5/Core/Hooks.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="24" selection-start="968" selection-end="968" vertical-scroll-proportion="-2.1818182">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ImagesConfig.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/ckfinder/core/connector/php/php5/Core/ImagesConfig.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -181,10 +161,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="config.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/ckfinder/config.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="104" column="2" selection-start="3395" selection-end="3395" vertical-scroll-proportion="-0.4556962">
+            <state line="132" column="0" selection-start="4288" selection-end="4288" vertical-scroll-proportion="14.545455">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="upload.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/config/upload.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="2" selection-start="407" selection-end="407" vertical-scroll-proportion="-6.5454545">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="one.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/views/phone/one.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="267" column="22" selection-start="11607" selection-end="11607" vertical-scroll-proportion="0.6276463">
               <folding />
             </state>
           </provider>
@@ -208,8 +206,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/application/views/index/movies.php" />
-        <option value="$PROJECT_DIR$/application/views/shopcart/ensure.php" />
         <option value="$PROJECT_DIR$/application/views/porder/index.php" />
         <option value="$PROJECT_DIR$/application/views/apps/header_start.php" />
         <option value="$PROJECT_DIR$/application/views/phone/hotphone.php" />
@@ -224,6 +220,8 @@
         <option value="$PROJECT_DIR$/application/views/preorder/index.php" />
         <option value="$PROJECT_DIR$/application/controllers/picture.php" />
         <option value="$PROJECT_DIR$/resources/ckfinder/config.php" />
+        <option value="$PROJECT_DIR$/application/config/upload.php" />
+        <option value="$PROJECT_DIR$/application/views/phone/one.php" />
       </list>
     </option>
   </component>
@@ -329,6 +327,46 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bsphone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bsphone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bsphone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bsphone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="phone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -430,7 +468,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="1" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -513,20 +551,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resources/ckfinder/core/connector/php/php5/CommandHandler/RenameFolder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/ckfinder/core/connector/php/php5/CommandHandler/Thumbnail.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="170" column="14" selection-start="6328" selection-end="6328" vertical-scroll-proportion="45.090908">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/ckfinder/core/connector/php/php5/CommandHandler/XmlCommandHandlerBase.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="33" column="26" selection-start="851" selection-end="851" vertical-scroll-proportion="42.969696">
@@ -620,7 +644,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/ckfinder/config.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="104" column="2" selection-start="3395" selection-end="3395" vertical-scroll-proportion="-0.4556962">
+        <state line="132" column="0" selection-start="4288" selection-end="4288" vertical-scroll-proportion="14.545455">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/config/upload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="2" selection-start="407" selection-end="407" vertical-scroll-proportion="-6.5454545">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/phone/one.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="267" column="22" selection-start="11607" selection-end="11607" vertical-scroll-proportion="0.6276463">
           <folding />
         </state>
       </provider>
