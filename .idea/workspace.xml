@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c66e97a5-ee7b-49e6-abff-297e3a88525f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/phone/one.php" afterPath="$PROJECT_DIR$/application/views/phone/one.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/config/upload.php" afterPath="$PROJECT_DIR$/application/config/upload.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/index/index.php" afterPath="$PROJECT_DIR$/application/views/index/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="bsphone.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -18,7 +18,7 @@
     <file path="/modify-password.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1365741992866" ignored="false" />
     <file path="/picture.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1370351980083" ignored="false" />
     <file path="/porder_model.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1365742682370" ignored="false" />
-    <file path="/index.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1369925124072" ignored="false" />
+    <file path="/index.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1370356271626" ignored="false" />
     <file path="/style.css" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1365743267106" ignored="false" />
     <file path="/thumbnails.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1365776103918" ignored="false" />
     <file path="/phone_model.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1370059801783" ignored="false" />
@@ -98,15 +98,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ImagesConfig.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/ckfinder/core/connector/php/php5/Core/ImagesConfig.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="13" selection-start="1382" selection-end="1382" vertical-scroll-proportion="-6.939394">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Registry.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/ckfinder/core/connector/php/php5/Core/Registry.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -179,10 +170,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="one.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="one.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/phone/one.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="267" column="22" selection-start="11607" selection-end="11607" vertical-scroll-proportion="0.6276463">
+            <state line="267" column="22" selection-start="11607" selection-end="11607" vertical-scroll-proportion="-15.272727">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/application/views/index/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="390" column="4" selection-start="14104" selection-end="14104" vertical-scroll-proportion="0.9113924">
               <folding />
             </state>
           </provider>
@@ -206,7 +206,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/application/views/porder/index.php" />
         <option value="$PROJECT_DIR$/application/views/apps/header_start.php" />
         <option value="$PROJECT_DIR$/application/views/phone/hotphone.php" />
         <option value="$PROJECT_DIR$/application/views/index/product.php" />
@@ -222,6 +221,7 @@
         <option value="$PROJECT_DIR$/resources/ckfinder/config.php" />
         <option value="$PROJECT_DIR$/application/config/upload.php" />
         <option value="$PROJECT_DIR$/application/views/phone/one.php" />
+        <option value="$PROJECT_DIR$/application/views/index/index.php" />
       </list>
     </option>
   </component>
@@ -363,7 +363,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="phone" />
+              <option name="myItemId" value="index" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -468,7 +468,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -551,13 +551,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resources/ckfinder/core/connector/php/php5/CommandHandler/XmlCommandHandlerBase.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="26" selection-start="851" selection-end="851" vertical-scroll-proportion="42.969696">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/ckfinder/core/connector/php/php5/Core/Config.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="573" column="0" selection-start="15009" selection-end="15009" vertical-scroll-proportion="-0.5588235">
@@ -658,7 +651,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/phone/one.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="267" column="22" selection-start="11607" selection-end="11607" vertical-scroll-proportion="0.6276463">
+        <state line="267" column="22" selection-start="11607" selection-end="11607" vertical-scroll-proportion="-15.272727">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/index/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="390" column="4" selection-start="14104" selection-end="14104" vertical-scroll-proportion="0.9113924">
           <folding />
         </state>
       </provider>

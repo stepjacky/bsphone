@@ -375,7 +375,7 @@
                     ?>
                     <li>
                         <p><a rel="nofollow" title="<?=$name?>"
-                              href="/trends/one/<?=$id?>"
+                              href="/trends/two/<?=$id?>/action"
                                 >
                             <img alt="<?=$name?>"
                                  src="<?=$minipic?>"
