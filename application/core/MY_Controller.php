@@ -258,6 +258,11 @@ class MY_Controller extends CI_Controller
             $this->load->view("apps/header_login",$data);
 
 
+        if(!isset($data['recphone'])){
+            $this->load->model('Phone_model', 'pDao');
+            $recphes = $this->pDao->find_new_recommend();
+            $data['recphone'] = $recphes;
+        }
         $this->load->view("apps/header_end",$data);
     }
 
