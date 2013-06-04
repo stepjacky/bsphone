@@ -12,18 +12,18 @@
                     <small>
                         <input type="button" onclick="window.open('/profile/preorder')" name="" value="" class="reserve_bnt5">
                     </small>
-                    <img alt="" src="http://www.vgooo.com/images/ui/reserve_title.gif">
+                    <img alt="" src="/resources/images/index/reserve_title.gif">
                 </h2>
                 <div class="reserve_caption">为了节省客户购买手机的等待时间，以人为本，我们开通了购机预约服务，现在您只需要在我们官方网站上预约购机，我们将会在您预定的时间内准备好手机。届时您只需要在预约好的时间上门就可以直接取机，不用浪费您的宝贵时间。</div>
 
                 <dl class="reserve_1">
                     <dt>方法一：(电话下单）</dt>
-                    <dd class="reserve_process"><img src="http://www.vgooo.com/images/ui/reserve_icon1.gif"></dd>
+                    <dd class="reserve_process"><img src="/resources/images/index/reserve_icon1.gif"></dd>
                 </dl>
 
                 <dl class="reserve_1">
                     <dt>方法二：(网站下单）</dt>
-                    <dd class="reserve_process"><img src="http://www.vgooo.com/images/ui/reserve_icon3.gif"></dd>
+                    <dd class="reserve_process"><img src="/resources/images/index/reserve_icon3.gif"></dd>
                 </dl>
                 <dl class="reserve_2">
                     <dt><strong>预约购买的手机</strong></dt>

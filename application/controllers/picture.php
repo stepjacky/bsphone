@@ -136,6 +136,7 @@ class Picture extends MY_Controller {
             || $ptype=='spare'
             || $ptype=='service'
             || $ptype=="copagent"
+            || $ptype=="trends"
        );
     }
 
