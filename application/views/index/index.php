@@ -383,7 +383,7 @@
                         </p>
 
                         <p><a rel="nofollow" title="<?=$name?>"
-                              href="/trends/one/<?=$id?>"
+                              href="/trends/two/<?=$id?>/action"
                                 ><?=$name?></a></p>
                     </li>
                     <?php endforeach?>

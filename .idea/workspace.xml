@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c66e97a5-ee7b-49e6-abff-297e3a88525f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/index/index.php" afterPath="$PROJECT_DIR$/application/views/index/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="bsphone.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -18,7 +17,7 @@
     <file path="/modify-password.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1365741992866" ignored="false" />
     <file path="/picture.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1370351980083" ignored="false" />
     <file path="/porder_model.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1365742682370" ignored="false" />
-    <file path="/index.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1370356271626" ignored="false" />
+    <file path="/index.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1370356520369" ignored="false" />
     <file path="/style.css" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1365743267106" ignored="false" />
     <file path="/thumbnails.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1365776103918" ignored="false" />
     <file path="/phone_model.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1370059801783" ignored="false" />
@@ -182,7 +181,7 @@
       <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/views/index/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="390" column="4" selection-start="14104" selection-end="14104" vertical-scroll-proportion="0.9113924">
+            <state line="385" column="63" selection-start="13966" selection-end="13966" vertical-scroll-proportion="0.5772152">
               <folding />
             </state>
           </provider>
@@ -468,7 +467,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="1" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -658,7 +657,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/index/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="390" column="4" selection-start="14104" selection-end="14104" vertical-scroll-proportion="0.9113924">
+        <state line="385" column="63" selection-start="13966" selection-end="13966" vertical-scroll-proportion="0.5772152">
           <folding />
         </state>
       </provider>
