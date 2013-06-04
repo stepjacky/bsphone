@@ -94,7 +94,7 @@ class Phone extends Media_Controller
     public function search($kword=FALSE) {
         $data = array();
         $keyword = !$kword?$this->__xsl_post('keyword'):urldecode($kword);
-        !empty($keyword) OR redirect('/');
+         !empty($keyword) OR redirect('/');
         $where = "p.name like '%".$keyword."%' or pp.name like '%".$keyword."%'";
         $beans = $this->dao->find_where($where);
         $data['beans'] = $beans;

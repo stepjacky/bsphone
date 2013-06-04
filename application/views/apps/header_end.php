@@ -49,7 +49,7 @@
                 ?>
 
                 <?php foreach($recphone as $rphone):?>
-                <a href="/phone/search?keyword=<?=$rphone['name']?>" title="<?=$rphone['name']?>"
+                <a href="/phone/search/<?=$rphone['name']?>" title="<?=$rphone['name']?>"
                    target="_blank"><?=$rphone['name']?></a>
                 <?php
                     if($r++ ==4) break;
