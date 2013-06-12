@@ -1,0 +1,1 @@
+this folder used by file cache,can not be used by and other
