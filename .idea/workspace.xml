@@ -32,7 +32,7 @@
     <file path="/founds.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366276238593" ignored="false" />
     <file path="/vip4top.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366278621002" ignored="false" />
     <file path="/hotphone.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366294562107" ignored="false" />
-    <file path="/phone.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1371034539966" ignored="false" />
+    <file path="/phone.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1371034650285" ignored="false" />
     <file path="/common.css" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1369299874321" ignored="false" />
     <file path="/sharedinfo_model.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1367335891024" ignored="false" />
     <file path="/index.js" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1367329977495" ignored="false" />
@@ -109,7 +109,7 @@
       <file leaf-file-name="phone.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/controllers/phone.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="471" column="52" selection-start="13943" selection-end="13943" vertical-scroll-proportion="0.53558505">
+            <state line="470" column="46" selection-start="13894" selection-end="13894" vertical-scroll-proportion="0.5066345">
               <folding />
             </state>
           </provider>
@@ -615,7 +615,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/phone.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="471" column="52" selection-start="13943" selection-end="13943" vertical-scroll-proportion="0.53558505">
+        <state line="470" column="46" selection-start="13894" selection-end="13894" vertical-scroll-proportion="0.5066345">
           <folding />
         </state>
       </provider>

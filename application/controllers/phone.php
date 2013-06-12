@@ -468,6 +468,7 @@ class Phone extends Media_Controller
         unset($cond['_']);
         if(!$cond) $cond = array();
         $ccond = $this->cache->file->get('pagecond');
+        if(!is_array($ccond))$ccond = array();
         $cond = array_merge($ccond,$cond);
         $this->cache->file->save('pagecond',$cond,60);
         $this->fireLog($cond);
