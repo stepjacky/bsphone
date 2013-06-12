@@ -440,21 +440,23 @@ class Phone_model extends Media_Model {
         return $taglist;
     }
 
-    public function gets($page=1,$rows=10,$sorts=array("firedate"=>"desc"),$brand=FALSE){
+    public function gets($page=1,$rows=10,$sorts=array("firedate"=>"desc"),$cond=array()){
 
 
+        if(!empty($cond)){
+            foreach($cond as $key=>$value){
 
-        if($brand){
-            $this->db->where('brand',$brand);
-            $rows = 25;
+                $this->db->where($key,$value);
+            }
         }
+
         $start = $rows*$page - $rows; //
         if ($start<0) $start = 0;
-        $this->db->limit($rows,$start);
         foreach($sorts as $fd=>$dc){
             $this->db->order_by($fd,$dc);
         }
 
+        $this->db->limit($rows,$start);
         $query = $this->db->get($this->table());
         $result = $query->result_array();
         return $result;
@@ -486,6 +488,18 @@ WHERE p.id='%s'";
       return $beans;
     }
 
+    public function page_link($page = 1, $rows = 10,$cond=array())
+    {
+
+        $baseurl = "/".$this->table()."/lists/";
+        $count = $this->count_all($cond);
+        $config['base_url'] = $baseurl;
+        $config['total_rows'] = $count;
+        $config['per_page'] = $rows;
+        $this->pagination->initialize($config);
+        $pagelink = $this->pagination->create_links($page);
+        return $pagelink;
+    }
 
 
 }

@@ -25,6 +25,7 @@ class MY_Model extends CI_Model
         $this->load->library('firephp');
         $this->load->helper('guid');
         $this->load->database();
+        $this->load->driver('cache');
 
     }
 

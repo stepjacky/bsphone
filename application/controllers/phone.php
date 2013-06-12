@@ -462,13 +462,18 @@ class Phone extends Media_Controller
     }
 
 
-    public function lists($page=1,$rows=10,$brand=FALSE){
+    public function lists($page=1,$rows=10){
 
+        $cond =  $this->__xsl_get();
+        unset($cond['_']);
+        $ccond = $this->cache->file->get('pagecond');
+        $cond = array_merge($ccond,$cond);
+        $this->cache->file->save('pagecond',$cond,3600);
+        $this->fireLog($cond);
         if(!$rows)$rows=10;
-
-        $brands  = $this->brandDao->find_all();
-        $result  = $this->dao->gets($page,$rows,$sorts=array("firedate"=>"desc"),$brand);
-        $pagelink = $this->dao->page_link($page,$rows,$brand);
+        $brands   = $this->brandDao->find_all();
+        $result   = $this->dao->gets($page,$rows,$sorts=array("firedate"=>"desc"),$cond);
+        $pagelink = $this->dao->page_link($page,$rows,$cond);
 
         $data['datasource'] = $result;
         $data['brands'] = $brands;
@@ -478,8 +483,13 @@ class Phone extends Media_Controller
 
 
     public function lists_status($s=0){
+        $this->cache->save('pstatus', $s,3600);
+        $brand = $this->cache->get('pbrand');
         $brands  = $this->brandDao->find_all();
         $this->db->where("pstatus",$s);
+        if($brand){
+            $this->db->where("brand",$brand);
+        }
         $query = $this->db->get($this->dao->table());
         $beans = $query->result_array();
         $data['datasource'] = $beans;

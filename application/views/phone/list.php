@@ -1,15 +1,31 @@
 <link href="/resources/styles/phone/style.css" media="screen" rel="stylesheet" type="text/css" />
 <h3>手机列表</h3>
+<p>
+<label class="label label-info">
+  按照牌子
+</label>
+
 <div class="btn-group">
     <?php foreach($brands as $brand):?>
         <button class="btn btn-info" onclick="loadByBrand('<?=$brand['id']?>')">
             <?=$brand['name']?>
         </button>
     <?php endforeach; ?>
-    <button class="btn btn-success" onclick="loadByStatus(0)">在售</button>
-    <button class="btn btn-info" onclick="loadByStatus(1)">即将上市</button>
-    <button class="btn btn-danger" onclick="loadByStatus(-1)">下架</button>
 </div>
+</p>
+
+<p>
+
+<label class="label label-info">
+    按照状态
+</label>
+<div class="btn-group">
+<button class="btn btn-success" onclick="loadByStatus(0)">在售</button>
+<button class="btn btn-info" onclick="loadByStatus(1)">即将上市</button>
+<button class="btn btn-danger" onclick="loadByStatus(-1)">下架</button>
+</div>
+</p>
+
 <table id="list" class="table table-striped table-bordered table-hover">
         <thead>
 

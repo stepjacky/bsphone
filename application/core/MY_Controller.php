@@ -220,6 +220,8 @@ class MY_Controller extends CI_Controller
         return $this->input->get($name, FALSE);
     }
 
+
+
     protected  function __xsl_get($key=NULL){
         return $this->input->get($key,TRUE);
     }

@@ -30,9 +30,9 @@ function modifyStatus(id,s){
 }
 
 function loadByBrand(brand){
-    $("#main-panel").load('/phone/lists/1/10/'+brand);
+    $("#main-panel").load('/phone/lists?brand='+brand);
 
 }
 function loadByStatus(s){
-    $("#main-panel").load('/phone/lists_status/'+s);
+    $("#main-panel").load('/phone/lists?pstatus='+s);
 }
