@@ -27,7 +27,7 @@ class MY_Controller extends CI_Controller
          $this->load->library('nsession');
          $this->load->helper('cookie');
          $this->load->library('user_agent');
-
+         $this->load->driver('cache');
 
 
         if(func_num_args()==1){
