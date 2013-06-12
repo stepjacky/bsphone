@@ -466,6 +466,7 @@ class Phone extends Media_Controller
 
         $cond =  $this->__xsl_get();
         unset($cond['_']);
+        if(!$cond) $cond = array();
         $ccond = $this->cache->file->get('pagecond');
         $cond = array_merge($ccond,$cond);
         $this->cache->file->save('pagecond',$cond,3600);

@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c66e97a5-ee7b-49e6-abff-297e3a88525f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/core/MY_Controller.php" afterPath="$PROJECT_DIR$/application/core/MY_Controller.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/core/MY_Model.php" afterPath="$PROJECT_DIR$/application/core/MY_Model.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/scripts/phone/list.js" afterPath="$PROJECT_DIR$/resources/scripts/phone/list.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/phone/list.php" afterPath="$PROJECT_DIR$/application/views/phone/list.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/controllers/phone.php" afterPath="$PROJECT_DIR$/application/controllers/phone.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/phone_model.php" afterPath="$PROJECT_DIR$/application/models/phone_model.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="bsphone.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,7 +32,7 @@
     <file path="/founds.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366276238593" ignored="false" />
     <file path="/vip4top.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366278621002" ignored="false" />
     <file path="/hotphone.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1366294562107" ignored="false" />
-    <file path="/phone.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1371033216098" ignored="false" />
+    <file path="/phone.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1371034539966" ignored="false" />
     <file path="/common.css" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1369299874321" ignored="false" />
     <file path="/sharedinfo_model.php" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1367335891024" ignored="false" />
     <file path="/index.js" changelist="c66e97a5-ee7b-49e6-abff-297e3a88525f" time="1367329977495" ignored="false" />
@@ -115,7 +109,7 @@
       <file leaf-file-name="phone.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/controllers/phone.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="476" column="0" selection-start="14172" selection-end="14172" vertical-scroll-proportion="0.6803377">
+            <state line="468" column="35" selection-start="13793" selection-end="13793" vertical-scroll-proportion="0.44873342">
               <folding />
             </state>
           </provider>
@@ -445,7 +439,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="1" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -621,7 +615,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/controllers/phone.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="476" column="0" selection-start="14172" selection-end="14172" vertical-scroll-proportion="0.6803377">
+        <state line="468" column="35" selection-start="13793" selection-end="13793" vertical-scroll-proportion="0.44873342">
           <folding />
         </state>
       </provider>
