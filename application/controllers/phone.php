@@ -469,7 +469,7 @@ class Phone extends Media_Controller
         if(!$cond) $cond = array();
         $ccond = $this->cache->file->get('pagecond');
         $cond = array_merge($ccond,$cond);
-        $this->cache->file->save('pagecond',$cond,3600);
+        $this->cache->file->save('pagecond',$cond,60);
         $this->fireLog($cond);
         if(!$rows)$rows=10;
         $brands   = $this->brandDao->find_all();
