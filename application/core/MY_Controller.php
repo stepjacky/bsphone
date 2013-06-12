@@ -381,8 +381,8 @@ class MY_Controller extends CI_Controller
                  'className'=>''
             ),
 
-             'readme'=>array(
-                'href'=>'/welcome/aboutus/readme',
+             'readme.txt'=>array(
+                'href'=>'/welcome/aboutus/readme.txt',
                 'title'=>'服务条款',
                  'className'=>''
             )
