@@ -51,6 +51,15 @@
    </td>     
    
 </tr>
+
+ <tr>
+   <td>电话</td>
+   <td>
+        <input id="phone" name="phone" class=" input-xlarge" type="text" value="<?php echo isset($phone)?$phone:''?>" />
+
+   </td>
+
+</tr>
   
   
      
@@ -65,7 +74,7 @@
   
 
   
-     <tr>
+<tr>
    <td>地区编号</td>
    <td>            
         <?= form_dropdown2("shoparea_id",isset($shopareas)?$shopareas:array(),isset($shoparea_id)?$shoparea_id:"")?>

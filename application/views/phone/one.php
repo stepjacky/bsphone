@@ -521,7 +521,7 @@ extract($bean);
                         </div>
                     </div>
                     <div class="back">
-                        <small>2013-01-08</small>
+                        <small><?=date("y-M-d",strtotime($firedate))?></small>
                         <span>此评价对我</span>
                         <span><i class="back_l"></i><a
                                 onclick="useful('<?=$shs['id']?>');">有用(<em><?=$shs['praise']?></em>)</a><i

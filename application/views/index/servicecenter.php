@@ -62,10 +62,10 @@
     <div class="shop_info">
 
         <div class="shop_simple">
-            <p><strong>店铺地址：</strong><small><?=$address?></small></p>
-            <p><strong>店铺电话：</strong><small><?=$phone?></small></p>
-            <p><strong>营业时间：</strong><small><?=$openninghours?></small></p>
-            <p><strong>温馨提示：</strong><small>PM3:00-PM6:00 为繁忙时段，请顾客尽量错开人流高峰期。</small></p>
+            <p><strong>店铺地址：</strong><small><?=$address;?></small></p>
+            <p><strong>店铺电话：</strong><small><?=$phone;?></small></p>
+            <p><strong>营业时间：</strong><small><?=$openninghours;?></small></p>
+            <p><strong>分期付款：</strong><small><?=$Installment;?></small></p>
         </div>
         <div class="shop_info">
             <dl class="map">
