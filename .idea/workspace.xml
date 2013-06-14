@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c66e97a5-ee7b-49e6-abff-297e3a88525f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/images/index/reserve_icon3.gif" afterPath="$PROJECT_DIR$/resources/images/index/reserve_icon3.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/images/index/title30.gif" afterPath="$PROJECT_DIR$/resources/images/index/title30.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/shop/editNew.php" afterPath="$PROJECT_DIR$/application/views/shop/editNew.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/apps/header_end.php" afterPath="$PROJECT_DIR$/application/views/apps/header_end.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/phone/one.php" afterPath="$PROJECT_DIR$/application/views/phone/one.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/views/index/servicecenter.php" afterPath="$PROJECT_DIR$/application/views/index/servicecenter.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="bsphone.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -144,7 +138,16 @@
       <file leaf-file-name="one.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/views/phone/one.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="551" column="0" selection-start="22723" selection-end="22723" vertical-scroll-proportion="2.0554886">
+            <state line="523" column="76" selection-start="21440" selection-end="21440" vertical-scroll-proportion="0.55006033">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="one.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/application/views/artitle/one.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="78" selection-start="560" selection-end="605" vertical-scroll-proportion="-10.181818">
               <folding />
             </state>
           </provider>
@@ -383,6 +386,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="artitle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bsphone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bsphone" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="application" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -492,7 +517,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="1" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -575,11 +600,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resources/scripts/phone/list.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="28" selection-start="700" selection-end="700" vertical-scroll-proportion="0.63805103" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/phone/list.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="8" selection-start="454" selection-end="454" vertical-scroll-proportion="0.028950542" />
@@ -664,9 +684,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/artitle/one.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="78" selection-start="560" selection-end="605" vertical-scroll-proportion="-10.181818">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/phone/one.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="551" column="0" selection-start="22723" selection-end="22723" vertical-scroll-proportion="2.0554886">
+        <state line="523" column="76" selection-start="21440" selection-end="21440" vertical-scroll-proportion="0.55006033">
           <folding />
         </state>
       </provider>
