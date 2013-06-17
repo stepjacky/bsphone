@@ -517,7 +517,14 @@ class Phone extends Media_Controller
         $this->load->view("apps/footer");
     }
 
-
+    public function options($brand){
+        $beans =  $this->dao->find_by_brand($brand);
+        $opts = '';
+        foreach($beans as $bean){
+            $opts.=sprintf("<option value='%s'>%s</option>",$bean['id'],$bean['name']);
+        }
+        echo $opts;
+    }
 
 
     function __qstr($pnames)

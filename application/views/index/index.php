@@ -89,7 +89,7 @@
     <div class="leftdiv">
 
         <h5>
-            <small><a rel="nofollow" target="_blank" href="/phone/query"><img src="/resources/images/index/fx.gif"></a>
+            <small><a rel="nofollow" target="_blank" href="/sharedinfo/index"><img src="/resources/images/index/fx.gif"></a>
             </small>
             <img src="/resources/images/index/title3.png"><span class="h5_l"></span><span class="h5_r"></span></h5>
         <div class="bor1">

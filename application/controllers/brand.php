@@ -55,7 +55,13 @@ class Brand extends MY_Controller {
         $this->load->view("admin/footer");
     }
 
-
-    
+    public function options(){
+        $beans =  $this->dao->find_all();
+        $opts='';
+        foreach($beans as $bean){
+            $opts.=sprintf("<option value='%s'>%s</option>",$bean['id'],$bean['name']);
+        }
+        echo  $opts;
+    }
     
 }   

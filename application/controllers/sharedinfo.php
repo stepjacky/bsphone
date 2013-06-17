@@ -31,10 +31,12 @@ class Sharedinfo extends MY_Controller {
     }
 
     public function index(){
-        $data = array();
-        
-        $this->load->view("apps/header");
+        $user    =  $this->nsession->userdata("user");
+        $user or  redirect('/welcome/openlogin');
+        $data = array('flag'=>'index');
+        $this->__user_header($data);
         $this->load->view("sharedinfo/index",$data);
+        $this->load->view("index/common/phonefooter");
         $this->load->view("apps/footer");
     }
     

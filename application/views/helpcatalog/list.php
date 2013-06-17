@@ -30,7 +30,14 @@
               <?=val($name)?>             
             </td>
 
-                      
+               <td>
+                   <button class="btn btn-primary " onclick="setPicture('helpcatalog','minipic','<?=val($bean['id'])?>')">
+
+                       <i class="icon-cloud-download"></i>
+
+                   </button>
+
+               </td>
            <td>
              <button class="btn btn-success" type="button" onclick="editOne('<?php echo $bean['id'];?>');">
                <i class="icon-edit"></i>
